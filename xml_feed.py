@@ -28,8 +28,14 @@ def build_xml(rows,locale,countries,shipping):
         for country in countries:
             rate=shipping['rates'][group][country]
             if decimal.Decimal(rate['price_EUR'])<0:raise ValueError('Negative delivery fee')
+            # GMC's calculator reads the explicit base fee even when the order
+            # threshold is present. A wholesale item meeting the threshold on
+            # its own must therefore submit zero explicitly; lower-value items
+            # retain the paid fee plus the genuine basket threshold.
+            item_price=decimal.Decimal(row['price'].split()[0])
+            delivery_price='0.00'if group=='grossisti'and item_price>=decimal.Decimal(rate['free_from_EUR'])else rate['price_EUR']
             node=ET.SubElement(item,'{'+G+'}shipping')
-            for key,value in [('country',country),('service',SERVICES[locale]),('price',rate['price_EUR']+' EUR'),('min_handling_time',rate['min_handling_days']),('max_handling_time',rate['max_handling_days']),('min_transit_time',rate['min_transit_days']),('max_transit_time',rate['max_transit_days'])]:element(node,key,value)
+            for key,value in [('country',country),('service',SERVICES[locale]),('price',delivery_price+' EUR'),('min_handling_time',rate['min_handling_days']),('max_handling_time',rate['max_handling_days']),('min_transit_time',rate['min_transit_days']),('max_transit_time',rate['max_transit_days'])]:element(node,key,value)
             if group=='grossisti':
                 if decimal.Decimal(rate['free_from_EUR'])!=99:raise ValueError('Unexpected wholesale threshold')
                 threshold=ET.SubElement(item,'{'+G+'}free_shipping_threshold');element(threshold,'country',country);element(threshold,'price_threshold','99.00 EUR')
