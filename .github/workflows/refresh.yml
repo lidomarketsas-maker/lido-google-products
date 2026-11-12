@@ -1,0 +1,36 @@
+name: Refresh public Google free-listing files
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 4 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: public-feed-refresh
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12'
+      - name: Validate generator safety
+        run: python -m unittest discover -s tests -v
+      - name: Refresh every configured locale completely
+        run: python exporter.py
+      - name: Publish complete immutable feed release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          set -eu
+          FEED_TAG="feed-$(date -u +%Y%m%dT%H%M%SZ)-${GITHUB_RUN_ID}"
+          printf '%s\n' 'Validated public Shopify product data. Product expiry is embedded in each file. No Shopify or Google credentials are used.' > feeds/release-notes.txt
+          gh release create "$FEED_TAG" --target "$GITHUB_SHA" --draft --title "$FEED_TAG" --notes-file feeds/release-notes.txt
+          gh release upload "$FEED_TAG" feeds/*.xml.gz feeds/status.json
+          gh release edit "$FEED_TAG" --draft=false --latest

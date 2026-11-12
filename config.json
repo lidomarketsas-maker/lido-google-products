@@ -1,0 +1,33 @@
+{
+  "enabled_locales": [
+    "de"
+  ],
+  "enabled_shipping_groups": [
+    "grossisti",
+    "no_free"
+  ],
+  "expiration_hours": 48,
+  "allowlist_max_age_days": 30,
+  "max_missing_public_fraction": 0.01,
+  "minimum_rows": 10000,
+  "feed_label": "LIDO_EU_FREE",
+  "initial_target_countries": [
+    "DE"
+  ],
+  "all_marketing_methods_except_Free_listings_must_be_disabled": true,
+  "pilot_variant_ids": [
+    "58184002306428",
+    "58184022655356",
+    "57163607376252",
+    "57904390046076"
+  ],
+  "sources": {
+    "de": {
+      "locale": "de",
+      "countries": [
+        "DE"
+      ],
+      "feed_label": "LIDO_EU_FREE"
+    }
+  }
+}

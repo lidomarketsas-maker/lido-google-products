@@ -1,0 +1,56 @@
+Lido Market Plus: public product files for Google Free listings
+
+This repository uses no Shopify Admin or Google credentials. The GitHub Actions
+job uses only its default GITHUB_TOKEN with contents:write in this repository.
+It reads the public localized Shopify collection feed view, validates complete
+pagination and variant data, and publishes gzip RSS XML in an immutable release.
+Only after every configured locale succeeds is the release made public/latest.
+An interrupted/failed run never replaces the last successful public release.
+Every offer has a fixed48-hour expiration_date. Re-fetching an old file does
+not renew that explicit expiry. Google may take several hours to apply expiry.
+
+Stable feed URL pattern:
+https://github.com/lidomarketsas-maker/lido-google-products/releases/latest/download/de.xml.gz
+The de-pilot.xml.gz file contains the four explicitly selected representatives.
+Register a source with its exact locale, configured countries, independent
+feed label LIDO_EU_FREE and ONLY the Free listings marketing method.
+Never enable Shopping ads, Display ads, local listings or local inventory ads.
+Existing Italian Shopify sources and advertising settings must stay unchanged.
+
+Publishing scope is deliberately not auto-discovered from the whole storefront.
+allowlist.json contains actual ACTIVE+Online Store+Google publication IDs and
+actual variant IDs/SKUs/barcodes/profile groups from an authenticated merchant
+read. The Actions job CANNOT renew this authorization timestamp. After30days,
+a new genuine merchant audit is required or publication fails closed.
+New products are not included just because they are public on the storefront.
+
+IMPORT / PAUSE / SHIPPING HANDOFF REQUIRED:
+- Before pausing/unpublishing/moving a product or supplier, add its IDs or GTINs
+  to exclusions.json or remove the affected authorized variants. Rebuild before
+  changing channel visibility. Never revive a paused offer through this source.
+- New imports require a fresh real Google-publication/profile allowlist review.
+- Moving a product between Grossisti, Retail or3D/general requires updating its
+  actual shipping group. Retail291 hard IDs and reparto-retail are excluded.
+- Shipping changes require re-reading current Shopify profiles and updating
+  shipping.json, including actual condition thresholds and transport evidence.
+- Sunlux, Progress Plastic, Sun Distribuzione and the three paused standing fans
+  must remain excluded. Unmatched variants, missing images, ambiguous GTINs,
+  unclear variant images, Chinese copy, MOQ copy and invalid prices are held.
+
+Stock, prices, barcodes and variant images come from the current public Liquid
+view on each successful daily run. Stock is never edited or inflated. No GTIN
+is guessed from SKU; missing or invalid identifiers stay absent. Supplier names
+are not invented as product brands. Each variant uses its own linked main image.
+Extra images require an explicit association with the same variant.
+
+The view is a new standalone layout-none template; it changes no existing
+website page, navigation or theme asset. It exposes only already-public product
+facts and no inventory quantities, customer records or credentials. Pagination
+is capped by Shopify at25000 products; this exporter stops rather than silently
+truncate, so larger catalogs need an explicitly reviewed partition strategy.
+
+Daily source fetch should be scheduled after the GitHub refresh finishes.
+Use source-level and per-offer readbacks to verify actual reception, free99
+Grossisti shipping and paid3D shipping; a successful job is not Google approval.
+Sources may target at most25 countries here to respect per-offer free-threshold
+limits. Unsupported Google countries must be recorded, not called deployed.

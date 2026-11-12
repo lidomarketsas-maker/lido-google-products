@@ -1,0 +1,32 @@
+{%- layout none -%}
+{%- paginate collection.products by 250 -%}
+{"schema":"lido_public_feed_v1","language":{{ request.locale.iso_code | json }},"currency":{{ cart.currency.iso_code | default: shop.currency | json }},"page":{{ paginate.current_page | json }},"pages":{{ paginate.pages | json }},"total":{{ paginate.items | json }},"page_size":{{ paginate.page_size | json }},"next_page":{% if paginate.next %}{{ paginate.current_page | plus: 1 | json }}{% else %}null{% endif %},"products":[
+{%- for item in collection.products -%}
+  {%- unless forloop.first -%},{%- endunless -%}
+  {%- assign safe_description = item.description | replace: '</p>', ' ' | replace: '</li>', ' ' | replace: '<br>', ' ' | replace: '<br/>', ' ' | replace: '<br />', ' ' | strip_html | strip -%}
+  {"id":{{ item.id | json }},"title":{{ item.title | json }},"handle":{{ item.handle | json }},"body_html":{{ safe_description | json }},"vendor":{{ item.vendor | json }},"tags":{{ item.tags | json }},"variants_count":{{ item.variants_count | json }},"images":[
+  {%- assign image_index = 0 -%}
+  {%- for image_chunk in (0..4) -%}
+    {%- assign image_offset = image_chunk | times: 50 -%}
+    {%- assign image_batch = item.images | slice: image_offset, 50 -%}
+    {%- for image in image_batch -%}
+      {%- if image_index > 0 -%},{%- endif -%}
+      {"id":{{ image.id | json }},"src":{{ image | image_url: width: 2000 | json }},"variant_ids":{{ image.variants | map: 'id' | json }}}
+      {%- assign image_index = image_index | plus: 1 -%}
+    {%- endfor -%}
+  {%- endfor -%}
+  ],"variants":[
+  {%- assign variant_index = 0 -%}
+  {%- for variant_chunk in (0..4) -%}
+    {%- assign variant_offset = variant_chunk | times: 50 -%}
+    {%- assign variant_batch = item.variants | slice: variant_offset, 50 -%}
+    {%- for variant in variant_batch -%}
+      {%- if variant_index > 0 -%},{%- endif -%}
+      {"id":{{ variant.id | json }},"title":{{ variant.title | json }},"sku":{{ variant.sku | json }},"barcode":{{ variant.barcode | json }},"price":{{ variant.price | json }},"available":{{ variant.available | json }},"featured_image":{% if variant.featured_image %}{"src":{{ variant.featured_image | image_url: width: 2000 | json }}}{% else %}null{% endif %}}
+      {%- assign variant_index = variant_index | plus: 1 -%}
+    {%- endfor -%}
+  {%- endfor -%}
+  ]}
+{%- endfor -%}
+]}
+{%- endpaginate -%}

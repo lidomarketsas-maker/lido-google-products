@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+feeds/
+.runtime/
+.DS_Store
