@@ -1,6 +1,10 @@
 {
   "enabled_locales": [
-    "de"
+    "de",
+    "en",
+    "fr",
+    "es",
+    "nl"
   ],
   "enabled_shipping_groups": [
     "grossisti",
@@ -28,6 +32,60 @@
         "DE"
       ],
       "feed_label": "LIDO_EU_FREE"
+    },
+    "fr": {
+      "locale": "fr",
+      "countries": [
+        "FR",
+        "BE",
+        "CH",
+        "LU"
+      ],
+      "feed_label": "LIDO_EU_FREE"
+    },
+    "nl": {
+      "locale": "nl",
+      "countries": [
+        "NL",
+        "BE"
+      ],
+      "feed_label": "LIDO_EU_FREE"
+    },
+    "es": {
+      "locale": "es",
+      "countries": [
+        "ES"
+      ],
+      "feed_label": "LIDO_EU_FREE"
+    },
+    "en": {
+      "locale": "en",
+      "countries": [
+        "BG",
+        "CZ",
+        "DK",
+        "EE",
+        "FI",
+        "GB",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "LT",
+        "LV",
+        "MT",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SK"
+      ],
+      "feed_label": "LIDO_EU_FREE"
     }
-  }
+  },
+  "unsupported_google_target_countries": [
+    "MC",
+    "SI"
+  ]
 }
