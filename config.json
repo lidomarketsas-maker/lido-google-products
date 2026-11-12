@@ -29,7 +29,11 @@
     "de": {
       "locale": "de",
       "countries": [
-        "DE"
+        "DE",
+        "AT",
+        "BE",
+        "CH",
+        "LU"
       ],
       "feed_label": "LIDO_EU_FREE"
     },

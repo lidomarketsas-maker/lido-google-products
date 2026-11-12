@@ -57,6 +57,7 @@ def write_files(output,by_locale,report,config,shipping):
         for suffix in ['', '-pilot']:
             key=locale+suffix
             if key not in by_locale:continue
-            rows=by_locale[key];xml=build_xml(rows,locale,spec['countries'],shipping)
+            countries=config.get('initial_target_countries',['DE'])if source=='de'and suffix else spec['countries']
+            rows=by_locale[key];xml=build_xml(rows,locale,countries,shipping)
             data=gzip.compress(xml,mtime=0);name=source+suffix+'.xml.gz';(output/name).write_bytes(data)
-            report.setdefault('xml_files',{})[name]={'items':len(rows),'locale':locale,'countries':spec['countries'],'feed_label':spec['feed_label'],'gzip_bytes':len(data),'xml_bytes':len(xml),'sha256':hashlib.sha256(data).hexdigest(),'thresholds_per_grossisti_item':len(spec['countries']),'thresholds_per_no_free_item':0}
+            report.setdefault('xml_files',{})[name]={'items':len(rows),'locale':locale,'countries':countries,'feed_label':spec['feed_label'],'gzip_bytes':len(data),'xml_bytes':len(xml),'sha256':hashlib.sha256(data).hexdigest(),'thresholds_per_grossisti_item':len(countries),'thresholds_per_no_free_item':0}
