@@ -1,6 +1,6 @@
 {
-  "verified_at": "2026-11-12T20:39:29.350335+00:00",
-  "basis": "Fresh Shopify Admin read-only pagination; ACTIVE and published on Online Store306819924348 and GoogleYouTube308696842620; actual delivery profiles/variant IDs/SKUs/barcodes.",
+  "verified_at": "2026-11-12T21:45:14Z",
+  "basis": "Fresh complete Shopify Admin read-only variant/profile export; ACTIVE and published on Online Store306819924348 and GoogleYouTube308696842620; actual native delivery profiles, IDs, SKUs and barcodes. Policy holds remain hard excluded by exclusions.json.",
   "products": {
     "15932475146620": {
       "handle": "spremiagrumi-automatico-ricaricabile-dc-7-4v-60w-250ml",
