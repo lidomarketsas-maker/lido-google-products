@@ -6,7 +6,7 @@ It reads the public localized Shopify collection feed view, validates complete
 pagination and variant data, and publishes gzip RSS XML in an immutable release.
 Only after every configured locale succeeds is the release made public/latest.
 An interrupted/failed run never replaces the last successful public release.
-Every offer has a fixed48-hour expiration_date. Re-fetching an old file does
+Every offer has a fixed96-hour expiration_date. Re-fetching an old file does
 not renew that explicit expiry. Google may take several hours to apply expiry.
 
 Stable feed URL pattern:
@@ -69,11 +69,16 @@ A Dati-local daily authoritative Shopify publication/profile audit refreshes
 allowlist.json using existing local authentication. No Admin/Google credentials
 are sent to GitHub. A failed or partial audit cannot renew verified_at. If the
 Mac or Dati has no successful authority refresh for3days, the cloud generator
-stops; the last successfully generated feed then has at most48hours to expire.
+stops; the last successfully generated feed then has at most96hours to expire.
 Current public prices, stock, barcodes and exact variant images are fetched on
 every successful cloud generation. A direct manual GMC pause is not observable
 from Shopify public data; it still requires exclusions+fresh build+Fetch now.
-The48-hour expiration intentionally triggers Google's next3days/Needs update
-warning even after a successful fetch. Daily04:15UTC generation and08:00
-Europe/Rome fetch renew it, with2h45 winter/1h45 summer schedule buffer.
-Never describe these new sources as having zero soon-expiring offers.
+Successful files have a fixed96-hour lifetime, greater than Google's next3days
+warning window. Normal daily generation should therefore clear the routine
+Needs update warning; a failed/missed update enters the warning window before
+expiry. Daily04:15UTC generation and08:00Europe/Rome fetch provide2h45 winter/
+1h45 summer buffer. Allowlist expiry after3days plus the last96-hour file gives
+a worst-case7days from the last successful local authority audit. Google may
+take additional processing time to reflect expiry or clear warning labels.
+Verify native last-fetch time, actual downloaded expiry and current warnings;
+never describe an unverified warning as cleared.

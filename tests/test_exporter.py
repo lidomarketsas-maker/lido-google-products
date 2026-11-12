@@ -44,6 +44,8 @@ class FeedSafety(unittest.TestCase):
    (root/'allowlist.json').write_text(json.dumps(self.allow));(root/'exclusions.json').write_text(json.dumps(self.ex));(root/'config.json').write_text(json.dumps({'allowlist_max_age_days':30,'expiration_hours':48,'enabled_locales':['de'],'enabled_shipping_groups':['grossisti'],'minimum_rows':1,'max_missing_public_fraction':0.01}))
    with self.assertRaises(e.FeedError):e.generate(root,fetch=lambda u:(_ for _ in()).throw(e.FeedError('network failure')))
    self.assertEqual((root/'feeds/de.tsv').read_text(),old)
+ def test_live_deployment_expiry_exceeds_three_day_google_warning_window(self):
+  config=json.loads((pathlib.Path(__file__).parents[1]/'config.json').read_text());self.assertEqual(config['expiration_hours'],96);self.assertGreater(config['expiration_hours'],72);self.assertEqual(config['allowlist_max_age_days'],3)
  def test_three_day_authority_limit_fails_before_any_public_fetch(self):
   with tempfile.TemporaryDirectory()as d:
    root=pathlib.Path(d);self.allow['verified_at']=(dt.datetime.now(dt.timezone.utc)-dt.timedelta(days=4)).isoformat();(root/'allowlist.json').write_text(json.dumps(self.allow));(root/'exclusions.json').write_text(json.dumps(self.ex));(root/'config.json').write_text(json.dumps({'allowlist_max_age_days':3,'expiration_hours':48}))

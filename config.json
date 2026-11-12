@@ -10,7 +10,7 @@
     "grossisti",
     "no_free"
   ],
-  "expiration_hours": 48,
+  "expiration_hours": 96,
   "allowlist_max_age_days": 3,
   "max_missing_public_fraction": 0.01,
   "minimum_rows": 10000,
