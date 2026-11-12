@@ -1,5 +1,5 @@
 {
-  "verified_at": "2026-11-12T21:45:14Z",
+  "verified_at": "2026-11-12T22:10:51Z",
   "basis": "Fresh complete Shopify Admin read-only variant/profile export; ACTIVE and published on Online Store306819924348 and GoogleYouTube308696842620; actual native delivery profiles, IDs, SKUs and barcodes. Policy holds remain hard excluded by exclusions.json.",
   "products": {
     "15932475146620": {
@@ -106268,16 +106268,6 @@
         "57414442746236": {
           "sku": "8052533352042",
           "barcode": "8052533352042",
-          "shipping_group": "grossisti"
-        }
-      }
-    },
-    "16111451013500": {
-      "handle": "tappetino-antiscivoloa-quadrattino-46-46cm-8052533352059",
-      "variants": {
-        "57414442779004": {
-          "sku": "8052533352059",
-          "barcode": "8052533352059",
           "shipping_group": "grossisti"
         }
       }
