@@ -41,9 +41,28 @@ class FeedSafety(unittest.TestCase):
  def test_network_failure_does_not_overwrite_or_extend_previous_feed(self):
   with tempfile.TemporaryDirectory()as d:
    root=pathlib.Path(d);(root/'feeds').mkdir();old='old valid content, expires at fixed old time';(root/'feeds/de.tsv').write_text(old)
-   (root/'allowlist.json').write_text(json.dumps(self.allow));(root/'exclusions.json').write_text(json.dumps(self.ex));(root/'config.json').write_text(json.dumps({'allowlist_max_age_days':30,'expiration_hours':48,'enabled_locales':['de'],'enabled_shipping_groups':['grossisti'],'minimum_rows':1,'max_missing_public_fraction':0.01}))
+   (root/'allowlist.json').write_text(json.dumps(self.allow));(root/'exclusions.json').write_text(json.dumps(self.ex));(root/'config.json').write_text(json.dumps({'allowlist_max_age_days':3,'expiration_hours':48,'enabled_locales':['de'],'enabled_shipping_groups':['grossisti'],'minimum_rows':1,'max_missing_public_fraction':0.01}))
    with self.assertRaises(e.FeedError):e.generate(root,fetch=lambda u:(_ for _ in()).throw(e.FeedError('network failure')))
    self.assertEqual((root/'feeds/de.tsv').read_text(),old)
+ def test_successful_generation_writes_real_four_day_expiry_and_current_variant(self):
+  import gzip,xml.etree.ElementTree as ET
+  with tempfile.TemporaryDirectory()as d:
+   root=pathlib.Path(d);self.allow['verified_at']=(dt.datetime.now(dt.timezone.utc)-dt.timedelta(days=1)).isoformat()
+   config={'allowlist_max_age_days':3,'expiration_hours':96,'enabled_locales':['de'],'enabled_shipping_groups':['grossisti'],'minimum_rows':1,'max_missing_public_fraction':0.01,'sources':{'de':{'locale':'de','countries':['DE'],'feed_label':'TEST_FREE'}}}
+   for name,data in [('allowlist.json',self.allow),('exclusions.json',self.ex),('config.json',config)]: (root/name).write_text(json.dumps(data))
+   (root/'shipping.json').write_bytes((pathlib.Path(__file__).parents[1]/'shipping.json').read_bytes())
+   products=copy.deepcopy(self.products);products['1']['variants']=copy.deepcopy(self.facts['1']['variants'])
+   with patch.object(e,'feed_catalog',return_value=(products,1)):
+    result=e.generate(root,fetch=lambda url:self.fail('Catalog mock must be the only external boundary'))
+   generated=dt.datetime.fromisoformat(result['generated_at']);expiry=dt.datetime.fromisoformat(result['expires_at'].replace('Z','+00:00'));self.assertLessEqual(expiry-generated,dt.timedelta(hours=96));self.assertGreater(expiry-generated,dt.timedelta(hours=96)-dt.timedelta(minutes=1));self.assertGreater(expiry-generated,dt.timedelta(hours=72))
+   item=ET.fromstring(gzip.decompress((root/'feeds/de.xml.gz').read_bytes())).find('./channel/item');ns='{http://base.google.com/ns/1.0}'
+   self.assertEqual(item.findtext(ns+'expiration_date'),result['expires_at']);self.assertEqual(item.findtext(ns+'availability'),'out_of_stock');self.assertEqual(item.findtext(ns+'price'),'2.20 EUR');self.assertEqual(result['xml_files']['de.xml.gz']['items'],1)
+ def test_beyond_live_freshness_caps_fail_before_fetch(self):
+  for age,hours in [(4,96),(3,97)]:
+   with tempfile.TemporaryDirectory()as d:
+    root=pathlib.Path(d)
+    for name,data in [('allowlist.json',self.allow),('exclusions.json',self.ex),('config.json',{'allowlist_max_age_days':age,'expiration_hours':hours})]: (root/name).write_text(json.dumps(data))
+    with self.assertRaises(e.FeedError):e.generate(root,fetch=lambda url:self.fail('Unsafe limits must fail before fetch'))
  def test_live_deployment_expiry_exceeds_three_day_google_warning_window(self):
   config=json.loads((pathlib.Path(__file__).parents[1]/'config.json').read_text());self.assertEqual(config['expiration_hours'],96);self.assertGreater(config['expiration_hours'],72);self.assertEqual(config['allowlist_max_age_days'],3)
  def test_three_day_authority_limit_fails_before_any_public_fetch(self):
@@ -52,7 +71,7 @@ class FeedSafety(unittest.TestCase):
    with self.assertRaises(e.FeedError):e.generate(root,fetch=lambda url:self.fail('Stale authority must fail before live fetch'))
  def test_expired_google_publication_allowlist_is_not_self_renewed(self):
   with tempfile.TemporaryDirectory()as d:
-   root=pathlib.Path(d);self.allow['verified_at']=(dt.datetime.now(dt.timezone.utc)-dt.timedelta(days=31)).isoformat();(root/'allowlist.json').write_text(json.dumps(self.allow));(root/'exclusions.json').write_text(json.dumps(self.ex));(root/'config.json').write_text(json.dumps({'allowlist_max_age_days':30,'expiration_hours':48}))
+   root=pathlib.Path(d);self.allow['verified_at']=(dt.datetime.now(dt.timezone.utc)-dt.timedelta(days=31)).isoformat();(root/'allowlist.json').write_text(json.dumps(self.allow));(root/'exclusions.json').write_text(json.dumps(self.ex));(root/'config.json').write_text(json.dumps({'allowlist_max_age_days':3,'expiration_hours':48}))
    with self.assertRaises(e.FeedError):e.generate(root)
 
 if __name__=='__main__':unittest.main()

@@ -263,7 +263,7 @@ def generate(root=ROOT, output=None, fetch=get_json):
     now=dt.datetime.now(UTC)
     config=json.loads((root/'config.json').read_text());allowlist=json.loads((root/'allowlist.json').read_text());exclusions=json.loads((root/'exclusions.json').read_text())
     verified=dt.datetime.fromisoformat(allowlist['verified_at'])
-    if not 0<config['allowlist_max_age_days']<=30 or not 0<config['expiration_hours']<=48: raise FeedError('Unsafe freshness settings')
+    if not 0<config['allowlist_max_age_days']<=3 or not 0<config['expiration_hours']<=96: raise FeedError('Unsafe freshness settings')
     if verified.tzinfo is None or verified>now+dt.timedelta(minutes=5) or now-verified>dt.timedelta(days=config['allowlist_max_age_days']): raise FeedError('Publication/GTIN allowlist requires fresh audit')
     locales=config['enabled_locales'];expiry=(now+dt.timedelta(hours=config['expiration_hours'])).strftime('%Y-%m-%dT%H:%MZ')
     report={'generated_at':now.isoformat(),'expires_at':expiry,'allowlist_verified_at':allowlist['verified_at'],'source':'Public localized Shopify JSON; current Google-publication allowlist; verified true barcodes','marketing_method':'Free_listings only','locales':{}}
