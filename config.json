@@ -11,7 +11,7 @@
     "no_free"
   ],
   "expiration_hours": 48,
-  "allowlist_max_age_days": 30,
+  "allowlist_max_age_days": 3,
   "max_missing_public_fraction": 0.01,
   "minimum_rows": 10000,
   "feed_label": "LIDO_EU_FREE",

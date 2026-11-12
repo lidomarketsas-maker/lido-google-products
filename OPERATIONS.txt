@@ -20,7 +20,7 @@ Existing Italian Shopify sources and advertising settings must stay unchanged.
 Publishing scope is deliberately not auto-discovered from the whole storefront.
 allowlist.json contains actual ACTIVE+Online Store+Google publication IDs and
 actual variant IDs/SKUs/barcodes/profile groups from an authenticated merchant
-read. The Actions job CANNOT renew this authorization timestamp. After30days,
+read. The Actions job CANNOT renew this authorization timestamp. After3days,
 a new genuine merchant audit is required or publication fails closed.
 New products are not included just because they are public on the storefront.
 
@@ -64,3 +64,16 @@ remain website shipping destinations only. The German four-offer pilot is DE-onl
 Wholesale items priced at99 EUR or above submit explicit zero delivery cost;
 lower-value wholesale retains actual fees and the genuine99 EUR basket threshold.
 3D/general products always keep paid delivery, regardless of product price.
+
+A Dati-local daily authoritative Shopify publication/profile audit refreshes
+allowlist.json using existing local authentication. No Admin/Google credentials
+are sent to GitHub. A failed or partial audit cannot renew verified_at. If the
+Mac or Dati has no successful authority refresh for3days, the cloud generator
+stops; the last successfully generated feed then has at most48hours to expire.
+Current public prices, stock, barcodes and exact variant images are fetched on
+every successful cloud generation. A direct manual GMC pause is not observable
+from Shopify public data; it still requires exclusions+fresh build+Fetch now.
+The48-hour expiration intentionally triggers Google's next3days/Needs update
+warning even after a successful fetch. Daily04:15UTC generation and08:00
+Europe/Rome fetch renew it, with2h45 winter/1h45 summer schedule buffer.
+Never describe these new sources as having zero soon-expiring offers.
