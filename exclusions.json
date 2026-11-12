@@ -308,5 +308,24 @@
     "sun[ _-]?distribuzione"
   ],
   "retail_tag": "reparto-retail",
-  "reason": "Never restore previously prohibited or Google-paused products; importer/pause handoff must refresh allowlist/exclusions."
+  "reason": "Never restore previously prohibited or Google-paused products; importer/pause handoff must refresh allowlist/exclusions.",
+  "policy_hold_product_ids": [
+    "15968809353596",
+    "15981140803964",
+    "16111192113532",
+    "16111207022972",
+    "16111214690684",
+    "16111239266684",
+    "16111239430524",
+    "16111239463292",
+    "16111251358076",
+    "16111251587452",
+    "16111251784060",
+    "16111373910396",
+    "16111373975932",
+    "16111451013500",
+    "16111497576828",
+    "16202526294396"
+  ],
+  "policy_hold_audit": "Native unprioritized Google diagnostic export2026-11-12 22:31:45 CET plus unresolved historic Alcoholic beverages item; release only after genuine review/resolution."
 }

@@ -17,6 +17,11 @@ class FeedSafety(unittest.TestCase):
   self.ex['paused_product_ids']=[];self.facts['1']['tags']=['reparto-retail'];self.assertEqual(self.rows(),[])
  def test_banned_supplier_is_excluded_after_snapshot(self):
   self.products['1']['tags']=['fornitore-progress-plastic'];self.assertEqual(self.rows(),[])
+ def test_existing_google_policy_hold_cannot_be_resubmitted_under_a_new_locale(self):
+  self.ex['policy_hold_product_ids']=['1']
+  for locale in ['de','en','fr','es','nl']:
+   rows,skipped=e.make_rows(self.products,self.allow,self.ex,locale,'2026-11-14T05:00Z',self.facts)
+   self.assertEqual(rows,[]);self.assertEqual(skipped,[{'id':'1','reason':'unresolved_Google_policy_hold'}])
  def test_minimum_order_copy_and_chinese_are_not_republished(self):
   self.products['1']['body_html']='Mindestbestellmenge: 12';self.assertEqual(self.rows(),[])
   self.products['1']['body_html']='中文';self.assertEqual(self.rows(),[])

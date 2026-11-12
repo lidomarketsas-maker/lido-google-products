@@ -151,7 +151,7 @@ def image_url(raw):
 
 def current_facts(products, allowlist, exclusions, fetch=get_json):
     """Fetch each authorized public product once for real current barcodes and variant images."""
-    denied={str(x)for x in exclusions['retail_product_ids']}|{str(x)for x in exclusions['paused_product_ids']}
+    denied={str(x)for x in exclusions['retail_product_ids']}|{str(x)for x in exclusions['paused_product_ids']}|{str(x)for x in exclusions.get('policy_hold_product_ids',[])}
     ids=[pid for pid in allowlist['products'] if pid in products and pid not in denied]
     facts={}
     def read(pid):
@@ -167,7 +167,8 @@ def current_facts(products, allowlist, exclusions, fetch=get_json):
 
 def make_rows(products, allowlist, exclusions, locale, expiry, facts, enabled_groups=None):
     rows=[]; skipped=[]; seen=set(); allowed=allowlist['products']
-    denied={str(x) for x in exclusions['retail_product_ids']}|{str(x) for x in exclusions['paused_product_ids']}
+    policy_holds={str(x)for x in exclusions.get('policy_hold_product_ids',[])}
+    denied={str(x) for x in exclusions['retail_product_ids']}|{str(x) for x in exclusions['paused_product_ids']}|policy_holds
     denied_barcodes=set(exclusions.get('paused_barcodes',[]))
     for pid,rule in allowed.items():
         product=products.get(pid)
@@ -177,6 +178,8 @@ def make_rows(products, allowlist, exclusions, locale, expiry, facts, enabled_gr
         tags=product.get('tags',[])
         if isinstance(tags,str): tags=[x.strip()for x in tags.split(',')]
         live_tags=(live or {}).get('tags',[])
+        if pid in policy_holds:
+            skipped.append({'id':pid,'reason':'unresolved_Google_policy_hold'});continue
         if pid in denied or 'reparto-retail' in tags or 'reparto-retail' in live_tags or BANNED.search(' '.join(tags+live_tags)+' '+product.get('vendor','')):
             skipped.append({'id':pid,'reason':'prohibited'});continue
         if product.get('handle')!=rule['handle']: raise FeedError(f'Unexpected handle change {pid}; re-audit allowlist')

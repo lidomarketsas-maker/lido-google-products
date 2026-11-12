@@ -54,3 +54,13 @@ Use source-level and per-offer readbacks to verify actual reception, free99
 Grossisti shipping and paid3D shipping; a successful job is not Google approval.
 Sources may target at most25 countries here to respect per-offer free-threshold
 limits. Unsupported Google countries must be recorded, not called deployed.
+
+Unresolved Google policy decisions are also held by policy_hold_product_ids.
+Never clear these holds by changing language, IDs, source labels or copy alone.
+Review actual products and legitimate documentation before an authorized release.
+Country coverage:27 Google-supported foreign destinations across de/en/fr/es/nl;
+Monaco(MC) and Slovenia(SI) are not offered by the native country picker and
+remain website shipping destinations only. The German four-offer pilot is DE-only.
+Wholesale items priced at99 EUR or above submit explicit zero delivery cost;
+lower-value wholesale retains actual fees and the genuine99 EUR basket threshold.
+3D/general products always keep paid delivery, regardless of product price.
