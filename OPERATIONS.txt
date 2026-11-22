@@ -46,8 +46,12 @@ Extra images require an explicit association with the same variant.
 The view is a new standalone layout-none template; it changes no existing
 website page, navigation or theme asset. It exposes only already-public product
 facts and no inventory quantities, customer records or credentials. Pagination
-is capped by Shopify at25000 products; this exporter stops rather than silently
-truncate, so larger catalogs need an explicitly reviewed partition strategy.
+is capped by Shopify at25000 products per collection. The reviewed
+public_vendor_partitions configuration reads native /collections/vendors?q=
+collections separately, enforces exact vendor identity, full page metadata,
+variant completeness and global product-ID uniqueness, and stops rather than
+truncate any partition. The configured vendors come from a real native audit
+of the already approved European source scope.
 
 Daily source fetch should be scheduled after the GitHub refresh finishes.
 Use source-level and per-offer readbacks to verify actual reception, free99
@@ -82,3 +86,10 @@ a worst-case7days from the last successful local authority audit. Google may
 take additional processing time to reflect expiry or clear warning labels.
 Verify native last-fetch time, actual downloaded expiry and current warnings;
 never describe an unverified warning as cleared.
+
+2026-11-22 recovery: the Dati authority service pins the previously reviewed
+European product/variant scope and records newly imported identities as pending
+onboarding. It still reads all native variants and applies the original removal,
+barcode/profile-change, retailer, supplier, policy and freshness protections.
+New imports cannot stop daily refresh of the already reviewed scope or silently
+expand that scope. Product and stock writes remain outside this component.

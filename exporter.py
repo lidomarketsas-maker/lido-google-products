@@ -82,23 +82,41 @@ def get_json(url):
         print(f'HTTP {status}; global Retry-After={retry_after!r}; all requests pause at least {wait:.0f}s',flush=True)
     raise FeedError('Unreachable fetch state')
 
-def feed_catalog(locale, fetch=get_json):
-    """Read the dedicated public Liquid view, including current variant facts in every page."""
+def feed_catalog(locale, fetch=get_json, *, public_vendor_partitions=None):
+    """Read the public catalog, optionally restricted to configured vendor partitions."""
+    if public_vendor_partitions is None:
+        vendors = [None]
+    else:
+        vendors = public_vendor_partitions
+        if (not isinstance(vendors, list) or not vendors
+                or any(not isinstance(vendor, str) or not vendor.strip()
+                       or vendor != vendor.strip() for vendor in vendors)
+                or len(set(vendors)) != len(vendors)):
+            raise FeedError('public_vendor_partitions must be a nonempty list of distinct vendor names')
+    products = {}
+    pages = sum(_feed_partition(locale, fetch, vendor, products) for vendor in vendors)
+    return products, pages
+
+
+def _feed_partition(locale, fetch, vendor, products):
     prefix='' if locale=='it'else'/'+locale
+    collection = 'all?' if vendor is None else f'vendors?q={urllib.parse.quote(vendor, safe="")}&'
     def read(page):
-        obj=fetch(f'{SHOP}{prefix}/collections/all?view=lido-google-feed&sort_by=created-ascending&page={page}&currency=EUR')
+        obj=fetch(f'{SHOP}{prefix}/collections/{collection}view=lido-google-feed&sort_by=created-ascending&page={page}&currency=EUR')
         if obj.get('schema')!='lido_public_feed_v1' or obj.get('language')!=locale or obj.get('currency')!='EUR': raise FeedError('Feed locale/currency/schema mismatch')
         if obj.get('page')!=page or obj.get('page_size')!=250 or not isinstance(obj.get('products'),list): raise FeedError('Feed page metadata mismatch')
         return obj
     first=read(1);total=first['total'];pages=first['pages']
     if not isinstance(total,int) or not 0<total<=25000 or pages!=(total+249)//250: raise FeedError('Invalid or unsupported total; never truncate past25000')
-    products={}
+    before = len(products)
     def absorb(obj):
         page=obj['page'];expected=min(250,total-(page-1)*250)
         if obj['total']!=total or obj['pages']!=pages or len(obj['products'])!=expected or obj['next_page']!=(page+1 if page<pages else None): raise FeedError('Incomplete or changing feed pagination')
         for product in obj['products']:
             pid=str(product.get('id',''))
             if not pid.isdigit() or pid in products: raise FeedError('Duplicate/missing product in public feed')
+            if vendor is not None and product.get('vendor') != vendor:
+                raise FeedError(f'Unexpected vendor for public product {pid} in partition {vendor!r}')
             if not isinstance(product.get('variants'),list) or product.get('variants_count')!=len(product['variants']): raise FeedError('Variant pagination incomplete; no truncation allowed')
             products[pid]=product
     absorb(first)
@@ -106,9 +124,11 @@ def feed_catalog(locale, fetch=get_json):
         with concurrent.futures.ThreadPoolExecutor(max_workers=2)as pool:
             batch=list(pool.map(read,range(start,min(start+2,pages+1))))
         for obj in batch: absorb(obj)
-        if len(products)%2500<500: print(f'{locale} complete public products {len(products)}/{total}',flush=True)
-    if len(products)!=total: raise FeedError('Public catalog total mismatch')
-    return products,pages
+        count = len(products) - before
+        if count % 2500 < 500:
+            print(f'{locale} {vendor or "all"} complete public products {count}/{total}', flush=True)
+    if len(products) - before != total: raise FeedError('Public catalog total mismatch')
+    return pages
 
 def catalog(locale, fetch=get_json, page_size=250, max_pages=200):
     """Read every successful page; never return partial pagination on errors."""
@@ -270,7 +290,9 @@ def generate(root=ROOT, output=None, fetch=get_json):
     built={}
     facts=None
     for locale in locales:
-        products,pages=feed_catalog(locale,fetch)
+        products,pages=feed_catalog(
+            locale, fetch, public_vendor_partitions=config.get('public_vendor_partitions'),
+        )
         facts=products
         # Later locale pages may expose a product absent from the earlier language crawl: fail rather than guess.
         rows,skipped=make_rows(products,allowlist,exclusions,locale,expiry,facts,set(config['enabled_shipping_groups']))

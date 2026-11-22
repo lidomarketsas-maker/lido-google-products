@@ -91,5 +91,14 @@
   "unsupported_google_target_countries": [
     "MC",
     "SI"
+  ],
+  "public_vendor_partitions": [
+    "Bambu Lab",
+    "Emi",
+    "HD Star Srl",
+    "Lido Market Plus",
+    "Sd Import Srl",
+    "Tekone",
+    "Veneto Home Srl"
   ]
 }

@@ -49,11 +49,14 @@ class FeedSafety(unittest.TestCase):
   with tempfile.TemporaryDirectory()as d:
    root=pathlib.Path(d);self.allow['verified_at']=(dt.datetime.now(dt.timezone.utc)-dt.timedelta(days=1)).isoformat()
    config={'allowlist_max_age_days':3,'expiration_hours':96,'enabled_locales':['de'],'enabled_shipping_groups':['grossisti'],'minimum_rows':1,'max_missing_public_fraction':0.01,'sources':{'de':{'locale':'de','countries':['DE'],'feed_label':'TEST_FREE'}}}
+   config['public_vendor_partitions']=['Approved vendor']
    for name,data in [('allowlist.json',self.allow),('exclusions.json',self.ex),('config.json',config)]: (root/name).write_text(json.dumps(data))
    (root/'shipping.json').write_bytes((pathlib.Path(__file__).parents[1]/'shipping.json').read_bytes())
    products=copy.deepcopy(self.products);products['1']['variants']=copy.deepcopy(self.facts['1']['variants'])
-   with patch.object(e,'feed_catalog',return_value=(products,1)):
-    result=e.generate(root,fetch=lambda url:self.fail('Catalog mock must be the only external boundary'))
+   fetch=lambda url:self.fail('Catalog mock must be the only external boundary')
+   with patch.object(e,'feed_catalog',return_value=(products,1)) as catalog:
+    result=e.generate(root,fetch=fetch)
+   catalog.assert_called_once_with('de',fetch,public_vendor_partitions=['Approved vendor'])
    generated=dt.datetime.fromisoformat(result['generated_at']);expiry=dt.datetime.fromisoformat(result['expires_at'].replace('Z','+00:00'));self.assertLessEqual(expiry-generated,dt.timedelta(hours=96));self.assertGreater(expiry-generated,dt.timedelta(hours=96)-dt.timedelta(minutes=1));self.assertGreater(expiry-generated,dt.timedelta(hours=72))
    item=ET.fromstring(gzip.decompress((root/'feeds/de.xml.gz').read_bytes())).find('./channel/item');ns='{http://base.google.com/ns/1.0}'
    self.assertEqual(item.findtext(ns+'expiration_date'),result['expires_at']);self.assertEqual(item.findtext(ns+'availability'),'out_of_stock');self.assertEqual(item.findtext(ns+'price'),'2.20 EUR');self.assertEqual(result['xml_files']['de.xml.gz']['items'],1)
