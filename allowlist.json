@@ -1,5 +1,5 @@
 {
-  "verified_at": "2026-11-22T18:01:03Z",
+  "verified_at": "2026-11-22T19:58:30Z",
   "basis": "Fresh complete Shopify Admin read-only variant/profile export; ACTIVE and published on Online Store306819924348 and GoogleYouTube308696842620; actual native delivery profiles, IDs, SKUs and barcodes. Policy holds remain hard excluded by exclusions.json.",
   "products": {
     "15932475146620": {
@@ -236928,6 +236928,506 @@
         "58208539935100": {
           "sku": "8433325327408",
           "barcode": "8433325327408",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206123499900": {
+      "handle": "cardatore-autopulente-a-denti-fini-per-animali-8719138049387",
+      "variants": {
+        "58208231817596": {
+          "sku": "8719138049387",
+          "barcode": "8719138049387",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206124581244": {
+      "handle": "cardatore-autopulente-a-denti-fini-per-animali-8719138049325",
+      "variants": {
+        "58208232898940": {
+          "sku": "8719138049325",
+          "barcode": "8719138049325",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206124745084": {
+      "handle": "cardatore-autopulente-a-denti-fini-per-animali-8719138049400",
+      "variants": {
+        "58208233062780": {
+          "sku": "8719138049400",
+          "barcode": "8719138049400",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206124876156": {
+      "handle": "cardatore-autopulente-a-denti-grossi-per-animali-8719138049424",
+      "variants": {
+        "58208233193852": {
+          "sku": "8719138049424",
+          "barcode": "8719138049424",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206126940540": {
+      "handle": "cardatore-a-un-lato-per-animali-8719138001491",
+      "variants": {
+        "58208235684220": {
+          "sku": "8719138001491",
+          "barcode": "8719138001491",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206127071612": {
+      "handle": "cardatore-a-un-lato-per-animali-8719138001507",
+      "variants": {
+        "58208235848060": {
+          "sku": "8719138001507",
+          "barcode": "8719138001507",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206127235452": {
+      "handle": "cardatore-a-un-lato-per-animali-8719138001514",
+      "variants": {
+        "58208236011900": {
+          "sku": "8719138001514",
+          "barcode": "8719138001514",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206128218492": {
+      "handle": "cardatore-a-due-lati-per-animali-8719138001521",
+      "variants": {
+        "58208236962172": {
+          "sku": "8719138001521",
+          "barcode": "8719138001521",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206128382332": {
+      "handle": "cardatore-per-animali-8719138001361",
+      "variants": {
+        "58208237158780": {
+          "sku": "8719138001361",
+          "barcode": "8719138001361",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206128480636": {
+      "handle": "cardatore-a-un-lato-per-animali-8719138001484",
+      "variants": {
+        "58208237257084": {
+          "sku": "8719138001484",
+          "barcode": "8719138001484",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206286356860": {
+      "handle": "cardatore-autopulente-a-denti-grossi-per-animali-8719138049332",
+      "variants": {
+        "58208514965884": {
+          "sku": "8719138049332",
+          "barcode": "8719138049332",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206290387324": {
+      "handle": "cardatore-a-un-lato-per-animali-8719138001675",
+      "variants": {
+        "58208519061884": {
+          "sku": "8719138001675",
+          "barcode": "8719138001675",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206290518396": {
+      "handle": "cardatore-a-un-lato-per-animali-8719138001682",
+      "variants": {
+        "58208519192956": {
+          "sku": "8719138001682",
+          "barcode": "8719138001682",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206290715004": {
+      "handle": "cardatore-a-un-lato-per-animali-8719138001699",
+      "variants": {
+        "58208519389564": {
+          "sku": "8719138001699",
+          "barcode": "8719138001699",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206298546556": {
+      "handle": "cardatore-autopulente-a-denti-grossi-per-animali-8719138049394",
+      "variants": {
+        "58208527221116": {
+          "sku": "8719138049394",
+          "barcode": "8719138049394",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206308147580": {
+      "handle": "canalina-quadrata-per-cavi-pvc-60-40-mm-2-pezzi-angolo-interno-bianco-8433325327675",
+      "variants": {
+        "58208537444732": {
+          "sku": "8433325327675",
+          "barcode": "8433325327675",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206308213116": {
+      "handle": "canalina-quadrata-per-cavi-pvc-40-40-mm-4-pezzi-tappo-terminale-bianco-8433325327781",
+      "variants": {
+        "58208537510268": {
+          "sku": "8433325327781",
+          "barcode": "8433325327781",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206308344188": {
+      "handle": "canalina-quadrata-per-cavi-pvc-25-16-mm-4-pezzi-angolo-esterno-bianco-8433325327583",
+      "variants": {
+        "58208537641340": {
+          "sku": "8433325327583",
+          "barcode": "8433325327583",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206308376956": {
+      "handle": "canalina-quadrata-per-cavi-pvc-60-40-mm-4-pezzi-tappo-terminale-bianco-8433325327798",
+      "variants": {
+        "58208537674108": {
+          "sku": "8433325327798",
+          "barcode": "8433325327798",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206308475260": {
+      "handle": "canalina-quadrata-per-cavi-pvc-16-16-mm-4-pezzi-giunto-diritto-bianco-8433325327699",
+      "variants": {
+        "58208537772412": {
+          "sku": "8433325327699",
+          "barcode": "8433325327699",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206308508028": {
+      "handle": "canalina-quadrata-per-cavi-pvc-40-25-mm-4-pezzi-angolo-esterno-bianco-8433325327590",
+      "variants": {
+        "58208537805180": {
+          "sku": "8433325327590",
+          "barcode": "8433325327590",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206308966780": {
+      "handle": "canalina-quadrata-per-cavi-pvc-40-40-mm-4-pezzi-giunto-diritto-bianco-8433325327729",
+      "variants": {
+        "58208538263932": {
+          "sku": "8433325327729",
+          "barcode": "8433325327729",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206309523836": {
+      "handle": "canalina-quadrata-per-cavi-pvc-40-25-mm-4-pezzi-angolo-interno-bianco-8433325327651",
+      "variants": {
+        "58208538820988": {
+          "sku": "8433325327651",
+          "barcode": "8433325327651",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206309556604": {
+      "handle": "canalina-quadrata-per-cavi-pvc-40-25-mm-4-pezzi-tappo-terminale-bianco-8433325327774",
+      "variants": {
+        "58208538853756": {
+          "sku": "8433325327774",
+          "barcode": "8433325327774",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206309720444": {
+      "handle": "canalina-quadrata-per-cavi-pvc-40-40-mm-4-pezzi-angolo-interno-bianco-8433325327668",
+      "variants": {
+        "58208539083132": {
+          "sku": "8433325327668",
+          "barcode": "8433325327668",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206309884284": {
+      "handle": "canalina-quadrata-per-cavi-pvc-40-40-mm-4-pezzi-curva-piana-bianco-8433325327484",
+      "variants": {
+        "58208539246972": {
+          "sku": "8433325327484",
+          "barcode": "8433325327484",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206310015356": {
+      "handle": "canalina-quadrata-per-cavi-pvc-60-40-mm-2-pezzi-curva-piana-bianco-8433325327491",
+      "variants": {
+        "58208539378044": {
+          "sku": "8433325327491",
+          "barcode": "8433325327491",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206310277500": {
+      "handle": "canalina-quadrata-per-cavi-pvc-16-16-mm-4-pezzi-raccordo-a-t-bianco-8433325327514",
+      "variants": {
+        "58208539640188": {
+          "sku": "8433325327514",
+          "barcode": "8433325327514",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206310375804": {
+      "handle": "canalina-quadrata-per-cavi-pvc-25-16-mm-4-pezzi-raccordo-a-t-bianco-8433325327521",
+      "variants": {
+        "58208539738492": {
+          "sku": "8433325327521",
+          "barcode": "8433325327521",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206310474108": {
+      "handle": "canalina-quadrata-per-cavi-pvc-40-25-mm-4-pezzi-raccordo-a-t-bianco-8433325327538",
+      "variants": {
+        "58208539836796": {
+          "sku": "8433325327538",
+          "barcode": "8433325327538",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206310769020": {
+      "handle": "canalina-quadrata-per-cavi-pvc-60-40-mm-4-pezzi-giunto-diritto-bianco-8433325327736",
+      "variants": {
+        "58208540197244": {
+          "sku": "8433325327736",
+          "barcode": "8433325327736",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206401634684": {
+      "handle": "catena-luminosa-a-bassa-tensione-10-m-ip44-catena-luminosa-lineare-a-goccia-bianco-caldo-per-interni-ed-esterni-scatola-a-colori-8433325300821",
+      "variants": {
+        "58209047150972": {
+          "sku": "8433325300821",
+          "barcode": "8433325300821",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206408515964": {
+      "handle": "catena-luminosa-a-bassa-tensione-10-m-ip44-catena-luminosa-lineare-con-led-a-testa-piatta-bianco-freddo-per-interni-ed-esterni-scatola-8433325299477",
+      "variants": {
+        "58209058521468": {
+          "sku": "8433325299477",
+          "barcode": "8433325299477",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206411923836": {
+      "handle": "catena-luminosa-a-bassa-tensione-10-m-ip44-catena-luminosa-lineare-con-globi-opalini-bianco-freddo-per-interni-ed-esterni-scatola-a-col-8433325300661",
+      "variants": {
+        "58209062420860": {
+          "sku": "8433325300661",
+          "barcode": "8433325300661",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206412415356": {
+      "handle": "catena-luminosa-a-bassa-tensione-10-m-ip44-catena-luminosa-lineare-a-bolle-bianco-caldo-per-interni-ed-esterni-scatola-a-colori-8433325300708",
+      "variants": {
+        "58209062879612": {
+          "sku": "8433325300708",
+          "barcode": "8433325300708",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206412611964": {
+      "handle": "catena-luminosa-a-bassa-tensione-10-m-ip44-catena-luminosa-lineare-con-globi-opalini-bianco-caldo-per-interni-ed-esterni-scatola-a-colo-8433325300647",
+      "variants": {
+        "58209063108988": {
+          "sku": "8433325300647",
+          "barcode": "8433325300647",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206413431164": {
+      "handle": "catena-luminosa-a-bassa-tensione-10-m-ip44-catena-luminosa-lineare-a-bolle-bianco-freddo-per-interni-ed-esterni-scatola-a-colori-8433325300722",
+      "variants": {
+        "58209064026492": {
+          "sku": "8433325300722",
+          "barcode": "8433325300722",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206413496700": {
+      "handle": "catena-luminosa-a-bassa-tensione-10-m-ip44-catena-luminosa-lineare-a-goccia-bianco-freddo-per-interni-ed-esterni-scatola-a-colori-8433325300845",
+      "variants": {
+        "58209064092028": {
+          "sku": "8433325300845",
+          "barcode": "8433325300845",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206430994812": {
+      "handle": "catena-luminosa-a-bassa-tensione-10-m-ip44-lampeggiante-led-a-testa-piatta-bianco-freddo-per-interni-ed-esterni-scatola-a-colori-8433325351908",
+      "variants": {
+        "58209091944828": {
+          "sku": "8433325351908",
+          "barcode": "8433325351908",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206431256956": {
+      "handle": "catena-luminosa-a-bassa-tensione-10-m-ip44-lampeggiante-led-a-testa-piatta-luce-blu-per-interni-ed-esterni-scatola-a-colori-8433325351946",
+      "variants": {
+        "58209092141436": {
+          "sku": "8433325351946",
+          "barcode": "8433325351946",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206432076156": {
+      "handle": "catena-luminosa-a-bassa-tensione-10-m-ip44-lampeggio-intenso-led-a-testa-piatta-bianco-caldo-per-interni-ed-esterni-scatola-a-colori-8433325352868",
+      "variants": {
+        "58209093026172": {
+          "sku": "8433325352868",
+          "barcode": "8433325352868",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206432141692": {
+      "handle": "catena-luminosa-a-bassa-tensione-10-m-ip44-lampeggiante-led-a-testa-piatta-bianco-caldo-per-interni-ed-esterni-scatola-a-colori-8433325351861",
+      "variants": {
+        "58209093058940": {
+          "sku": "8433325351861",
+          "barcode": "8433325351861",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206438957436": {
+      "handle": "catena-luminosa-a-bassa-tensione-10-m-ip44-catena-luminosa-lineare-con-filo-rivestito-bianco-caldo-per-interni-ed-esterni-scatola-a-col-8433325300487",
+      "variants": {
+        "58209120223612": {
+          "sku": "8433325300487",
+          "barcode": "8433325300487",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206439645564": {
+      "handle": "catena-luminosa-a-bassa-tensione-10-m-ip44-catena-luminosa-lineare-con-filo-rivestito-bianco-freddo-per-interni-ed-esterni-scatola-a-co-8433325300531",
+      "variants": {
+        "58209120944508": {
+          "sku": "8433325300531",
+          "barcode": "8433325300531",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206443118972": {
+      "handle": "catena-luminosa-a-bassa-tensione-10-m-ip44-catena-luminosa-lineare-con-led-a-testa-piatta-bianco-freddo-per-interni-ed-esterni-scatola-8433325002602",
+      "variants": {
+        "58209134838140": {
+          "sku": "8433325002602",
+          "barcode": "8433325002602",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206452359548": {
+      "handle": "catena-luminosa-a-bassa-tensione-10-m-ip44-lampeggiante-led-a-testa-piatta-luce-blu-per-interni-ed-esterni-scatola-a-colori-8433325351816",
+      "variants": {
+        "58209171931516": {
+          "sku": "8433325351816",
+          "barcode": "8433325351816",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206452719996": {
+      "handle": "catena-luminosa-a-bassa-tensione-10-m-ip44-lampeggio-intenso-led-a-testa-piatta-bianco-caldo-per-interni-ed-esterni-scatola-a-colori-8433325352721",
+      "variants": {
+        "58209172619644": {
+          "sku": "8433325352721",
+          "barcode": "8433325352721",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206458388860": {
+      "handle": "catena-luminosa-a-bassa-tensione-10-m-ip44-lampeggiante-led-a-testa-piatta-bianco-freddo-per-interni-ed-esterni-scatola-a-colori-8433325351779",
+      "variants": {
+        "58209193361788": {
+          "sku": "8433325351779",
+          "barcode": "8433325351779",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206458814844": {
+      "handle": "catena-luminosa-a-bassa-tensione-10-m-ip44-lampeggiante-led-a-testa-piatta-bianco-caldo-per-interni-ed-esterni-scatola-a-colori-8433325351731",
+      "variants": {
+        "58209194180988": {
+          "sku": "8433325351731",
+          "barcode": "8433325351731",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206466744700": {
+      "handle": "catena-luminosa-a-bassa-tensione-10-m-ip44-catena-luminosa-lineare-con-led-a-testa-piatta-bianco-freddo-per-interni-ed-esterni-scatola-8433325298852",
+      "variants": {
+        "58209227768188": {
+          "sku": "8433325298852",
+          "barcode": "8433325298852",
           "shipping_group": "grossisti"
         }
       }
