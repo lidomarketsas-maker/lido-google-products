@@ -1,5 +1,5 @@
 {
-  "verified_at": "2026-11-22T16:02:01Z",
+  "verified_at": "2026-11-22T18:01:03Z",
   "basis": "Fresh complete Shopify Admin read-only variant/profile export; ACTIVE and published on Online Store306819924348 and GoogleYouTube308696842620; actual native delivery profiles, IDs, SKUs and barcodes. Policy holds remain hard excluded by exclusions.json.",
   "products": {
     "15932475146620": {
@@ -236428,6 +236428,106 @@
         "58209231438204": {
           "sku": "8433325356033",
           "barcode": "8433325356033",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206299496828": {
+      "handle": "accappatoio-per-animali-tinta-unita-8719138059904",
+      "variants": {
+        "58208528171388": {
+          "sku": "8719138059904",
+          "barcode": "8719138059904",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206403961212": {
+      "handle": "albero-di-natale-pieghevole-1-5-m-ip44-rosso-e-oro-decorazione-bianco-caldo-per-interni-ed-esterni-8433325001889",
+      "variants": {
+        "58209049969020": {
+          "sku": "8433325001889",
+          "barcode": "8433325001889",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206404256124": {
+      "handle": "albero-di-natale-pieghevole-1-8-m-ip44-rosso-e-oro-decorazione-bianco-freddo-per-interni-ed-esterni-8433325001988",
+      "variants": {
+        "58209050263932": {
+          "sku": "8433325001988",
+          "barcode": "8433325001988",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206404616572": {
+      "handle": "albero-di-natale-pieghevole-1-2-m-ip44-bianco-e-oro-decorazione-bianco-freddo-per-interni-ed-esterni-8433325001995",
+      "variants": {
+        "58209050624380": {
+          "sku": "8433325001995",
+          "barcode": "8433325001995",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206404780412": {
+      "handle": "albero-di-natale-pieghevole-1-5-m-ip44-bianco-e-oro-decorazione-bianco-freddo-per-interni-ed-esterni-8433325002008",
+      "variants": {
+        "58209050788220": {
+          "sku": "8433325002008",
+          "barcode": "8433325002008",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206404944252": {
+      "handle": "albero-di-natale-pieghevole-1-8-m-ip44-bianco-e-oro-decorazione-bianco-freddo-per-interni-ed-esterni-8433325002015",
+      "variants": {
+        "58209050952060": {
+          "sku": "8433325002015",
+          "barcode": "8433325002015",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206411891068": {
+      "handle": "albero-di-natale-pieghevole-1-2-m-ip44-bianco-e-oro-decorazione-bianco-caldo-per-interni-ed-esterni-8433325002022",
+      "variants": {
+        "58209062388092": {
+          "sku": "8433325002022",
+          "barcode": "8433325002022",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206412775804": {
+      "handle": "albero-di-natale-pieghevole-1-8-m-ip44-rosso-e-oro-decorazione-bianco-caldo-per-interni-ed-esterni-8433325501259",
+      "variants": {
+        "58209063272828": {
+          "sku": "8433325501259",
+          "barcode": "8433325501259",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206419886460": {
+      "handle": "albero-di-natale-pieghevole-1-5-m-ip44-bianco-caldo-per-interni-ed-esterni-8433325001858",
+      "variants": {
+        "58209076838780": {
+          "sku": "8433325001858",
+          "barcode": "8433325001858",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206420050300": {
+      "handle": "albero-di-natale-pieghevole-1-8-m-ip44-bianco-caldo-per-interni-ed-esterni-8433325001865",
+      "variants": {
+        "58209077002620": {
+          "sku": "8433325001865",
+          "barcode": "8433325001865",
           "shipping_group": "grossisti"
         }
       }
