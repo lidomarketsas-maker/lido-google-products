@@ -185,8 +185,24 @@ def current_facts(products, allowlist, exclusions, fetch=get_json):
             if n%500==0: print(f'Fresh public variant facts {n}/{len(ids)}',flush=True)
     return facts
 
+def localized_copy_digest(title, description):
+    return hashlib.sha256((plain(title)+'\n'+plain(description)).encode('utf-8')).hexdigest()
+
+def reviewed_locale_copies(exclusions):
+    """New imports need exact reviewed localized copy; legacy scope is unchanged."""
+    approvals=exclusions.get('locale_copy_approvals',{})
+    if not isinstance(approvals,dict): raise FeedError('Invalid locale copy approval registry')
+    for pid,locales in approvals.items():
+        if not isinstance(pid,str) or not pid.isdigit() or not isinstance(locales,dict):
+            raise FeedError('Invalid locale copy approval identity')
+        for lang,digest in locales.items():
+            if lang not in {'en','de','fr','es','nl'} or not isinstance(digest,str) or not re.fullmatch('[0-9a-f]{64}',digest):
+                raise FeedError('Invalid locale copy approval digest')
+    return approvals
+
 def make_rows(products, allowlist, exclusions, locale, expiry, facts, enabled_groups=None):
     rows=[]; skipped=[]; seen=set(); allowed=allowlist['products']
+    locale_approvals=reviewed_locale_copies(exclusions)
     policy_holds={str(x)for x in exclusions.get('policy_hold_product_ids',[])}
     denied={str(x) for x in exclusions['retail_product_ids']}|{str(x) for x in exclusions['paused_product_ids']}|policy_holds
     denied_barcodes=set(exclusions.get('paused_barcodes',[]))
@@ -206,6 +222,12 @@ def make_rows(products, allowlist, exclusions, locale, expiry, facts, enabled_gr
         title=plain(product.get('title','')); description=plain(product.get('body_html') or product.get('description'))
         if not title or not description or CHINESE.search(title+' '+description) or MOQ.search(description):
             skipped.append({'id':pid,'reason':'copy_needs_review'});continue
+        if pid in locale_approvals:
+            expected=locale_approvals[pid].get(locale)
+            if expected is None:
+                skipped.append({'id':pid,'reason':'locale_not_reviewed'});continue
+            if localized_copy_digest(title,description)!=expected:
+                skipped.append({'id':pid,'reason':'reviewed_localized_copy_changed'});continue
         images=[image_url(x.get('src',''))for x in product.get('images',[])if isinstance(x,dict)]
         images=[x for x in images if x]
         if not images: skipped.append({'id':pid,'reason':'missing_image'});continue

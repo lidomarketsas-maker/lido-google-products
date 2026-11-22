@@ -93,3 +93,15 @@ onboarding. It still reads all native variants and applies the original removal,
 barcode/profile-change, retailer, supplier, policy and freshness protections.
 New imports cannot stop daily refresh of the already reviewed scope or silently
 expand that scope. Product and stock writes remain outside this component.
+
+Reviewed Aigostar onboarding uses locale_copy_approvals in exclusions.json.
+Each listed product needs a separately approved native-current title/body pair
+for the requested language. Its SHA-256 covers the complete normalized title,
+a newline, and the complete normalized description before Google truncation.
+A missing language or changed copy is held; Italian storefront fallback cannot
+stand in for an unreviewed translation. Empty per-product maps hold all locales.
+The first accepted language is French; other languages are added only after
+native translation freshness and public-page checks. Legacy products outside
+this registry retain their existing behavior. This additional gate never clears
+Retail, supplier, paused, image or policy exclusions. Refreshing allowlist.json
+does not authorize or alter these locale copy approvals.
