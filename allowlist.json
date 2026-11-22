@@ -1,5 +1,5 @@
 {
-  "verified_at": "2026-11-22T20:50:22Z",
+  "verified_at": "2026-11-22T21:06:19Z",
   "basis": "Fresh complete Shopify Admin read-only variant/profile export; ACTIVE and published on Online Store306819924348 and GoogleYouTube308696842620; actual native delivery profiles, IDs, SKUs and barcodes. Policy holds remain hard excluded by exclusions.json.",
   "products": {
     "15932475146620": {
@@ -238918,6 +238918,1006 @@
         "58209230782844": {
           "sku": "8433325354138",
           "barcode": "8433325354138",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206107378044": {
+      "handle": "collare-con-filo-riflettente-w2-5-l45-66cm-8719138036516",
+      "variants": {
+        "58208196133244": {
+          "sku": "8719138036516",
+          "barcode": "8719138036516",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206107443580": {
+      "handle": "collare-per-cani-w1-0-l20-30cm-8719138061044",
+      "variants": {
+        "58208196198780": {
+          "sku": "8719138061044",
+          "barcode": "8719138061044",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206107541884": {
+      "handle": "collare-a-catena-d0-25-l45cm-8719138008209",
+      "variants": {
+        "58208196297084": {
+          "sku": "8719138008209",
+          "barcode": "8719138008209",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206107607420": {
+      "handle": "collare-per-cani-w1-5-l25-40cm-8719138061051",
+      "variants": {
+        "58208196362620": {
+          "sku": "8719138061051",
+          "barcode": "8719138061051",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206107771260": {
+      "handle": "collare-per-cani-w2-5-l40-60cm-8719138061075",
+      "variants": {
+        "58208196526460": {
+          "sku": "8719138061075",
+          "barcode": "8719138061075",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206107902332": {
+      "handle": "collare-per-cani-w1-0-l20-30cm-8719138061082",
+      "variants": {
+        "58208196657532": {
+          "sku": "8719138061082",
+          "barcode": "8719138061082",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206108033404": {
+      "handle": "collare-per-cani-w1-5-l25-40cm-8719138061099",
+      "variants": {
+        "58208196788604": {
+          "sku": "8719138061099",
+          "barcode": "8719138061099",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206108590460": {
+      "handle": "collare-riflettente-w2-0-l30-50cm-8719138046171",
+      "variants": {
+        "58208197345660": {
+          "sku": "8719138046171",
+          "barcode": "8719138046171",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206108721532": {
+      "handle": "collare-riflettente-w2-5-l40-60cm-8719138046188",
+      "variants": {
+        "58208197476732": {
+          "sku": "8719138046188",
+          "barcode": "8719138046188",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206108819836": {
+      "handle": "corda-bicolore-d0-8-l120cm-8719138018093",
+      "variants": {
+        "58208197575036": {
+          "sku": "8719138018093",
+          "barcode": "8719138018093",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206109868412": {
+      "handle": "collare-in-pu-con-impronte-di-zampe-w2-5-l40-51cm-8719138036059",
+      "variants": {
+        "58208198623612": {
+          "sku": "8719138036059",
+          "barcode": "8719138036059",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206119338364": {
+      "handle": "ciotola-in-plastica-2-53-l-8719138143481",
+      "variants": {
+        "58208226771324": {
+          "sku": "8719138143481",
+          "barcode": "8719138143481",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206120092028": {
+      "handle": "ciotola-in-plastica-0-75-l-8719138143429",
+      "variants": {
+        "58208227524988": {
+          "sku": "8719138143429",
+          "barcode": "8719138143429",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206120386940": {
+      "handle": "ciotola-in-plastica-2-7-l-8719138143443",
+      "variants": {
+        "58208227819900": {
+          "sku": "8719138143443",
+          "barcode": "8719138143443",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206123434364": {
+      "handle": "ciotola-in-plastica-300-ml-motivo-a-quadri-e-ondulato-e-motivo-con-scritte-8719138148899",
+      "variants": {
+        "58208231752060": {
+          "sku": "8719138148899",
+          "barcode": "8719138148899",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206124220796": {
+      "handle": "ciotola-in-plastica-100-ml-8719138148073",
+      "variants": {
+        "58208232538492": {
+          "sku": "8719138148073",
+          "barcode": "8719138148073",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206125302140": {
+      "handle": "decorazione-galleggiante-per-acquario-8719138210749",
+      "variants": {
+        "58208233947516": {
+          "sku": "8719138210749",
+          "barcode": "8719138210749",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206125564284": {
+      "handle": "contenitore-per-sacchetti-per-rifiuti-15-sacchetti-per-rotolo-8719138033973",
+      "variants": {
+        "58208234209660": {
+          "sku": "8719138033973",
+          "barcode": "8719138033973",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206125760892": {
+      "handle": "contenitore-per-sacchetti-per-rifiuti-15-sacchetti-per-rotolo-8719138211890",
+      "variants": {
+        "58208234406268": {
+          "sku": "8719138211890",
+          "barcode": "8719138211890",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206240612732": {
+      "handle": "collare-a-catena-d0-2-l35cm-8719138008193",
+      "variants": {
+        "58208456475004": {
+          "sku": "8719138008193",
+          "barcode": "8719138008193",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206240678268": {
+      "handle": "collare-per-cani-w2-0-l30-50cm-8719138061068",
+      "variants": {
+        "58208456442236": {
+          "sku": "8719138061068",
+          "barcode": "8719138061068",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206241202556": {
+      "handle": "ciondolo-decorato-a-forma-di-osso-l3-2-w1-9cm-8719138009404",
+      "variants": {
+        "58208456999292": {
+          "sku": "8719138009404",
+          "barcode": "8719138009404",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206241366396": {
+      "handle": "ciondolo-decorato-a-forma-di-osso-l3-9-w2-4cm-8719138009411",
+      "variants": {
+        "58208457163132": {
+          "sku": "8719138009411",
+          "barcode": "8719138009411",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206241399164": {
+      "handle": "collare-bicolore-in-pu-w2-0-l32-40cm-8719138036011",
+      "variants": {
+        "58208457195900": {
+          "sku": "8719138036011",
+          "barcode": "8719138036011",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206241988988": {
+      "handle": "collare-con-filo-riflettente-w2-0-l35-50cm-8719138039500",
+      "variants": {
+        "58208457785724": {
+          "sku": "8719138039500",
+          "barcode": "8719138039500",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206242152828": {
+      "handle": "collare-in-poliestere-con-stampa-a-trasferimento-termico-w2-0-l30-50cm-8719138046522",
+      "variants": {
+        "58208457949564": {
+          "sku": "8719138046522",
+          "barcode": "8719138046522",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206242218364": {
+      "handle": "collare-in-poliestere-con-stampa-a-trasferimento-termico-w2-5-l40-60cm-8719138046539",
+      "variants": {
+        "58208458015100": {
+          "sku": "8719138046539",
+          "barcode": "8719138046539",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206280032636": {
+      "handle": "colonna-tiragraffi-per-gatti-con-spazzola-da-massaggio-l29-w29-h49cm-8719138196692",
+      "variants": {
+        "58208507756924": {
+          "sku": "8719138196692",
+          "barcode": "8719138196692",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206286029180": {
+      "handle": "decorazione-per-acquario-colori-assortiti-perle-tonde-in-vetro-8719138210572",
+      "variants": {
+        "58208514670972": {
+          "sku": "8719138210572",
+          "barcode": "8719138210572",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206286946684": {
+      "handle": "contenitore-per-sacchetti-per-rifiuti-15-sacchetti-per-rotolo-8719138029563",
+      "variants": {
+        "58208515555708": {
+          "sku": "8719138029563",
+          "barcode": "8719138029563",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206287110524": {
+      "handle": "contenitore-per-sacchetti-per-rifiuti-15-sacchetti-per-rotolo-8719138148011",
+      "variants": {
+        "58208515719548": {
+          "sku": "8719138148011",
+          "barcode": "8719138148011",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206287176060": {
+      "handle": "decorazione-per-acquario-blu-perle-piatte-in-vetro-8719138210541",
+      "variants": {
+        "58208515785084": {
+          "sku": "8719138210541",
+          "barcode": "8719138210541",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206287339900": {
+      "handle": "contenitore-per-sacchetti-per-rifiuti-15-sacchetti-per-rotolo-8719138148028",
+      "variants": {
+        "58208515948924": {
+          "sku": "8719138148028",
+          "barcode": "8719138148028",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206288355708": {
+      "handle": "decorazione-fluorescente-a-forma-di-pesce-leone-per-acquario-8719138050925",
+      "variants": {
+        "58208517030268": {
+          "sku": "8719138050925",
+          "barcode": "8719138050925",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206288486780": {
+      "handle": "decorazione-fluorescente-a-forma-di-pesce-combattente-per-acquario-8719138050932",
+      "variants": {
+        "58208517161340": {
+          "sku": "8719138050932",
+          "barcode": "8719138050932",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206288519548": {
+      "handle": "decorazione-fluorescente-a-forma-di-corallo-per-acquario-8719138050765",
+      "variants": {
+        "58208517194108": {
+          "sku": "8719138050765",
+          "barcode": "8719138050765",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206288683388": {
+      "handle": "decorazione-fluorescente-a-forma-di-corallo-per-acquario-8719138050796",
+      "variants": {
+        "58208517357948": {
+          "sku": "8719138050796",
+          "barcode": "8719138050796",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206288879996": {
+      "handle": "decorazione-fluorescente-a-forma-di-corallo-per-acquario-8719138050802",
+      "variants": {
+        "58208517554556": {
+          "sku": "8719138050802",
+          "barcode": "8719138050802",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206289043836": {
+      "handle": "decorazione-multicolore-a-forma-di-corallo-per-acquario-8719138032952",
+      "variants": {
+        "58208517685628": {
+          "sku": "8719138032952",
+          "barcode": "8719138032952",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206289305980": {
+      "handle": "decorazione-fluorescente-a-forma-di-corallo-per-acquario-8719138050826",
+      "variants": {
+        "58208517980540": {
+          "sku": "8719138050826",
+          "barcode": "8719138050826",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206289502588": {
+      "handle": "decorazione-fluorescente-a-forma-di-corallo-per-acquario-8719138050840",
+      "variants": {
+        "58208518177148": {
+          "sku": "8719138050840",
+          "barcode": "8719138050840",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206290354556": {
+      "handle": "collare-per-gatti-stampato-8719138035847",
+      "variants": {
+        "58208519029116": {
+          "sku": "8719138035847",
+          "barcode": "8719138035847",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206290551164": {
+      "handle": "collare-per-gatti-8719138035854",
+      "variants": {
+        "58208519225724": {
+          "sku": "8719138035854",
+          "barcode": "8719138035854",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206294352252": {
+      "handle": "decorazione-per-acquario-8719138210701",
+      "variants": {
+        "58208523026812": {
+          "sku": "8719138210701",
+          "barcode": "8719138210701",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206296088956": {
+      "handle": "contenitore-per-sacchetti-per-rifiuti-3-unita-15-sacchetti-per-rotolo-8719138053056",
+      "variants": {
+        "58208524763516": {
+          "sku": "8719138053056",
+          "barcode": "8719138053056",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206296351100": {
+      "handle": "contenitore-per-sacchetti-per-rifiuti-3-unita-15-sacchetti-per-rotolo-8719138053063",
+      "variants": {
+        "58208525025660": {
+          "sku": "8719138053063",
+          "barcode": "8719138053063",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206298513788": {
+      "handle": "collare-per-gatti-stampato-8719138046737",
+      "variants": {
+        "58208527188348": {
+          "sku": "8719138046737",
+          "barcode": "8719138046737",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206299201916": {
+      "handle": "deodorante-per-cani-8719138000395",
+      "variants": {
+        "58208527876476": {
+          "sku": "8719138000395",
+          "barcode": "8719138000395",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206303232380": {
+      "handle": "decorazione-per-acquario-multicolore-sabbia-e-ghiaia-8719138210510",
+      "variants": {
+        "58208532070780": {
+          "sku": "8719138210510",
+          "barcode": "8719138210510",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206303494524": {
+      "handle": "decorazione-fluorescente-a-forma-di-pesce-per-acquario-8719138050871",
+      "variants": {
+        "58208532332924": {
+          "sku": "8719138050871",
+          "barcode": "8719138050871",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206303658364": {
+      "handle": "decorazione-fluorescente-a-forma-di-razza-per-acquario-8719138050949",
+      "variants": {
+        "58208532496764": {
+          "sku": "8719138050949",
+          "barcode": "8719138050949",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206303789436": {
+      "handle": "deodorante-per-gatti-8719138000388",
+      "variants": {
+        "58208532627836": {
+          "sku": "8719138000388",
+          "barcode": "8719138000388",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206308868476": {
+      "handle": "clip-fermatubo-pvc-16-mm-gancio-doppio-con-tassello-diametro-8433325331986",
+      "variants": {
+        "58208538165628": {
+          "sku": "8433325331986",
+          "barcode": "8433325331986",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206309261692": {
+      "handle": "clip-fermatubo-pvc-25-mm-gancio-doppio-con-tassello-diametro-8433325332006",
+      "variants": {
+        "58208538558844": {
+          "sku": "8433325332006",
+          "barcode": "8433325332006",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206401864060": {
+      "handle": "decorazione-luminosa-a-bassa-tensione-65-cm-ip44-acrilico-renna-bianco-freddo-per-interni-ed-esterni-8433325356606",
+      "variants": {
+        "58209047380348": {
+          "sku": "8433325356606",
+          "barcode": "8433325356606",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206402060668": {
+      "handle": "decorazione-luminosa-a-bassa-tensione-80-cm-ip44-acrilico-renna-bianco-freddo-per-interni-ed-esterni-8433325356613",
+      "variants": {
+        "58209047970172": {
+          "sku": "8433325356613",
+          "barcode": "8433325356613",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206402421116": {
+      "handle": "decorazione-luminosa-a-bassa-tensione-125-cm-ip44-acrilico-renna-bianco-freddo-per-interni-ed-esterni-8433325356644",
+      "variants": {
+        "58209048330620": {
+          "sku": "8433325356644",
+          "barcode": "8433325356644",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206402584956": {
+      "handle": "decorazione-luminosa-a-bassa-tensione-70-cm-ip44-acrilico-pupazzo-di-neve-bianco-freddo-per-interni-ed-esterni-8433325356569",
+      "variants": {
+        "58209048494460": {
+          "sku": "8433325356569",
+          "barcode": "8433325356569",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206404518268": {
+      "handle": "decorazione-pieghevole-a-batterie-3aa-ip44-sfera-pupazzo-di-neve-bianco-caldo-per-interni-ed-esterni-8433325343958",
+      "variants": {
+        "58209050526076": {
+          "sku": "8433325343958",
+          "barcode": "8433325343958",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206408876412": {
+      "handle": "decorazione-natalizia-3d-5-m-ip44-bassa-tensione-albero-di-natale-bianco-caldo-altezza-60-cm-per-interni-ed-esterni-8433325341091",
+      "variants": {
+        "58209058849148": {
+          "sku": "8433325341091",
+          "barcode": "8433325341091",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206409171324": {
+      "handle": "decorazione-luminosa-a-bassa-tensione-60-cm-ip44-renna-bianco-caldo-per-interni-ed-esterni-8433325344122",
+      "variants": {
+        "58209059111292": {
+          "sku": "8433325344122",
+          "barcode": "8433325344122",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206409236860": {
+      "handle": "decorazione-natalizia-3d-5-m-ip44-bassa-tensione-albero-di-natale-bianco-freddo-altezza-60-cm-per-interni-ed-esterni-8433325341107",
+      "variants": {
+        "58209059176828": {
+          "sku": "8433325341107",
+          "barcode": "8433325341107",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206411792764": {
+      "handle": "decorazione-luminosa-sagomata-ip44-batteria-babbo-natale-con-annaffiatoio-bianco-freddo-per-interni-ed-esterni-8433325420345",
+      "variants": {
+        "58209062289788": {
+          "sku": "8433325420345",
+          "barcode": "8433325420345",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206411825532": {
+      "handle": "decorazione-luminosa-a-bassa-tensione-90-cm-ip44-renna-bianco-caldo-per-interni-ed-esterni-8433325344139",
+      "variants": {
+        "58209062355324": {
+          "sku": "8433325344139",
+          "barcode": "8433325344139",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206411956604": {
+      "handle": "decorazione-luminosa-sagomata-ip44-bassa-tensione-babbo-natale-con-annaffiatoio-bianco-freddo-per-interni-ed-esterni-8433325420376",
+      "variants": {
+        "58209062453628": {
+          "sku": "8433325420376",
+          "barcode": "8433325420376",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206431617404": {
+      "handle": "decorazione-da-appendere-2d-ip44-bassa-tensione-forma-decorativa-plastica-filo-di-rame-fiocco-di-neve-bianco-caldo-per-interni-ed-ester-8433325339876",
+      "variants": {
+        "58209092534652": {
+          "sku": "8433325339876",
+          "barcode": "8433325339876",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206434697596": {
+      "handle": "ciondolo-con-campanellino-d1-8cm-8719138009589",
+      "variants": {
+        "58209113866620": {
+          "sku": "8719138009589",
+          "barcode": "8719138009589",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206434861436": {
+      "handle": "collare-protettivo-22-24cm-8719138009916",
+      "variants": {
+        "58209114030460": {
+          "sku": "8719138009916",
+          "barcode": "8719138009916",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206435025276": {
+      "handle": "collare-protettivo-28-32cm-8719138009930",
+      "variants": {
+        "58209114194300": {
+          "sku": "8719138009930",
+          "barcode": "8719138009930",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206435221884": {
+      "handle": "collare-protettivo-32-37cm-8719138009947",
+      "variants": {
+        "58209114390908": {
+          "sku": "8719138009947",
+          "barcode": "8719138009947",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206435287420": {
+      "handle": "ciondolo-con-campanellino-d1-8cm-8719138009565",
+      "variants": {
+        "58209114456444": {
+          "sku": "8719138009565",
+          "barcode": "8719138009565",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206435549564": {
+      "handle": "collare-per-cani-w3-8-l42-54cm-8719138201341",
+      "variants": {
+        "58209114751356": {
+          "sku": "8719138201341",
+          "barcode": "8719138201341",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206435647868": {
+      "handle": "collare-protettivo-13-15cm-8719138009893",
+      "variants": {
+        "58209114816892": {
+          "sku": "8719138009893",
+          "barcode": "8719138009893",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206435811708": {
+      "handle": "collare-protettivo-17-19cm-8719138009909",
+      "variants": {
+        "58209114980732": {
+          "sku": "8719138009909",
+          "barcode": "8719138009909",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206436335996": {
+      "handle": "catena-luminosa-usb-3d-5-m-rgbic-ip20-smart-sfera-altezza-30-cm-multicolore-dinamico-per-interni-8433325340131",
+      "variants": {
+        "58209115668860": {
+          "sku": "8433325340131",
+          "barcode": "8433325340131",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206436860284": {
+      "handle": "catena-luminosa-usb-5-m-rgbic-ip20-smart-albero-di-natale-rotante-altezza-75-cm-multicolore-dinamico-per-interni-8433325340100",
+      "variants": {
+        "58209116193148": {
+          "sku": "8433325340100",
+          "barcode": "8433325340100",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206436991356": {
+      "handle": "catena-luminosa-usb-3d-5-m-rgbic-ip20-smart-stella-a-cinque-punte-altezza-30-cm-multicolore-dinamico-per-interni-8433325340124",
+      "variants": {
+        "58209116324220": {
+          "sku": "8433325340124",
+          "barcode": "8433325340124",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206448689532": {
+      "handle": "catena-luminosa-alimentata-da-3-batterie-aa-5-m-ip44-stella-a-cinque-punte-nastro-oro-bianco-caldo-per-interni-ed-esterni-8433325413507",
+      "variants": {
+        "58209159545212": {
+          "sku": "8433325413507",
+          "barcode": "8433325413507",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206448918908": {
+      "handle": "catena-luminosa-alimentata-da-3-batterie-aa-5-cm-2-m-ip44-oro-nastro-con-stelle-bianco-caldo-per-interni-ed-esterni-8433325413521",
+      "variants": {
+        "58209159774588": {
+          "sku": "8433325413521",
+          "barcode": "8433325413521",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206449213820": {
+      "handle": "catena-luminosa-alimentata-da-3-batterie-aa-5-cm-10-m-ip44-argento-nastro-con-stelle-bianco-caldo-per-interni-ed-esterni-8433325413576",
+      "variants": {
+        "58209160069500": {
+          "sku": "8433325413576",
+          "barcode": "8433325413576",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206449279356": {
+      "handle": "catena-luminosa-alimentata-da-3-batterie-aa-2-m-catena-luminosa-con-sfere-di-cotone-colori-pastello-bianco-caldo-8433325413385",
+      "variants": {
+        "58209160135036": {
+          "sku": "8433325413385",
+          "barcode": "8433325413385",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206449344892": {
+      "handle": "catena-luminosa-alimentata-da-3-batterie-aa-5-cm-2-m-ip44-argento-nastro-con-stelle-bianco-caldo-per-interni-ed-esterni-8433325413552",
+      "variants": {
+        "58209160233340": {
+          "sku": "8433325413552",
+          "barcode": "8433325413552",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206455898492": {
+      "handle": "catena-luminosa-alimentata-da-3-batterie-aa-2-m-catena-luminosa-con-sfere-di-cotone-rosa-chiaro-bianco-caldo-8433325413378",
+      "variants": {
+        "58209190052220": {
+          "sku": "8433325413378",
+          "barcode": "8433325413378",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206455964028": {
+      "handle": "catena-luminosa-alimentata-da-3-batterie-aa-2-m-catena-luminosa-con-sfere-di-cotone-colori-delicati-bianco-caldo-8433325413439",
+      "variants": {
+        "58209190117756": {
+          "sku": "8433325413439",
+          "barcode": "8433325413439",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206456029564": {
+      "handle": "catena-luminosa-alimentata-da-3-batterie-aa-2-m-catena-luminosa-con-sfere-di-cotone-grigio-bianco-caldo-8433325413392",
+      "variants": {
+        "58209190183292": {
+          "sku": "8433325413392",
+          "barcode": "8433325413392",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206456127868": {
+      "handle": "catena-luminosa-alimentata-da-3-batterie-aa-2-m-catena-luminosa-con-sfere-di-cotone-verde-menta-bianco-caldo-8433325413453",
+      "variants": {
+        "58209190281596": {
+          "sku": "8433325413453",
+          "barcode": "8433325413453",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206456193404": {
+      "handle": "catena-luminosa-alimentata-da-3-batterie-aa-2-m-catena-luminosa-con-sfere-di-cotone-blu-oceano-bianco-caldo-8433325413408",
+      "variants": {
+        "58209190347132": {
+          "sku": "8433325413408",
+          "barcode": "8433325413408",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206456291708": {
+      "handle": "catena-luminosa-alimentata-da-3-batterie-aa-2-m-catena-luminosa-con-sfere-di-cotone-fucsia-bianco-caldo-8433325413460",
+      "variants": {
+        "58209190445436": {
+          "sku": "8433325413460",
+          "barcode": "8433325413460",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206456357244": {
+      "handle": "catena-luminosa-alimentata-da-3-batterie-aa-2-m-catena-luminosa-con-sfere-di-cotone-rosa-bianco-caldo-8433325413415",
+      "variants": {
+        "58209190510972": {
+          "sku": "8433325413415",
+          "barcode": "8433325413415",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206456488316": {
+      "handle": "catena-luminosa-alimentata-da-3-batterie-aa-2-m-catena-luminosa-con-sfere-di-cotone-bianco-puro-bianco-caldo-8433325413422",
+      "variants": {
+        "58209190642044": {
+          "sku": "8433325413422",
+          "barcode": "8433325413422",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206458749308": {
+      "handle": "catena-luminosa-alimentata-da-3-batterie-aa-2-m-catena-luminosa-con-sfere-di-cotone-lilla-bianco-caldo-8433325413446",
+      "variants": {
+        "58209193984380": {
+          "sku": "8433325413446",
+          "barcode": "8433325413446",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206468186492": {
+      "handle": "decorazione-da-appendere-2d-ip44-bassa-tensione-forma-decorativa-plastica-filo-di-rame-stelle-e-luna-bianco-freddo-per-interni-ed-ester-8433325343828",
+      "variants": {
+        "58209229308284": {
+          "sku": "8433325343828",
+          "barcode": "8433325343828",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206468579708": {
+      "handle": "decorazione-da-appendere-2d-ip44-bassa-tensione-forma-decorativa-plastica-filo-di-rame-stella-bianco-freddo-per-interni-ed-esterni-8433325343835",
+      "variants": {
+        "58209229701500": {
+          "sku": "8433325343835",
+          "barcode": "8433325343835",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206468678012": {
+      "handle": "decorazione-da-appendere-2d-ip44-bassa-tensione-forma-decorativa-plastica-filo-di-rame-albero-di-natale-bianco-caldo-per-interni-ed-est-8433325339524",
+      "variants": {
+        "58209229799804": {
+          "sku": "8433325339524",
+          "barcode": "8433325339524",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206468874620": {
+      "handle": "decorazione-da-appendere-2d-ip44-bassa-tensione-forma-decorativa-plastica-filo-di-rame-anello-bianco-caldo-per-interni-ed-esterni-8433325339593",
+      "variants": {
+        "58209229996412": {
+          "sku": "8433325339593",
+          "barcode": "8433325339593",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206469038460": {
+      "handle": "decorazione-da-appendere-2d-ip44-bassa-tensione-forma-decorativa-plastica-filo-di-rame-albero-di-natale-bianco-freddo-per-interni-ed-es-8433325343798",
+      "variants": {
+        "58209230127484": {
+          "sku": "8433325343798",
+          "barcode": "8433325343798",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206469071228": {
+      "handle": "decorazione-da-appendere-2d-ip44-bassa-tensione-forma-decorativa-plastica-filo-di-rame-stelle-e-luna-bianco-caldo-per-interni-ed-estern-8433325339944",
+      "variants": {
+        "58209230193020": {
+          "sku": "8433325339944",
+          "barcode": "8433325339944",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206469202300": {
+      "handle": "decorazione-da-appendere-2d-ip44-bassa-tensione-forma-decorativa-plastica-filo-di-rame-anello-bianco-freddo-per-interni-ed-esterni-8433325343804",
+      "variants": {
+        "58209230324092": {
+          "sku": "8433325343804",
+          "barcode": "8433325343804",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206469235068": {
+      "handle": "decorazione-da-appendere-2d-ip44-bassa-tensione-forma-decorativa-plastica-filo-di-rame-stella-bianco-caldo-per-interni-ed-esterni-8433325340001",
+      "variants": {
+        "58209230356860": {
+          "sku": "8433325340001",
+          "barcode": "8433325340001",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206469300604": {
+      "handle": "decorazione-da-appendere-2d-ip44-bassa-tensione-forma-decorativa-plastica-filo-di-rame-fiocco-di-neve-bianco-freddo-per-interni-ed-este-8433325343811",
+      "variants": {
+        "58209230422396": {
+          "sku": "8433325343811",
+          "barcode": "8433325343811",
           "shipping_group": "grossisti"
         }
       }
