@@ -236531,6 +236531,406 @@
           "shipping_group": "grossisti"
         }
       }
+    },
+    "16205676740988": {
+      "handle": "bollitore-elettrico-in-acciaio-inox-1-7-l-1850-2200-w-8433325295882",
+      "variants": {
+        "58204284420476": {
+          "sku": "8433325295882",
+          "barcode": "8433325295882",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206060880252": {
+      "handle": "bollitore-elettrico-da-viaggio-in-plastica-0-6-l-650-w-8433325290252",
+      "variants": {
+        "58208062833020": {
+          "sku": "8433325290252",
+          "barcode": "8433325290252",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206061207932": {
+      "handle": "bollitore-elettrico-1-7-l-2200-w-8433325408381",
+      "variants": {
+        "58208063160700": {
+          "sku": "8433325408381",
+          "barcode": "8433325408381",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206061404540": {
+      "handle": "bollitore-elettrico-in-plastica-1-7-l-2200-w-8433325200008",
+      "variants": {
+        "58208063357308": {
+          "sku": "8433325200008",
+          "barcode": "8433325200008",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206061568380": {
+      "handle": "bollitore-elettrico-1-8-l-1500-w-8433325345228",
+      "variants": {
+        "58208063521148": {
+          "sku": "8433325345228",
+          "barcode": "8433325345228",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206061830524": {
+      "handle": "bilancia-da-cucina-portata-5-kg-8433325410889",
+      "variants": {
+        "58208063783292": {
+          "sku": "8433325410889",
+          "barcode": "8433325410889",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206098989436": {
+      "handle": "borsa-da-trasporto-sagomata-l40-w23-h24cm-8719138030057",
+      "variants": {
+        "58208123126140": {
+          "sku": "8719138030057",
+          "barcode": "8719138030057",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206099415420": {
+      "handle": "borsa-da-trasporto-sagomata-l45-w28-h29cm-8719138030088",
+      "variants": {
+        "58208123552124": {
+          "sku": "8719138030088",
+          "barcode": "8719138030088",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206109049212": {
+      "handle": "anello-in-corda-con-filo-riflettente-d1-2-l150cm-8719138035946",
+      "variants": {
+        "58208197804412": {
+          "sku": "8719138035946",
+          "barcode": "8719138035946",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206127989116": {
+      "handle": "aspirapolvere-300-w-l33-7-w15-2-h20-8-cm-8719138219445",
+      "variants": {
+        "58208236765564": {
+          "sku": "8719138219445",
+          "barcode": "8719138219445",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206145978748": {
+      "handle": "alimento-in-bocconcini-e-pate-per-cani-adulti-con-agnello-in-vaschetta-150-g-8009470008648",
+      "variants": {
+        "58208256852348": {
+          "sku": "8009470008648",
+          "barcode": "8009470008648",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206146208124": {
+      "handle": "alimento-in-bocconcini-e-pate-per-cani-adulti-con-tacchino-in-vaschetta-150-g-8009470008655",
+      "variants": {
+        "58208257081724": {
+          "sku": "8009470008655",
+          "barcode": "8009470008655",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206147256700": {
+      "handle": "alimento-umido-in-pate-per-cani-adulti-con-vitello-in-vaschetta-150-g-8009470000154",
+      "variants": {
+        "58208258195836": {
+          "sku": "8009470000154",
+          "barcode": "8009470000154",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206147617148": {
+      "handle": "alimento-umido-in-pate-per-cani-adulti-con-manzo-e-piselli-in-vaschetta-150-g-8009470009256",
+      "variants": {
+        "58208258556284": {
+          "sku": "8009470009256",
+          "barcode": "8009470009256",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206149222780": {
+      "handle": "alimento-in-pate-per-cuccioli-con-tonno-in-vaschetta-150-g-8009470060493",
+      "variants": {
+        "58208260227452": {
+          "sku": "8009470060493",
+          "barcode": "8009470060493",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206149386620": {
+      "handle": "alimento-in-pate-per-cani-adulti-con-selvaggina-in-vaschetta-150-g-8009470060516",
+      "variants": {
+        "58208260391292": {
+          "sku": "8009470060516",
+          "barcode": "8009470060516",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206149517692": {
+      "handle": "alimento-in-pate-per-cani-adulti-con-anatra-in-vaschetta-150-g-8009470060509",
+      "variants": {
+        "58208260522364": {
+          "sku": "8009470060509",
+          "barcode": "8009470060509",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206171013500": {
+      "handle": "batteria-a-bottone-ag3-lr41-1-5-v-4-pezzi-per-confezione-8433325365011",
+      "variants": {
+        "58208341918076": {
+          "sku": "8433325365011",
+          "barcode": "8433325365011",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206171832700": {
+      "handle": "batteria-a-bottone-cr1620-3-v-2-pezzi-per-confezione-8433325365202",
+      "variants": {
+        "58208342737276": {
+          "sku": "8433325365202",
+          "barcode": "8433325365202",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206171996540": {
+      "handle": "batteria-a-bottone-cr1620-3-v-5-pezzi-per-confezione-8433325365219",
+      "variants": {
+        "58208342901116": {
+          "sku": "8433325365219",
+          "barcode": "8433325365219",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206172094844": {
+      "handle": "batteria-a-bottone-cr2025-3-v-2-pezzi-per-confezione-8433325365264",
+      "variants": {
+        "58208342999420": {
+          "sku": "8433325365264",
+          "barcode": "8433325365264",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206175633788": {
+      "handle": "batteria-a-bottone-cr2430-3-v-2-pezzi-per-confezione-8433325365301",
+      "variants": {
+        "58208346014076": {
+          "sku": "8433325365301",
+          "barcode": "8433325365301",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206227308924": {
+      "handle": "campanello-rotondo-in-ferro-con-fessura-d1-6cm-8719138045006",
+      "variants": {
+        "58208427573628": {
+          "sku": "8719138045006",
+          "barcode": "8719138045006",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206229045628": {
+      "handle": "batteria-a-bottone-cr1025-3-v-2-pezzi-per-confezione-8433325365127",
+      "variants": {
+        "58208429605244": {
+          "sku": "8433325365127",
+          "barcode": "8433325365127",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206229438844": {
+      "handle": "batteria-a-bottone-cr1616-3-v-5-pezzi-per-confezione-8433325365196",
+      "variants": {
+        "58208429998460": {
+          "sku": "8433325365196",
+          "barcode": "8433325365196",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206229602684": {
+      "handle": "batteria-a-bottone-cr1632-3-v-2-pezzi-per-confezione-8433325365226",
+      "variants": {
+        "58208430129532": {
+          "sku": "8433325365226",
+          "barcode": "8433325365226",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206229733756": {
+      "handle": "batteria-a-bottone-cr1632-3-v-5-pezzi-per-confezione-8433325365233",
+      "variants": {
+        "58208430293372": {
+          "sku": "8433325365233",
+          "barcode": "8433325365233",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206242120060": {
+      "handle": "campanello-con-apertura-d2cm-8719138045037",
+      "variants": {
+        "58208457916796": {
+          "sku": "8719138045037",
+          "barcode": "8719138045037",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206242185596": {
+      "handle": "campanello-in-rame-d1-4cm-8719138045068",
+      "variants": {
+        "58208457982332": {
+          "sku": "8719138045068",
+          "barcode": "8719138045068",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206255686012": {
+      "handle": "batteria-a-bottone-ag4-lr66-1-5-v-4-pezzi-per-confezione-8433325365028",
+      "variants": {
+        "58208473481596": {
+          "sku": "8433325365028",
+          "barcode": "8433325365028",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206258307452": {
+      "handle": "batteria-a-bottone-ag2-lr726-1-5-v-4-pezzi-per-confezione-8433325365004",
+      "variants": {
+        "58208475578748": {
+          "sku": "8433325365004",
+          "barcode": "8433325365004",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206258438524": {
+      "handle": "batteria-a-bottone-cr1616-3-v-2-pezzi-per-confezione-8433325365189",
+      "variants": {
+        "58208475709820": {
+          "sku": "8433325365189",
+          "barcode": "8433325365189",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206308311420": {
+      "handle": "canalina-quadrata-per-cavi-pvc-15-10-mm-4-pezzi-giunto-diritto-bianco-8433325327682",
+      "variants": {
+        "58208537608572": {
+          "sku": "8433325327682",
+          "barcode": "8433325327682",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206308999548": {
+      "handle": "canalina-quadrata-per-cavi-pvc-15-10-mm-4-pezzi-angolo-interno-bianco-8433325327620",
+      "variants": {
+        "58208538296700": {
+          "sku": "8433325327620",
+          "barcode": "8433325327620",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206309163388": {
+      "handle": "canalina-quadrata-per-cavi-pvc-16-16-mm-4-pezzi-angolo-interno-bianco-8433325327637",
+      "variants": {
+        "58208538460540": {
+          "sku": "8433325327637",
+          "barcode": "8433325327637",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206309327228": {
+      "handle": "canalina-per-cavi-pvc-65-15-mm-2-m-curvo-con-adesivo-posteriore-8433325222048",
+      "variants": {
+        "58208538624380": {
+          "sku": "8433325222048",
+          "barcode": "8433325222048",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206309917052": {
+      "handle": "canalina-per-cavi-pvc-l2000-w40-h40-mm-quadrato-bianco-con-adesivo-posteriore-8433325327422",
+      "variants": {
+        "58208539279740": {
+          "sku": "8433325327422",
+          "barcode": "8433325327422",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206310211964": {
+      "handle": "canalina-quadrata-per-cavi-pvc-15-10-mm-4-pezzi-angolo-esterno-bianco-8433325327569",
+      "variants": {
+        "58208539574652": {
+          "sku": "8433325327569",
+          "barcode": "8433325327569",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206310244732": {
+      "handle": "canalina-per-cavi-pvc-l2000-w15-h10-mm-quadrato-bianco-con-adesivo-posteriore-8433325327385",
+      "variants": {
+        "58208539607420": {
+          "sku": "8433325327385",
+          "barcode": "8433325327385",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206310572412": {
+      "handle": "canalina-per-cavi-pvc-l2000-w25-h16-mm-quadrato-bianco-con-adesivo-posteriore-8433325327408",
+      "variants": {
+        "58208539935100": {
+          "sku": "8433325327408",
+          "barcode": "8433325327408",
+          "shipping_group": "grossisti"
+        }
+      }
     }
   }
 }
