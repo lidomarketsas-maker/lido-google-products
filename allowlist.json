@@ -1,5 +1,5 @@
 {
-  "verified_at": "2026-11-22T21:06:19Z",
+  "verified_at": "2026-11-22T22:13:12Z",
   "basis": "Fresh complete Shopify Admin read-only variant/profile export; ACTIVE and published on Online Store306819924348 and GoogleYouTube308696842620; actual native delivery profiles, IDs, SKUs and barcodes. Policy holds remain hard excluded by exclusions.json.",
   "products": {
     "15932475146620": {
@@ -239918,6 +239918,3166 @@
         "58209230422396": {
           "sku": "8433325343811",
           "barcode": "8433325343811",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206050034044": {
+      "handle": "gioco-in-corda-per-cani-36-8-5-5-cm-8719138147724",
+      "variants": {
+        "58208047366524": {
+          "sku": "8719138147724",
+          "barcode": "8719138147724",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206050066812": {
+      "handle": "gioco-in-corda-per-cani-33-14-5-cm-8719138147847",
+      "variants": {
+        "58208047333756": {
+          "sku": "8719138147847",
+          "barcode": "8719138147847",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206050230652": {
+      "handle": "gioco-in-corda-per-cani-30-17-5-cm-8719138147793",
+      "variants": {
+        "58208047530364": {
+          "sku": "8719138147793",
+          "barcode": "8719138147793",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206050328956": {
+      "handle": "gioco-in-corda-per-cani-34-10-cm-8719138147861",
+      "variants": {
+        "58208047628668": {
+          "sku": "8719138147861",
+          "barcode": "8719138147861",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206050427260": {
+      "handle": "gioco-in-corda-per-cani-19-17-cm-8719138147878",
+      "variants": {
+        "58208047726972": {
+          "sku": "8719138147878",
+          "barcode": "8719138147878",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206050492796": {
+      "handle": "gioco-in-corda-per-cani-25-6-5-cm-8719138147762",
+      "variants": {
+        "58208047792508": {
+          "sku": "8719138147762",
+          "barcode": "8719138147762",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206050525564": {
+      "handle": "gioco-in-corda-per-cani-24-5-3-cm-8719138147892",
+      "variants": {
+        "58208047825276": {
+          "sku": "8719138147892",
+          "barcode": "8719138147892",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206050623868": {
+      "handle": "gioco-in-corda-per-cani-33-7-cm-8719138229024",
+      "variants": {
+        "58208047923580": {
+          "sku": "8719138229024",
+          "barcode": "8719138229024",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206057800060": {
+      "handle": "fornello-elettrico-500-w-bianco-8433325431693",
+      "variants": {
+        "58208058573180": {
+          "sku": "8433325431693",
+          "barcode": "8433325431693",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206057898364": {
+      "handle": "piastra-per-panini-8433325295844",
+      "variants": {
+        "58208058835324": {
+          "sku": "8433325295844",
+          "barcode": "8433325295844",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206058291580": {
+      "handle": "ventilatore-portatile-usb-da-5-5-pollici-5-pale-2-velocita-bianco-8433325330392",
+      "variants": {
+        "58208059195772": {
+          "sku": "8433325330392",
+          "barcode": "8433325330392",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206058553724": {
+      "handle": "piastra-per-sandwich-800-w-8433325411916",
+      "variants": {
+        "58208059588988": {
+          "sku": "8433325411916",
+          "barcode": "8433325411916",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206058619260": {
+      "handle": "ventilatore-da-tavolo-16-pollici-3-pale-3-velocita-comando-a-pulsanti-bianco-8433325184919",
+      "variants": {
+        "58208059654524": {
+          "sku": "8433325184919",
+          "barcode": "8433325184919",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206058717564": {
+      "handle": "ventilatore-da-pavimento-18-pollici-3-pale-3-velocita-comando-a-pulsanti-cromato-8433325346171",
+      "variants": {
+        "58208059752828": {
+          "sku": "8433325346171",
+          "barcode": "8433325346171",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206058881404": {
+      "handle": "friggitrice-ad-aria-3-5-l-1500-w-8433325290214",
+      "variants": {
+        "58208059916668": {
+          "sku": "8433325290214",
+          "barcode": "8433325290214",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206059045244": {
+      "handle": "friggitrice-ad-aria-4-l-1600-w-microinterruttore-8433325213435",
+      "variants": {
+        "58208060080508": {
+          "sku": "8433325213435",
+          "barcode": "8433325213435",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206059209084": {
+      "handle": "pentola-a-pressione-elettrica-6-l-1000-w-8433325221966",
+      "variants": {
+        "58208060342652": {
+          "sku": "8433325221966",
+          "barcode": "8433325221966",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206059340156": {
+      "handle": "spazzola-asciugacapelli-1200-w-8433325410728",
+      "variants": {
+        "58208060473724": {
+          "sku": "8433325410728",
+          "barcode": "8433325410728",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206060224892": {
+      "handle": "frullatore-0-5-l-250-w-8433325408435",
+      "variants": {
+        "58208062177660": {
+          "sku": "8433325408435",
+          "barcode": "8433325408435",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206060290428": {
+      "handle": "ventilatore-portatile-usb-5-pale-3-velocita-bianco-8433325226954",
+      "variants": {
+        "58208062275964": {
+          "sku": "8433325226954",
+          "barcode": "8433325226954",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206060355964": {
+      "handle": "sacchetti-per-confezionamento-sottovuoto-8433325227975",
+      "variants": {
+        "58208062308732": {
+          "sku": "8433325227975",
+          "barcode": "8433325227975",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206060388732": {
+      "handle": "tritatutto-1-8-l-300-w-8433325430801",
+      "variants": {
+        "58208062341500": {
+          "sku": "8433325430801",
+          "barcode": "8433325430801",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206060421500": {
+      "handle": "friggitrice-ad-aria-smart-7-l-1900-w-touch-wi-fi-e-bluetooth-8433325326296",
+      "variants": {
+        "58208062374268": {
+          "sku": "8433325326296",
+          "barcode": "8433325326296",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206060487036": {
+      "handle": "macchina-da-caffe-a-filtro-1-25-l-1000-w-8433325295974",
+      "variants": {
+        "58208062439804": {
+          "sku": "8433325295974",
+          "barcode": "8433325295974",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206060716412": {
+      "handle": "sacchetti-per-confezionamento-sottovuoto-8433325228033",
+      "variants": {
+        "58208062701948": {
+          "sku": "8433325228033",
+          "barcode": "8433325228033",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206061142396": {
+      "handle": "timer-elettronico-8433325295912",
+      "variants": {
+        "58208063095164": {
+          "sku": "8433325295912",
+          "barcode": "8433325295912",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206061273468": {
+      "handle": "set-moka-a-valvola-singola-da-6-tazze-e-fornello-elettrico-500-w-argentato-8433325431686",
+      "variants": {
+        "58208063226236": {
+          "sku": "8433325431686",
+          "barcode": "8433325431686",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206061437308": {
+      "handle": "macinacaffe-150-w-capacita-70-g-8433325408411",
+      "variants": {
+        "58208063390076": {
+          "sku": "8433325408411",
+          "barcode": "8433325408411",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206096695676": {
+      "handle": "gioco-per-cani-a-forma-di-bilanciere-l13-5-w5-h5cm-8719138221486",
+      "variants": {
+        "58208120832380": {
+          "sku": "8719138221486",
+          "barcode": "8719138221486",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206100889980": {
+      "handle": "guinzaglio-in-fettuccia-per-cani-w1-0-l120cm-8719138042722",
+      "variants": {
+        "58208125026684": {
+          "sku": "8719138042722",
+          "barcode": "8719138042722",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206101086588": {
+      "handle": "guinzaglio-in-fettuccia-per-cani-w1-5-l120cm-8719138042739",
+      "variants": {
+        "58208125223292": {
+          "sku": "8719138042739",
+          "barcode": "8719138042739",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206101283196": {
+      "handle": "guinzaglio-in-fettuccia-per-cani-w2-0-l120cm-8719138042746",
+      "variants": {
+        "58208125452668": {
+          "sku": "8719138042746",
+          "barcode": "8719138042746",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206101447036": {
+      "handle": "guinzaglio-in-fettuccia-per-cani-w2-5-l120cm-8719138042753",
+      "variants": {
+        "58208125583740": {
+          "sku": "8719138042753",
+          "barcode": "8719138042753",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206102692220": {
+      "handle": "guinzaglio-in-corda-riflettente-d0-8-l150cm-8719138201297",
+      "variants": {
+        "58208126927228": {
+          "sku": "8719138201297",
+          "barcode": "8719138201297",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206102790524": {
+      "handle": "pettorina-triangolare-in-fettuccia-w2-5-l50-70cm-8719138042715",
+      "variants": {
+        "58208127025532": {
+          "sku": "8719138042715",
+          "barcode": "8719138042715",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206103249276": {
+      "handle": "guinzaglio-in-corda-d1-0-l200cm-8719138200771",
+      "variants": {
+        "58208127484284": {
+          "sku": "8719138200771",
+          "barcode": "8719138200771",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206103609724": {
+      "handle": "guinzaglio-in-corda-d1-4-l200cm-8719138200795",
+      "variants": {
+        "58208127844732": {
+          "sku": "8719138200795",
+          "barcode": "8719138200795",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206107148668": {
+      "handle": "pettorina-triangolare-in-fettuccia-w2-0-l40-60cm-8719138042708",
+      "variants": {
+        "58208195903868": {
+          "sku": "8719138042708",
+          "barcode": "8719138042708",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206108655996": {
+      "handle": "pettorina-triangolare-in-fettuccia-w1-0-l20-40cm-8719138042685",
+      "variants": {
+        "58208197411196": {
+          "sku": "8719138042685",
+          "barcode": "8719138042685",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206121140604": {
+      "handle": "pettine-per-rimozione-del-pelo-per-animali-8719138199044",
+      "variants": {
+        "58208228639100": {
+          "sku": "8719138199044",
+          "barcode": "8719138199044",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206123663740": {
+      "handle": "pettine-per-rimozione-del-pelo-per-animali-8719138048298",
+      "variants": {
+        "58208231981436": {
+          "sku": "8719138048298",
+          "barcode": "8719138048298",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206123827580": {
+      "handle": "pettine-per-rimozione-del-pelo-per-animali-8719138048281",
+      "variants": {
+        "58208232145276": {
+          "sku": "8719138048281",
+          "barcode": "8719138048281",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206123991420": {
+      "handle": "spazzola-per-rimozione-del-pelo-per-animali-8719138217601",
+      "variants": {
+        "58208232309116": {
+          "sku": "8719138217601",
+          "barcode": "8719138217601",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206124155260": {
+      "handle": "spazzola-per-rimozione-del-pelo-per-animali-8719138217618",
+      "variants": {
+        "58208232472956": {
+          "sku": "8719138217618",
+          "barcode": "8719138217618",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206124384636": {
+      "handle": "spazzola-per-rimozione-del-pelo-per-animali-8719138217625",
+      "variants": {
+        "58208232702332": {
+          "sku": "8719138217625",
+          "barcode": "8719138217625",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206124548476": {
+      "handle": "recinto-ottagonale-per-animali-l121-w121-h60-8719138227983",
+      "variants": {
+        "58208232866172": {
+          "sku": "8719138227983",
+          "barcode": "8719138227983",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206125138300": {
+      "handle": "paletta-per-lettiera-con-contenitore-per-rifiuti-8719138196142",
+      "variants": {
+        "58208233783676": {
+          "sku": "8719138196142",
+          "barcode": "8719138196142",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206126088572": {
+      "handle": "spazzola-per-acquario-telescopico-8719138218226",
+      "variants": {
+        "58208234733948": {
+          "sku": "8719138218226",
+          "barcode": "8719138218226",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206126219644": {
+      "handle": "spazzola-per-acquario-8719138038398",
+      "variants": {
+        "58208234865020": {
+          "sku": "8719138038398",
+          "barcode": "8719138038398",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206126907772": {
+      "handle": "tagliaunghie-per-animali-8719138054978",
+      "variants": {
+        "58208235716988": {
+          "sku": "8719138054978",
+          "barcode": "8719138054978",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206126973308": {
+      "handle": "guanto-per-rimozione-del-pelo-l22-w18-5-cm-grigio-8719138147335",
+      "variants": {
+        "58208235749756": {
+          "sku": "8719138147335",
+          "barcode": "8719138147335",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206127137148": {
+      "handle": "spazzola-massaggiante-da-bagno-per-animali-8719138050260",
+      "variants": {
+        "58208235913596": {
+          "sku": "8719138050260",
+          "barcode": "8719138050260",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206127169916": {
+      "handle": "pettine-per-rimozione-del-pelo-360-per-animali-8719138199129",
+      "variants": {
+        "58208235946364": {
+          "sku": "8719138199129",
+          "barcode": "8719138199129",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206127268220": {
+      "handle": "tagliaunghie-per-animali-8719138001774",
+      "variants": {
+        "58208236044668": {
+          "sku": "8719138001774",
+          "barcode": "8719138001774",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206127300988": {
+      "handle": "levapelucchi-per-animali-8719138029587",
+      "variants": {
+        "58208236110204": {
+          "sku": "8719138029587",
+          "barcode": "8719138029587",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206127333756": {
+      "handle": "pettine-per-rimozione-del-pelo-360-per-animali-8719138199112",
+      "variants": {
+        "58208236077436": {
+          "sku": "8719138199112",
+          "barcode": "8719138199112",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206127399292": {
+      "handle": "set-di-pettini-per-toelettatura-8719138060399",
+      "variants": {
+        "58208236175740": {
+          "sku": "8719138060399",
+          "barcode": "8719138060399",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206127432060": {
+      "handle": "forbici-sfoltitrici-per-animali-8719138001798",
+      "variants": {
+        "58208236208508": {
+          "sku": "8719138001798",
+          "barcode": "8719138001798",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206127497596": {
+      "handle": "pettine-portatile-per-rimozione-del-pelo-per-animali-8719138199082",
+      "variants": {
+        "58208236274044": {
+          "sku": "8719138199082",
+          "barcode": "8719138199082",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206127530364": {
+      "handle": "levapelucchi-per-animali-1-levapelucchi-e-2-ricambi-8719138048151",
+      "variants": {
+        "58208236306812": {
+          "sku": "8719138048151",
+          "barcode": "8719138048151",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206127563132": {
+      "handle": "spazzola-massaggiante-per-animali-8719138041374",
+      "variants": {
+        "58208236339580": {
+          "sku": "8719138041374",
+          "barcode": "8719138041374",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206127628668": {
+      "handle": "forbici-per-animali-8719138001781",
+      "variants": {
+        "58208236405116": {
+          "sku": "8719138001781",
+          "barcode": "8719138001781",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206127661436": {
+      "handle": "pettine-massaggiante-per-animali-8719138199105",
+      "variants": {
+        "58208236437884": {
+          "sku": "8719138199105",
+          "barcode": "8719138199105",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206127694204": {
+      "handle": "levapelucchi-l19-5-w19-h7-5-cm-8719138147342",
+      "variants": {
+        "58208236470652": {
+          "sku": "8719138147342",
+          "barcode": "8719138147342",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206127726972": {
+      "handle": "spazzola-massaggiante-da-bagno-per-animali-8719138199037",
+      "variants": {
+        "58208236503420": {
+          "sku": "8719138199037",
+          "barcode": "8719138199037",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206127792508": {
+      "handle": "forbici-dentate-per-animali-8719138054992",
+      "variants": {
+        "58208236568956": {
+          "sku": "8719138054992",
+          "barcode": "8719138054992",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206127825276": {
+      "handle": "spazzola-riutilizzabile-levapeli-per-animali-8719138060436",
+      "variants": {
+        "58208236634492": {
+          "sku": "8719138060436",
+          "barcode": "8719138060436",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206127858044": {
+      "handle": "pettine-antipulci-per-animali-8719138001552",
+      "variants": {
+        "58208236601724": {
+          "sku": "8719138001552",
+          "barcode": "8719138001552",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206127890812": {
+      "handle": "spazzola-massaggiante-da-bagno-per-animali-8719138199099",
+      "variants": {
+        "58208236667260": {
+          "sku": "8719138199099",
+          "barcode": "8719138199099",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206127956348": {
+      "handle": "spazzola-massaggiante-da-angolo-per-animali-8719138058730",
+      "variants": {
+        "58208236732796": {
+          "sku": "8719138058730",
+          "barcode": "8719138058730",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206128021884": {
+      "handle": "forbici-per-animali-8719138055005",
+      "variants": {
+        "58208236798332": {
+          "sku": "8719138055005",
+          "barcode": "8719138055005",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206128054652": {
+      "handle": "pettine-antipulci-per-animali-8719138041367",
+      "variants": {
+        "58208236831100": {
+          "sku": "8719138041367",
+          "barcode": "8719138041367",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206128120188": {
+      "handle": "tagliaunghie-per-animali-8719138001750",
+      "variants": {
+        "58208236896636": {
+          "sku": "8719138001750",
+          "barcode": "8719138001750",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206128152956": {
+      "handle": "set-di-spazzolini-per-animali-8719138041350",
+      "variants": {
+        "58208236929404": {
+          "sku": "8719138041350",
+          "barcode": "8719138041350",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206128185724": {
+      "handle": "forbici-di-sicurezza-per-animali-8719138054961",
+      "variants": {
+        "58208236994940": {
+          "sku": "8719138054961",
+          "barcode": "8719138054961",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206128284028": {
+      "handle": "tagliaunghie-per-animali-8719138001767",
+      "variants": {
+        "58208237060476": {
+          "sku": "8719138001767",
+          "barcode": "8719138001767",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206128316796": {
+      "handle": "set-di-spazzolini-da-dito-8719138000425",
+      "variants": {
+        "58208237093244": {
+          "sku": "8719138000425",
+          "barcode": "8719138000425",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206128349564": {
+      "handle": "tosatrice-elettrica-per-animali-l18-5-w4-5-h3-7-cm-oro-e-nero-8719138229314",
+      "variants": {
+        "58208237126012": {
+          "sku": "8719138229314",
+          "barcode": "8719138229314",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206141522300": {
+      "handle": "spazzola-per-acquario-5-in-1-8719138038350",
+      "variants": {
+        "58208251085180": {
+          "sku": "8719138038350",
+          "barcode": "8719138038350",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206142013820": {
+      "handle": "spazzola-magnetica-misura-piccola-8719138193677",
+      "variants": {
+        "58208251576700": {
+          "sku": "8719138193677",
+          "barcode": "8719138193677",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206142144892": {
+      "handle": "spazzola-magnetica-misura-media-8719138193660",
+      "variants": {
+        "58208251707772": {
+          "sku": "8719138193660",
+          "barcode": "8719138193660",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206153908604": {
+      "handle": "mantellina-natalizia-per-animali-l25cm-8719138144686",
+      "variants": {
+        "58208264978812": {
+          "sku": "8719138144686",
+          "barcode": "8719138144686",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206212170108": {
+      "handle": "placca-in-plastica-standard-italiano-serie-avp-quattro-moduli-argento-8433325201746",
+      "variants": {
+        "58208397853052": {
+          "sku": "8433325201746",
+          "barcode": "8433325201746",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206212202876": {
+      "handle": "placca-in-plastica-standard-italiano-serie-avp-tre-moduli-bianco-8433325189549",
+      "variants": {
+        "58208397885820": {
+          "sku": "8433325189549",
+          "barcode": "8433325189549",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206212399484": {
+      "handle": "placca-in-plastica-standard-italiano-serie-avp-quattro-moduli-grigio-moka-8433325201821",
+      "variants": {
+        "58208398082428": {
+          "sku": "8433325201821",
+          "barcode": "8433325201821",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206212563324": {
+      "handle": "placca-in-plastica-standard-italiano-serie-avp-quattro-moduli-oro-champagne-8433325201869",
+      "variants": {
+        "58208398213500": {
+          "sku": "8433325201869",
+          "barcode": "8433325201869",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206212596092": {
+      "handle": "interruttore-e-presa-da-parete-avp-standard-italiano-a-superficie-bianco-grigio-interruttore-semplice-presa-p40-8433325201043",
+      "variants": {
+        "58208398279036": {
+          "sku": "8433325201043",
+          "barcode": "8433325201043",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206212628860": {
+      "handle": "placca-in-plastica-standard-italiano-serie-avp-tre-moduli-grigio-moka-8433325201814",
+      "variants": {
+        "58208398311804": {
+          "sku": "8433325201814",
+          "barcode": "8433325201814",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206212759932": {
+      "handle": "interruttore-e-presa-da-parete-avp-2-p17-11-standard-italiano-a-superficie-bianco-grigio-interruttore-semplice-presa-8433325201050",
+      "variants": {
+        "58208398442876": {
+          "sku": "8433325201050",
+          "barcode": "8433325201050",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206212956540": {
+      "handle": "placca-in-plastica-standard-italiano-serie-avp-sette-moduli-bianco-8433325189563",
+      "variants": {
+        "58208398639484": {
+          "sku": "8433325189563",
+          "barcode": "8433325189563",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206213022076": {
+      "handle": "placca-in-plastica-avp-standard-italiano-tre-moduli-grigio-lilla-chiaro-8433325187941",
+      "variants": {
+        "58208398705020": {
+          "sku": "8433325187941",
+          "barcode": "8433325187941",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206213087612": {
+      "handle": "placca-in-plastica-standard-italiano-serie-avp-due-moduli-bianco-8433325189532",
+      "variants": {
+        "58208398770556": {
+          "sku": "8433325189532",
+          "barcode": "8433325189532",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206213185916": {
+      "handle": "placca-in-plastica-avp-standard-italiano-tre-moduli-marrone-caffe-8433325184193",
+      "variants": {
+        "58208398868860": {
+          "sku": "8433325184193",
+          "barcode": "8433325184193",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206213382524": {
+      "handle": "placca-in-plastica-avp-standard-italiano-tre-moduli-verde-pappagallo-8433325184162",
+      "variants": {
+        "58208399065468": {
+          "sku": "8433325184162",
+          "barcode": "8433325184162",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206213480828": {
+      "handle": "placca-in-plastica-standard-italiano-serie-avp-sette-moduli-nero-8433325201791",
+      "variants": {
+        "58208399163772": {
+          "sku": "8433325201791",
+          "barcode": "8433325201791",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206213579132": {
+      "handle": "placca-in-plastica-standard-italiano-serie-avp-due-moduli-nero-8433325201760",
+      "variants": {
+        "58208399262076": {
+          "sku": "8433325201760",
+          "barcode": "8433325201760",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206213611900": {
+      "handle": "placca-in-plastica-standard-italiano-serie-avp-tre-moduli-nero-8433325201777",
+      "variants": {
+        "58208399294844": {
+          "sku": "8433325201777",
+          "barcode": "8433325201777",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206213677436": {
+      "handle": "placca-in-plastica-standard-italiano-serie-avp-quattro-moduli-bianco-8433325189556",
+      "variants": {
+        "58208399360380": {
+          "sku": "8433325189556",
+          "barcode": "8433325189556",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206214300028": {
+      "handle": "placca-in-plastica-standard-italiano-serie-abl-due-moduli-8433325407759",
+      "variants": {
+        "58208400081276": {
+          "sku": "8433325407759",
+          "barcode": "8433325407759",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206214431100": {
+      "handle": "placca-in-plastica-standard-italiano-serie-abl-quattro-moduli-argento-8433325206208",
+      "variants": {
+        "58208400212348": {
+          "sku": "8433325206208",
+          "barcode": "8433325206208",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206214529404": {
+      "handle": "placca-in-plastica-standard-italiano-serie-abl-quattro-moduli-grigio-moka-8433325206369",
+      "variants": {
+        "58208400310652": {
+          "sku": "8433325206369",
+          "barcode": "8433325206369",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206214693244": {
+      "handle": "placca-in-plastica-standard-italiano-serie-abl-quattro-moduli-oro-champagne-8433325206406",
+      "variants": {
+        "58208400474492": {
+          "sku": "8433325206406",
+          "barcode": "8433325206406",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206214758780": {
+      "handle": "placca-in-plastica-abl-standard-italiano-tre-moduli-verde-pappagallo-8433325184179",
+      "variants": {
+        "58208400540028": {
+          "sku": "8433325184179",
+          "barcode": "8433325184179",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206214824316": {
+      "handle": "placca-in-plastica-standard-italiano-serie-abl-quattro-moduli-nero-8433325206284",
+      "variants": {
+        "58208400605564": {
+          "sku": "8433325206284",
+          "barcode": "8433325206284",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206214857084": {
+      "handle": "placca-in-plastica-standard-italiano-serie-abl-due-moduli-bianco-8433325205188",
+      "variants": {
+        "58208400638332": {
+          "sku": "8433325205188",
+          "barcode": "8433325205188",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206214955388": {
+      "handle": "scatola-da-incasso-ip20-standard-italiano-3-moduli-blu-8433325346201",
+      "variants": {
+        "58208400736636": {
+          "sku": "8433325346201",
+          "barcode": "8433325346201",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206215020924": {
+      "handle": "placca-in-plastica-standard-italiano-serie-abl-due-moduli-oro-champagne-8433325206383",
+      "variants": {
+        "58208400802172": {
+          "sku": "8433325206383",
+          "barcode": "8433325206383",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206215348604": {
+      "handle": "placca-in-plastica-standard-italiano-serie-abl-tre-moduli-bianco-8433325205195",
+      "variants": {
+        "58208401129852": {
+          "sku": "8433325205195",
+          "barcode": "8433325205195",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206215512444": {
+      "handle": "placca-in-plastica-standard-italiano-serie-abl-tre-moduli-argento-8433325206192",
+      "variants": {
+        "58208401293692": {
+          "sku": "8433325206192",
+          "barcode": "8433325206192",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206217183612": {
+      "handle": "supporto-di-fissaggio-standard-italiano-serie-abl-due-moduli-blu-8433325196721",
+      "variants": {
+        "58208403227004": {
+          "sku": "8433325196721",
+          "barcode": "8433325196721",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206217412988": {
+      "handle": "supporto-di-fissaggio-standard-italiano-serie-abl-tre-moduli-blu-8433325205157",
+      "variants": {
+        "58208403587452": {
+          "sku": "8433325205157",
+          "barcode": "8433325205157",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206217511292": {
+      "handle": "interruttore-semplice-standard-italiano-serie-abl-modulo-nero-8433325209070",
+      "variants": {
+        "58208403685756": {
+          "sku": "8433325209070",
+          "barcode": "8433325209070",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206217609596": {
+      "handle": "supporto-di-fissaggio-standard-italiano-serie-abl-quattro-moduli-blu-8433325205164",
+      "variants": {
+        "58208403784060": {
+          "sku": "8433325205164",
+          "barcode": "8433325205164",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206218166652": {
+      "handle": "placca-in-plastica-standard-italiano-serie-abl-sette-moduli-grigio-moka-8433325206376",
+      "variants": {
+        "58208404341116": {
+          "sku": "8433325206376",
+          "barcode": "8433325206376",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206219837820": {
+      "handle": "supporto-di-fissaggio-standard-italiano-serie-avp-tre-moduli-verde-8433325189235",
+      "variants": {
+        "58208408338812": {
+          "sku": "8433325189235",
+          "barcode": "8433325189235",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206221083004": {
+      "handle": "interruttore-semplice-standard-italiano-serie-abm-modulo-nero-8433325209308",
+      "variants": {
+        "58208409583996": {
+          "sku": "8433325209308",
+          "barcode": "8433325209308",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206223442300": {
+      "handle": "placca-in-plastica-abm-standard-italiano-tre-moduli-verde-pappagallo-8433325184186",
+      "variants": {
+        "58208423543164": {
+          "sku": "8433325184186",
+          "barcode": "8433325184186",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206223638908": {
+      "handle": "placca-in-plastica-standard-italiano-serie-abm-sei-moduli-bianco-8433325205775",
+      "variants": {
+        "58208423739772": {
+          "sku": "8433325205775",
+          "barcode": "8433325205775",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206223671676": {
+      "handle": "placca-in-plastica-abm-standard-italiano-tre-moduli-marrone-caffe-8433325187934",
+      "variants": {
+        "58208423772540": {
+          "sku": "8433325187934",
+          "barcode": "8433325187934",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206223835516": {
+      "handle": "placca-in-plastica-standard-italiano-serie-abm-due-moduli-bianco-8433325205706",
+      "variants": {
+        "58208423936380": {
+          "sku": "8433325205706",
+          "barcode": "8433325205706",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206223901052": {
+      "handle": "placca-in-plastica-abm-standard-italiano-tre-moduli-grigio-lilla-chiaro-8433325187965",
+      "variants": {
+        "58208424001916": {
+          "sku": "8433325187965",
+          "barcode": "8433325187965",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206223966588": {
+      "handle": "placca-in-plastica-standard-italiano-serie-abm-sei-moduli-grigio-moka-8433325206772",
+      "variants": {
+        "58208424067452": {
+          "sku": "8433325206772",
+          "barcode": "8433325206772",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206224130428": {
+      "handle": "placca-in-plastica-standard-italiano-serie-abm-sei-moduli-oro-champagne-8433325206819",
+      "variants": {
+        "58208424231292": {
+          "sku": "8433325206819",
+          "barcode": "8433325206819",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206224163196": {
+      "handle": "placca-in-plastica-standard-italiano-serie-abm-due-moduli-8433325407711",
+      "variants": {
+        "58208424264060": {
+          "sku": "8433325407711",
+          "barcode": "8433325407711",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206224261500": {
+      "handle": "placca-in-plastica-standard-italiano-serie-abm-sei-moduli-8433325407742",
+      "variants": {
+        "58208424362364": {
+          "sku": "8433325407742",
+          "barcode": "8433325407742",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206224458108": {
+      "handle": "placca-in-plastica-standard-italiano-serie-abm-quattro-moduli-8433325407735",
+      "variants": {
+        "58208424558972": {
+          "sku": "8433325407735",
+          "barcode": "8433325407735",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206224490876": {
+      "handle": "placca-in-plastica-standard-italiano-serie-abm-tre-moduli-grigio-moka-8433325206758",
+      "variants": {
+        "58208424591740": {
+          "sku": "8433325206758",
+          "barcode": "8433325206758",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206224621948": {
+      "handle": "placca-in-plastica-standard-italiano-serie-abm-quattro-moduli-bianco-8433325205768",
+      "variants": {
+        "58208424722812": {
+          "sku": "8433325205768",
+          "barcode": "8433325205768",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206224982396": {
+      "handle": "placca-in-plastica-standard-italiano-serie-abm-quattro-moduli-oro-champagne-8433325206802",
+      "variants": {
+        "58208425083260": {
+          "sku": "8433325206802",
+          "barcode": "8433325206802",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206229504380": {
+      "handle": "scatola-di-connessione-per-prolunga-8433325208592",
+      "variants": {
+        "58208430063996": {
+          "sku": "8433325208592",
+          "barcode": "8433325208592",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206229569916": {
+      "handle": "placca-in-plastica-standard-italiano-serie-abl-due-moduli-grigio-moka-8433325206307",
+      "variants": {
+        "58208430162300": {
+          "sku": "8433325206307",
+          "barcode": "8433325206307",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206229799292": {
+      "handle": "placca-in-plastica-standard-italiano-serie-abm-due-moduli-nero-8433325206628",
+      "variants": {
+        "58208430358908": {
+          "sku": "8433325206628",
+          "barcode": "8433325206628",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206232682876": {
+      "handle": "placca-in-alluminio-spazzolato-standard-italiano-serie-abl-quattro-moduli-nero-8433325206529",
+      "variants": {
+        "58208433275260": {
+          "sku": "8433325206529",
+          "barcode": "8433325206529",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206233633148": {
+      "handle": "pettorina-triangolare-in-fettuccia-w1-5-l30-50cm-8719138042692",
+      "variants": {
+        "58208434225532": {
+          "sku": "8719138042692",
+          "barcode": "8719138042692",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206235894140": {
+      "handle": "placca-in-alluminio-spazzolato-standard-italiano-serie-abl-quattro-moduli-argento-8433325205607",
+      "variants": {
+        "58208437404028": {
+          "sku": "8433325205607",
+          "barcode": "8433325205607",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206236483964": {
+      "handle": "placca-in-alluminio-spazzolato-standard-italiano-serie-abm-quattro-moduli-argento-8433325206161",
+      "variants": {
+        "58208442646908": {
+          "sku": "8433325206161",
+          "barcode": "8433325206161",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206236844412": {
+      "handle": "placca-in-alluminio-spazzolato-standard-italiano-serie-abm-quattro-moduli-nero-8433325209049",
+      "variants": {
+        "58208443367804": {
+          "sku": "8433325209049",
+          "barcode": "8433325209049",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206237172092": {
+      "handle": "placca-in-alluminio-spazzolato-standard-italiano-serie-abm-sei-moduli-argento-8433325206178",
+      "variants": {
+        "58208445202812": {
+          "sku": "8433325206178",
+          "barcode": "8433325206178",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206238646652": {
+      "handle": "interruttore-e-presa-da-parete-italiani-avp-interruttore-singolo-semplice-presa-p40-a-superficie-bianco-grigio-8433325430467",
+      "variants": {
+        "58208452673916": {
+          "sku": "8433325430467",
+          "barcode": "8433325430467",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206238810492": {
+      "handle": "placca-in-plastica-standard-italiano-serie-abl-tre-moduli-oro-champagne-8433325206390",
+      "variants": {
+        "58208452837756": {
+          "sku": "8433325206390",
+          "barcode": "8433325206390",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206240252284": {
+      "handle": "placca-in-plastica-abl-standard-italiano-tre-moduli-oro-chiaro-8433325182953",
+      "variants": {
+        "58208454312316": {
+          "sku": "8433325182953",
+          "barcode": "8433325182953",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206240285052": {
+      "handle": "placca-in-plastica-standard-italiano-serie-avp-due-moduli-oro-champagne-8433325201845",
+      "variants": {
+        "58208454345084": {
+          "sku": "8433325201845",
+          "barcode": "8433325201845",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206240317820": {
+      "handle": "placca-in-plastica-standard-italiano-serie-avp-tre-moduli-8433325407803",
+      "variants": {
+        "58208454377852": {
+          "sku": "8433325407803",
+          "barcode": "8433325407803",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206244479356": {
+      "handle": "placca-in-plastica-standard-italiano-serie-avp-due-moduli-8433325407797",
+      "variants": {
+        "58208460276092": {
+          "sku": "8433325407797",
+          "barcode": "8433325407797",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206258504060": {
+      "handle": "placca-in-plastica-standard-italiano-serie-abl-due-moduli-argento-8433325206185",
+      "variants": {
+        "58208475775356": {
+          "sku": "8433325206185",
+          "barcode": "8433325206185",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206258602364": {
+      "handle": "placca-in-plastica-standard-italiano-serie-abl-tre-moduli-nero-8433325206277",
+      "variants": {
+        "58208475873660": {
+          "sku": "8433325206277",
+          "barcode": "8433325206277",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206266073468": {
+      "handle": "gioco-a-forma-di-albero-di-natale-con-cuori-l28-w5cm-8719138058808",
+      "variants": {
+        "58208489243004": {
+          "sku": "8719138058808",
+          "barcode": "8719138058808",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206267449724": {
+      "handle": "gioco-a-forma-di-albero-di-natale-con-stelle-l28-w6-5cm-8719138058785",
+      "variants": {
+        "58208490619260": {
+          "sku": "8719138058785",
+          "barcode": "8719138058785",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206276755836": {
+      "handle": "gioco-per-cani-tema-osso-l24cm-8719138029174",
+      "variants": {
+        "58208502743420": {
+          "sku": "8719138029174",
+          "barcode": "8719138029174",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206276788604": {
+      "handle": "gioco-per-cani-l18-d6-3cm-8719138002993",
+      "variants": {
+        "58208502776188": {
+          "sku": "8719138002993",
+          "barcode": "8719138002993",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206276952444": {
+      "handle": "pallina-gioco-per-cani-l25cm-8719138029181",
+      "variants": {
+        "58208502940028": {
+          "sku": "8719138029181",
+          "barcode": "8719138029181",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206286225788": {
+      "handle": "mutandine-igieniche-per-animali-bianco-cotone-8719138046652",
+      "variants": {
+        "58208514834812": {
+          "sku": "8719138046652",
+          "barcode": "8719138046652",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206286389628": {
+      "handle": "mutandine-igieniche-per-animali-bianco-cotone-8719138046669",
+      "variants": {
+        "58208514998652": {
+          "sku": "8719138046669",
+          "barcode": "8719138046669",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206286520700": {
+      "handle": "pettine-a-due-lati-per-animali-8719138001538",
+      "variants": {
+        "58208515129724": {
+          "sku": "8719138001538",
+          "barcode": "8719138001538",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206286684540": {
+      "handle": "pettine-a-due-lati-per-animali-8719138001545",
+      "variants": {
+        "58208515293564": {
+          "sku": "8719138001545",
+          "barcode": "8719138001545",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206286881148": {
+      "handle": "pettine-da-stripping-per-animali-8719138049370",
+      "variants": {
+        "58208515490172": {
+          "sku": "8719138049370",
+          "barcode": "8719138049370",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206287044988": {
+      "handle": "pettine-da-stripping-per-animali-8719138196517",
+      "variants": {
+        "58208515654012": {
+          "sku": "8719138196517",
+          "barcode": "8719138196517",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206287208828": {
+      "handle": "set-tagliaunghie-per-animali-8719138060375",
+      "variants": {
+        "58208515817852": {
+          "sku": "8719138060375",
+          "barcode": "8719138060375",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206287372668": {
+      "handle": "rulli-di-ricambio-per-levapelucchi-per-animali-4-pezzi-per-confezione-8719138048168",
+      "variants": {
+        "58208515981692": {
+          "sku": "8719138048168",
+          "barcode": "8719138048168",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206287536508": {
+      "handle": "rimuovi-peli-per-bucato-8719138217564",
+      "variants": {
+        "58208516145532": {
+          "sku": "8719138217564",
+          "barcode": "8719138217564",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206288290172": {
+      "handle": "set-di-spazzolini-per-animali-8719138059348",
+      "variants": {
+        "58208516964732": {
+          "sku": "8719138059348",
+          "barcode": "8719138059348",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206290846076": {
+      "handle": "scala-a-tre-sezioni-in-corda-di-cotone-per-uccelli-8719138051991",
+      "variants": {
+        "58208519520636": {
+          "sku": "8719138051991",
+          "barcode": "8719138051991",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206290878844": {
+      "handle": "tagliaunghie-per-animali-8719138002894",
+      "variants": {
+        "58208519553404": {
+          "sku": "8719138002894",
+          "barcode": "8719138002894",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206291173756": {
+      "handle": "pettine-serie-premium-per-animali-legno-8719138186174",
+      "variants": {
+        "58208519848316": {
+          "sku": "8719138186174",
+          "barcode": "8719138186174",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206291206524": {
+      "handle": "guanto-massaggiante-per-animali-8719138034345",
+      "variants": {
+        "58208519881084": {
+          "sku": "8719138034345",
+          "barcode": "8719138034345",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206291304828": {
+      "handle": "guanto-massaggiante-per-animali-8719138041336",
+      "variants": {
+        "58208519979388": {
+          "sku": "8719138041336",
+          "barcode": "8719138041336",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206291435900": {
+      "handle": "pettine-in-acciaio-a-doppio-uso-per-animali-8719138001729",
+      "variants": {
+        "58208520110460": {
+          "sku": "8719138001729",
+          "barcode": "8719138001729",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206291468668": {
+      "handle": "levapelucchi-per-animali-1-rulli-di-ricambio-8719138197255",
+      "variants": {
+        "58208520175996": {
+          "sku": "8719138197255",
+          "barcode": "8719138197255",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206291599740": {
+      "handle": "pettine-in-acciaio-a-denti-per-animali-formato-indicato-40-8719138001569",
+      "variants": {
+        "58208520274300": {
+          "sku": "8719138001569",
+          "barcode": "8719138001569",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206291698044": {
+      "handle": "rulli-di-ricambio-per-levapelucchi-2-pezzi-per-confezione-8719138197279",
+      "variants": {
+        "58208520372604": {
+          "sku": "8719138197279",
+          "barcode": "8719138197279",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206291796348": {
+      "handle": "pettine-in-acciaio-a-due-lati-per-animali-8719138001583",
+      "variants": {
+        "58208520470908": {
+          "sku": "8719138001583",
+          "barcode": "8719138001583",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206291960188": {
+      "handle": "pettine-in-acciaio-a-denti-alternati-per-animali-8719138001576",
+      "variants": {
+        "58208520634748": {
+          "sku": "8719138001576",
+          "barcode": "8719138001576",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206292058492": {
+      "handle": "spazzola-massaggiante-da-bagno-per-animali-8719138041343",
+      "variants": {
+        "58208520733052": {
+          "sku": "8719138041343",
+          "barcode": "8719138041343",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206294483324": {
+      "handle": "posatoio-sagomato-per-uccelli-y-8719138198283",
+      "variants": {
+        "58208523157884": {
+          "sku": "8719138198283",
+          "barcode": "8719138198283",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206295433596": {
+      "handle": "sacchetti-degradabili-per-rifiuti-120-pezzi-scatola-8719138183814",
+      "variants": {
+        "58208524108156": {
+          "sku": "8719138183814",
+          "barcode": "8719138183814",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206297071996": {
+      "handle": "set-dentifricio-e-spazzolini-per-cani-8719138059072",
+      "variants": {
+        "58208525746556": {
+          "sku": "8719138059072",
+          "barcode": "8719138059072",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206297203068": {
+      "handle": "pettine-scioglinodi-per-animali-8719138049356",
+      "variants": {
+        "58208525877628": {
+          "sku": "8719138049356",
+          "barcode": "8719138049356",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206297235836": {
+      "handle": "museruola-per-cani-tessuto-a-rete-8719138014743",
+      "variants": {
+        "58208525910396": {
+          "sku": "8719138014743",
+          "barcode": "8719138014743",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206297334140": {
+      "handle": "museruola-per-cani-8719138194964",
+      "variants": {
+        "58208526008700": {
+          "sku": "8719138194964",
+          "barcode": "8719138194964",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206297530748": {
+      "handle": "museruola-per-cani-8719138194971",
+      "variants": {
+        "58208526205308": {
+          "sku": "8719138194971",
+          "barcode": "8719138194971",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206297661820": {
+      "handle": "museruola-per-cani-tessuto-a-rete-8719138014774",
+      "variants": {
+        "58208526336380": {
+          "sku": "8719138014774",
+          "barcode": "8719138014774",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206297694588": {
+      "handle": "museruola-per-cani-8719138194988",
+      "variants": {
+        "58208526369148": {
+          "sku": "8719138194988",
+          "barcode": "8719138194988",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206297760124": {
+      "handle": "museruola-per-cani-tessuto-a-rete-8719138014781",
+      "variants": {
+        "58208526434684": {
+          "sku": "8719138014781",
+          "barcode": "8719138014781",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206297858428": {
+      "handle": "museruola-per-cani-a-griglia-8719138002597",
+      "variants": {
+        "58208526532988": {
+          "sku": "8719138002597",
+          "barcode": "8719138002597",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206297891196": {
+      "handle": "museruola-per-cani-8719138194995",
+      "variants": {
+        "58208526565756": {
+          "sku": "8719138194995",
+          "barcode": "8719138194995",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206297923964": {
+      "handle": "museruola-per-cani-tessuto-a-rete-8719138014798",
+      "variants": {
+        "58208526598524": {
+          "sku": "8719138014798",
+          "barcode": "8719138014798",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206298087804": {
+      "handle": "museruola-per-cani-8719138195008",
+      "variants": {
+        "58208526762364": {
+          "sku": "8719138195008",
+          "barcode": "8719138195008",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206298284412": {
+      "handle": "tovaglietta-a-forma-di-osso-l58-4-w42-5-h3-1-cm-8719138229291",
+      "variants": {
+        "58208526958972": {
+          "sku": "8719138229291",
+          "barcode": "8719138229291",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206298317180": {
+      "handle": "museruola-per-cani-a-griglia-8719138002580",
+      "variants": {
+        "58208526991740": {
+          "sku": "8719138002580",
+          "barcode": "8719138002580",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206298415484": {
+      "handle": "tovaglietta-quadrata-l58-4-w42-5-h3-1-cm-8719138229307",
+      "variants": {
+        "58208527057276": {
+          "sku": "8719138229307",
+          "barcode": "8719138229307",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206298448252": {
+      "handle": "museruola-per-cani-materiale-effetto-nylon-8719138041534",
+      "variants": {
+        "58208527122812": {
+          "sku": "8719138041534",
+          "barcode": "8719138041534",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206299005308": {
+      "handle": "shampoo-in-schiuma-senza-risciacquo-per-cani-e-gatti-8719138056910",
+      "variants": {
+        "58208527679868": {
+          "sku": "8719138056910",
+          "barcode": "8719138056910",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206299070844": {
+      "handle": "pettine-per-pulizia-del-pelo-8719138199013",
+      "variants": {
+        "58208527745404": {
+          "sku": "8719138199013",
+          "barcode": "8719138199013",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206299136380": {
+      "handle": "shampoo-in-schiuma-per-zampe-di-cani-e-gatti-8719138056927",
+      "variants": {
+        "58208527810940": {
+          "sku": "8719138056927",
+          "barcode": "8719138056927",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206299332988": {
+      "handle": "shampoo-per-cuccioli-e-gattini-8719138000241",
+      "variants": {
+        "58208528007548": {
+          "sku": "8719138000241",
+          "barcode": "8719138000241",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206299398524": {
+      "handle": "spray-deodorante-per-piccoli-animali-100-ml-8719138056255",
+      "variants": {
+        "58208528073084": {
+          "sku": "8719138056255",
+          "barcode": "8719138056255",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206299562364": {
+      "handle": "shampoo-al-profumo-di-tea-tree-per-cani-a-pelo-nero-8719138126705",
+      "variants": {
+        "58208528236924": {
+          "sku": "8719138126705",
+          "barcode": "8719138126705",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206299726204": {
+      "handle": "shampoo-al-profumo-di-loto-per-cani-8719138126699",
+      "variants": {
+        "58208528400764": {
+          "sku": "8719138126699",
+          "barcode": "8719138126699",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206299922812": {
+      "handle": "shampoo-al-profumo-di-tea-tree-per-gatti-universale-8719138126736",
+      "variants": {
+        "58208528597372": {
+          "sku": "8719138126736",
+          "barcode": "8719138126736",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206300774780": {
+      "handle": "levapelucchi-per-animali-1-rulli-di-ricambio-8719138197262",
+      "variants": {
+        "58208529580412": {
+          "sku": "8719138197262",
+          "barcode": "8719138197262",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206300905852": {
+      "handle": "shampoo-per-cani-a-pelo-lungo-8719138041404",
+      "variants": {
+        "58208529711484": {
+          "sku": "8719138041404",
+          "barcode": "8719138041404",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206300971388": {
+      "handle": "shampoo-neutro-per-animali-8719138000227",
+      "variants": {
+        "58208529777020": {
+          "sku": "8719138000227",
+          "barcode": "8719138000227",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206301004156": {
+      "handle": "shampoo-per-cani-a-pelo-corto-8719138041411",
+      "variants": {
+        "58208529809788": {
+          "sku": "8719138041411",
+          "barcode": "8719138041411",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206301102460": {
+      "handle": "shampoo-per-cani-a-pelo-bianco-8719138000265",
+      "variants": {
+        "58208529908092": {
+          "sku": "8719138000265",
+          "barcode": "8719138000265",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206301167996": {
+      "handle": "shampoo-per-cani-8719138041428",
+      "variants": {
+        "58208529973628": {
+          "sku": "8719138041428",
+          "barcode": "8719138041428",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206303265148": {
+      "handle": "pettine-in-legno-con-denti-arrotondati-per-animali-8719138001651",
+      "variants": {
+        "58208532103548": {
+          "sku": "8719138001651",
+          "barcode": "8719138001651",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206303428988": {
+      "handle": "pettine-in-legno-con-denti-arrotondati-per-animali-8719138001668",
+      "variants": {
+        "58208532267388": {
+          "sku": "8719138001668",
+          "barcode": "8719138001668",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206303625596": {
+      "handle": "profumo-per-cani-8719138126743",
+      "variants": {
+        "58208532463996": {
+          "sku": "8719138126743",
+          "barcode": "8719138126743",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206304412028": {
+      "handle": "levapelucchi-per-animali-serie-premium-con-quattro-ricambi-8719138185894",
+      "variants": {
+        "58208533414268": {
+          "sku": "8719138185894",
+          "barcode": "8719138185894",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206304608636": {
+      "handle": "pettorina-con-guinzaglio-per-gatti-motivo-leopardato-8719138146260",
+      "variants": {
+        "58208533610876": {
+          "sku": "8719138146260",
+          "barcode": "8719138146260",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206304641404": {
+      "handle": "pettorina-con-guinzaglio-per-gatti-motivo-leopardato-8719138146277",
+      "variants": {
+        "58208533643644": {
+          "sku": "8719138146277",
+          "barcode": "8719138146277",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206306378108": {
+      "handle": "scatola-protetta-a-superficie-a-due-moduli-abm-bianco-grigio-8433325338367",
+      "variants": {
+        "58208535675260": {
+          "sku": "8433325338367",
+          "barcode": "8433325338367",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206306640252": {
+      "handle": "scatola-di-derivazione-protetta-dall-acqua-80-80-40-mm-ip44-quadrato-dimensioni-grigio-8433325189099",
+      "variants": {
+        "58208535937404": {
+          "sku": "8433325189099",
+          "barcode": "8433325189099",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206306705788": {
+      "handle": "scatola-a-superficie-a-due-moduli-abm-bianco-grigio-8433325338428",
+      "variants": {
+        "58208536002940": {
+          "sku": "8433325338428",
+          "barcode": "8433325338428",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206306804092": {
+      "handle": "scatola-di-derivazione-protetta-dall-acqua-100-100-50-mm-ip44-quadrato-dimensioni-grigio-8433325189105",
+      "variants": {
+        "58208536101244": {
+          "sku": "8433325189105",
+          "barcode": "8433325189105",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206306869628": {
+      "handle": "scatola-a-superficie-a-tre-moduli-abm-bianco-grigio-8433325338435",
+      "variants": {
+        "58208536166780": {
+          "sku": "8433325338435",
+          "barcode": "8433325338435",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206306902396": {
+      "handle": "scatola-a-superficie-a-due-moduli-avp-bianco-grigio-8433325338442",
+      "variants": {
+        "58208536199548": {
+          "sku": "8433325338442",
+          "barcode": "8433325338442",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206306967932": {
+      "handle": "scatola-di-derivazione-protetta-dall-acqua-120-80-50-mm-ip44-quadrato-dimensioni-grigio-8433325190118",
+      "variants": {
+        "58208536265084": {
+          "sku": "8433325190118",
+          "barcode": "8433325190118",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206307000700": {
+      "handle": "scatola-a-superficie-a-tre-moduli-avp-bianco-grigio-8433325338459",
+      "variants": {
+        "58208536297852": {
+          "sku": "8433325338459",
+          "barcode": "8433325338459",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206307131772": {
+      "handle": "scatola-di-derivazione-protetta-dall-acqua-150-110-70-mm-ip44-quadrato-dimensioni-grigio-8433325190125",
+      "variants": {
+        "58208536428924": {
+          "sku": "8433325190125",
+          "barcode": "8433325190125",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206307164540": {
+      "handle": "scatola-protetta-a-superficie-a-due-moduli-avp-bianco-grigio-8433325338381",
+      "variants": {
+        "58208536461692": {
+          "sku": "8433325338381",
+          "barcode": "8433325338381",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206307230076": {
+      "handle": "scatola-di-derivazione-protetta-dall-acqua-190-140-70-mm-ip44-quadrato-dimensioni-grigio-8433325190132",
+      "variants": {
+        "58208536527228": {
+          "sku": "8433325190132",
+          "barcode": "8433325190132",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206307328380": {
+      "handle": "scatola-protetta-a-superficie-a-tre-moduli-avp-bianco-grigio-8433325338398",
+      "variants": {
+        "58208536625532": {
+          "sku": "8433325338398",
+          "barcode": "8433325338398",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206307426684": {
+      "handle": "scatola-di-derivazione-protetta-dall-acqua-65-30-mm-ip44-rotondo-dimensioni-grigio-8433325213060",
+      "variants": {
+        "58208536723836": {
+          "sku": "8433325213060",
+          "barcode": "8433325213060",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206307590524": {
+      "handle": "scatola-di-derivazione-protetta-dall-acqua-80-40-mm-ip44-rotondo-dimensioni-grigio-8433325190156",
+      "variants": {
+        "58208536887676": {
+          "sku": "8433325190156",
+          "barcode": "8433325190156",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206309425532": {
+      "handle": "fermacavo-25-mm-diametro-8433325332150",
+      "variants": {
+        "58208538722684": {
+          "sku": "8433325332150",
+          "barcode": "8433325332150",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206309949820": {
+      "handle": "tubo-per-cavi-elettrici-pvc-20-mm-rotondo-bianco-8433325327330",
+      "variants": {
+        "58208539312508": {
+          "sku": "8433325327330",
+          "barcode": "8433325327330",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206310113660": {
+      "handle": "tubo-per-cavi-elettrici-pvc-25-mm-rotondo-bianco-8433325327347",
+      "variants": {
+        "58208539476348": {
+          "sku": "8433325327347",
+          "barcode": "8433325327347",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206312505724": {
+      "handle": "rete-divisoria-da-auto-di-facile-installazione-l115-w62cm-8719138037728",
+      "variants": {
+        "58208544817532": {
+          "sku": "8719138037728",
+          "barcode": "8719138037728",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206314013052": {
+      "handle": "gioco-per-cani-con-suono-tema-ghiacciolo-torta-l14-w7cm-l12-w7cm-8719138161799",
+      "variants": {
+        "58208546324860": {
+          "sku": "8719138161799",
+          "barcode": "8719138161799",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206316044668": {
+      "handle": "gioco-per-cani-l20cm-8719138144501",
+      "variants": {
+        "58208548356476": {
+          "sku": "8719138144501",
+          "barcode": "8719138144501",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206316339580": {
+      "handle": "gioco-per-cani-l37cm-8719138144549",
+      "variants": {
+        "58208548651388": {
+          "sku": "8719138144549",
+          "barcode": "8719138144549",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206318600572": {
+      "handle": "tubo-tondo-per-cavi-elettrici-pvc-20-mm-4-pezzi-raccordo-a-t-bianco-8433325327811",
+      "variants": {
+        "58208552812924": {
+          "sku": "8433325327811",
+          "barcode": "8433325327811",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206319223164": {
+      "handle": "tubo-tondo-per-cavi-elettrici-pvc-25-mm-4-pezzi-raccordo-a-t-bianco-8433325327828",
+      "variants": {
+        "58208553402748": {
+          "sku": "8433325327828",
+          "barcode": "8433325327828",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206340555132": {
+      "handle": "lampada-da-tavolo-dimmerabile-led-9-w-3000-6500-k-bianco-8433325217570",
+      "variants": {
+        "58208630047100": {
+          "sku": "8433325217570",
+          "barcode": "8433325217570",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206341013884": {
+      "handle": "lampada-da-tavolo-led-4-w-4000-k-dimmerabile-luce-naturale-8433325417000",
+      "variants": {
+        "58208630538620": {
+          "sku": "8433325417000",
+          "barcode": "8433325417000",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206341210492": {
+      "handle": "lampada-da-tavolo-multifunzione-temperatura-di-colore-regolabile-8433325326425",
+      "variants": {
+        "58208630735228": {
+          "sku": "8433325326425",
+          "barcode": "8433325326425",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206342029692": {
+      "handle": "lampada-da-tavolo-multifunzione-led-7-w-2700-6500-k-bianco-8433325188139",
+      "variants": {
+        "58208637452668": {
+          "sku": "8433325188139",
+          "barcode": "8433325188139",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206347141500": {
+      "handle": "lampada-da-tavolo-multifunzione-temperatura-di-colore-regolabile-ricaricabile-8433325326432",
+      "variants": {
+        "58208710230396": {
+          "sku": "8433325326432",
+          "barcode": "8433325326432",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206348583292": {
+      "handle": "scatola-a-superficie-a-due-moduli-abl-bianco-grigio-8433325338404",
+      "variants": {
+        "58208726581628": {
+          "sku": "8433325338404",
+          "barcode": "8433325338404",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206348714364": {
+      "handle": "scatola-a-superficie-a-tre-moduli-abl-bianco-grigio-8433325338411",
+      "variants": {
+        "58208727564668": {
+          "sku": "8433325338411",
+          "barcode": "8433325338411",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206348812668": {
+      "handle": "scatola-da-incasso-per-parete-standard-italiano-due-moduli-blu-8433325212513",
+      "variants": {
+        "58208727662972": {
+          "sku": "8433325212513",
+          "barcode": "8433325212513",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206348976508": {
+      "handle": "scatola-da-incasso-per-parete-standard-italiano-quattro-moduli-blu-8433325212537",
+      "variants": {
+        "58208727826812": {
+          "sku": "8433325212537",
+          "barcode": "8433325212537",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206349074812": {
+      "handle": "scatola-da-incasso-per-parete-standard-italiano-sette-moduli-blu-8433325212544",
+      "variants": {
+        "58208727925116": {
+          "sku": "8433325212544",
+          "barcode": "8433325212544",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206349107580": {
+      "handle": "scatola-protetta-a-superficie-a-due-moduli-abl-bianco-grigio-8433325338343",
+      "variants": {
+        "58208727957884": {
+          "sku": "8433325338343",
+          "barcode": "8433325338343",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206356513148": {
+      "handle": "lampada-con-morsetto-led-con-spina-8433325294991",
+      "variants": {
+        "58208785760636": {
+          "sku": "8433325294991",
+          "barcode": "8433325294991",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206357037436": {
+      "handle": "lampada-a-sospensione-led-35w-2700-k-metallo-e-silicone-8433325318963",
+      "variants": {
+        "58208792052092": {
+          "sku": "8433325318963",
+          "barcode": "8433325318963",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206357201276": {
+      "handle": "lampada-a-sospensione-led-35w-6500-k-metallo-e-silicone-8433325318970",
+      "variants": {
+        "58208792215932": {
+          "sku": "8433325318970",
+          "barcode": "8433325318970",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206357430652": {
+      "handle": "lampada-da-parete-2700-k-alluminio-e-silicone-8433325318581",
+      "variants": {
+        "58208792805756": {
+          "sku": "8433325318581",
+          "barcode": "8433325318581",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206358151548": {
+      "handle": "lampada-da-tavolo-multifunzione-luminosita-e-temperatura-di-colore-regolabili-8433325326463",
+      "variants": {
+        "58208803258748": {
+          "sku": "8433325326463",
+          "barcode": "8433325326463",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206361756028": {
+      "handle": "lampada-a-sospensione-2700-k-alluminio-e-silicone-8433325320638",
+      "variants": {
+        "58208811581820": {
+          "sku": "8433325320638",
+          "barcode": "8433325320638",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206365229436": {
+      "handle": "lampada-a-sospensione-2700-k-alluminio-e-silicone-8433325320652",
+      "variants": {
+        "58208824197500": {
+          "sku": "8433325320652",
+          "barcode": "8433325320652",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206371029372": {
+      "handle": "lampada-a-sospensione-in-corda-intrecciata-e27-sorgente-luminosa-non-inclusa-nero-8433325228910",
+      "variants": {
+        "58208885113212": {
+          "sku": "8433325228910",
+          "barcode": "8433325228910",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206371881340": {
+      "handle": "lampada-da-terra-in-metallo-e27-sorgente-luminosa-non-inclusa-8433325218232",
+      "variants": {
+        "58208894976380": {
+          "sku": "8433325218232",
+          "barcode": "8433325218232",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206372012412": {
+      "handle": "lampada-da-tavolo-in-legno-e27-sorgente-luminosa-non-inclusa-8433325212582",
+      "variants": {
+        "58208895107452": {
+          "sku": "8433325212582",
+          "barcode": "8433325212582",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206372307324": {
+      "handle": "lampada-da-tavolo-in-ceramica-e14-sorgente-luminosa-non-inclusa-8433325196967",
+      "variants": {
+        "58208895402364": {
+          "sku": "8433325196967",
+          "barcode": "8433325196967",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206372372860": {
+      "handle": "lampada-da-tavolo-in-ceramica-e14-sorgente-luminosa-non-inclusa-8433325309879",
+      "variants": {
+        "58208895500668": {
+          "sku": "8433325309879",
+          "barcode": "8433325309879",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206372503932": {
+      "handle": "lampada-da-tavolo-max-40-w-e27-sorgente-luminosa-non-inclusa-ferro-8433325428815",
+      "variants": {
+        "58208895959420": {
+          "sku": "8433325428815",
+          "barcode": "8433325428815",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206375518588": {
+      "handle": "filo-luminoso-in-rame-per-bottiglia-2-m-ip20-catena-luminosa-a-batterie-a-bottone-bianco-freddo-per-interni-8433325355043",
+      "variants": {
+        "58208936919420": {
+          "sku": "8433325355043",
+          "barcode": "8433325355043",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206375551356": {
+      "handle": "filo-luminoso-lineare-in-rame-4-m-ip20-catena-luminosa-a-batterie-a-bottone-bianco-caldo-per-interni-8433325354978",
+      "variants": {
+        "58208936853884": {
+          "sku": "8433325354978",
+          "barcode": "8433325354978",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206375649660": {
+      "handle": "filo-luminoso-lineare-in-rame-2-m-ip20-catena-luminosa-a-batterie-a-bottone-bianco-freddo-per-interni-8433325297114",
+      "variants": {
+        "58208936984956": {
+          "sku": "8433325297114",
+          "barcode": "8433325297114",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206375715196": {
+      "handle": "filo-luminoso-in-rame-per-bottiglia-4-m-ip20-catena-luminosa-a-batterie-a-bottone-bianco-freddo-per-interni-8433325355067",
+      "variants": {
+        "58208937083260": {
+          "sku": "8433325355067",
+          "barcode": "8433325355067",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206375747964": {
+      "handle": "filo-luminoso-lineare-in-rame-2-m-ip20-catena-luminosa-a-batterie-a-bottone-bianco-freddo-per-interni-8433325354985",
+      "variants": {
+        "58208937116028": {
+          "sku": "8433325354985",
+          "barcode": "8433325354985",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206375813500": {
+      "handle": "filo-luminoso-lineare-in-rame-rgby-2-m-ip20-catena-luminosa-a-batterie-a-bottone-per-interni-8433325297190",
+      "variants": {
+        "58208937542012": {
+          "sku": "8433325297190",
+          "barcode": "8433325297190",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206375879036": {
+      "handle": "filo-luminoso-lineare-in-rame-4-m-ip20-catena-luminosa-a-batterie-a-bottone-bianco-freddo-per-interni-8433325297121",
+      "variants": {
+        "58208937607548": {
+          "sku": "8433325297121",
+          "barcode": "8433325297121",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206376010108": {
+      "handle": "filo-luminoso-in-rame-per-bottiglia-rgby-2-m-ip20-catena-luminosa-a-batterie-a-bottone-per-interni-8433325355074",
+      "variants": {
+        "58208937738620": {
+          "sku": "8433325355074",
+          "barcode": "8433325355074",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206376042876": {
+      "handle": "filo-luminoso-lineare-in-rame-4-m-ip20-catena-luminosa-a-batterie-a-bottone-bianco-freddo-per-interni-8433325354992",
+      "variants": {
+        "58208937771388": {
+          "sku": "8433325354992",
+          "barcode": "8433325354992",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206376141180": {
+      "handle": "filo-luminoso-lineare-in-rame-rgby-2-m-ip20-catena-luminosa-a-batterie-a-bottone-per-interni-8433325355005",
+      "variants": {
+        "58208937869692": {
+          "sku": "8433325355005",
+          "barcode": "8433325355005",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206376173948": {
+      "handle": "filo-luminoso-in-rame-per-bottiglia-rgby-4-m-ip20-catena-luminosa-a-batterie-a-bottone-per-interni-8433325355081",
+      "variants": {
+        "58208937902460": {
+          "sku": "8433325355081",
+          "barcode": "8433325355081",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206376272252": {
+      "handle": "filo-luminoso-lineare-in-rame-rgby-4-m-ip20-catena-luminosa-a-batterie-a-bottone-per-interni-8433325355012",
+      "variants": {
+        "58208937967996": {
+          "sku": "8433325355012",
+          "barcode": "8433325355012",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206376436092": {
+      "handle": "filo-luminoso-in-rame-per-bottiglia-2-m-ip20-catena-luminosa-a-batterie-a-bottone-bianco-caldo-per-interni-8433325355029",
+      "variants": {
+        "58208938164604": {
+          "sku": "8433325355029",
+          "barcode": "8433325355029",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206376599932": {
+      "handle": "filo-luminoso-lineare-in-rame-4-m-ip20-catena-luminosa-a-batterie-a-bottone-bianco-caldo-per-interni-8433325297169",
+      "variants": {
+        "58208938328444": {
+          "sku": "8433325297169",
+          "barcode": "8433325297169",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206376731004": {
+      "handle": "filo-luminoso-in-rame-per-bottiglia-4-m-ip20-catena-luminosa-a-batterie-a-bottone-bianco-caldo-per-interni-8433325355036",
+      "variants": {
+        "58208938459516": {
+          "sku": "8433325355036",
+          "barcode": "8433325355036",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206377320828": {
+      "handle": "filo-luminoso-lineare-in-rame-10-m-ip44-catena-luminosa-a-bassa-tensione-bianco-caldo-per-interni-ed-esterni-scatola-a-colori-8433325353896",
+      "variants": {
+        "58208945504636": {
+          "sku": "8433325353896",
+          "barcode": "8433325353896",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206377386364": {
+      "handle": "filo-luminoso-lineare-in-rame-rgby-20-m-ip44-catena-luminosa-a-bassa-tensione-per-interni-ed-esterni-scatola-a-colori-8433325354046",
+      "variants": {
+        "58208945570172": {
+          "sku": "8433325354046",
+          "barcode": "8433325354046",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206377451900": {
+      "handle": "filo-luminoso-lineare-in-rame-15-m-ip44-catena-luminosa-a-bassa-tensione-bianco-freddo-per-interni-ed-esterni-scatola-a-colori-8433325353971",
+      "variants": {
+        "58208945635708": {
+          "sku": "8433325353971",
+          "barcode": "8433325353971",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206377484668": {
+      "handle": "filo-luminoso-lineare-in-rame-15-m-ip44-catena-luminosa-a-bassa-tensione-bianco-caldo-per-interni-ed-esterni-scatola-a-colori-8433325353902",
+      "variants": {
+        "58208946028924": {
+          "sku": "8433325353902",
+          "barcode": "8433325353902",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206377615740": {
+      "handle": "filo-luminoso-lineare-in-rame-20-m-ip44-catena-luminosa-a-bassa-tensione-bianco-freddo-per-interni-ed-esterni-scatola-a-colori-8433325353988",
+      "variants": {
+        "58208946159996": {
+          "sku": "8433325353988",
+          "barcode": "8433325353988",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206377648508": {
+      "handle": "filo-luminoso-lineare-in-rame-20-m-ip44-catena-luminosa-a-bassa-tensione-bianco-caldo-per-interni-ed-esterni-scatola-a-colori-8433325353919",
+      "variants": {
+        "58208946192764": {
+          "sku": "8433325353919",
+          "barcode": "8433325353919",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206377779580": {
+      "handle": "filo-luminoso-lineare-in-rame-50-m-ip44-catena-luminosa-a-bassa-tensione-bianco-freddo-per-interni-ed-esterni-scatola-a-colori-8433325354008",
+      "variants": {
+        "58208946323836": {
+          "sku": "8433325354008",
+          "barcode": "8433325354008",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206377812348": {
+      "handle": "filo-luminoso-lineare-in-rame-30-m-ip44-catena-luminosa-a-bassa-tensione-bianco-caldo-per-interni-ed-esterni-scatola-a-colori-8433325353926",
+      "variants": {
+        "58208946356604": {
+          "sku": "8433325353926",
+          "barcode": "8433325353926",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206377910652": {
+      "handle": "filo-luminoso-lineare-in-rame-rgby-5-m-ip44-catena-luminosa-a-bassa-tensione-per-interni-ed-esterni-scatola-a-colori-8433325354015",
+      "variants": {
+        "58208946454908": {
+          "sku": "8433325354015",
+          "barcode": "8433325354015",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206377976188": {
+      "handle": "filo-luminoso-lineare-in-rame-50-m-ip44-catena-luminosa-a-bassa-tensione-bianco-caldo-per-interni-ed-esterni-scatola-a-colori-8433325353933",
+      "variants": {
+        "58208946520444": {
+          "sku": "8433325353933",
+          "barcode": "8433325353933",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206378041724": {
+      "handle": "filo-luminoso-lineare-in-rame-rgby-10-m-ip44-catena-luminosa-a-bassa-tensione-per-interni-ed-esterni-scatola-a-colori-8433325354022",
+      "variants": {
+        "58208946585980": {
+          "sku": "8433325354022",
+          "barcode": "8433325354022",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206378140028": {
+      "handle": "filo-luminoso-lineare-in-rame-10-m-ip44-catena-luminosa-a-bassa-tensione-bianco-freddo-per-interni-ed-esterni-scatola-a-colori-8433325353964",
+      "variants": {
+        "58208946684284": {
+          "sku": "8433325353964",
+          "barcode": "8433325353964",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206378172796": {
+      "handle": "filo-luminoso-lineare-in-rame-rgby-15-m-ip44-catena-luminosa-a-bassa-tensione-per-interni-ed-esterni-scatola-a-colori-8433325354039",
+      "variants": {
+        "58208946717052": {
+          "sku": "8433325354039",
+          "barcode": "8433325354039",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206402912636": {
+      "handle": "pupazzo-di-neve-0-6-m-ip44-bassa-tensione-bianco-caldo-per-interni-ed-esterni-8433325305611",
+      "variants": {
+        "58209048822140": {
+          "sku": "8433325305611",
+          "barcode": "8433325305611",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206404387196": {
+      "handle": "pupazzo-di-neve-0-7-m-ip44-richiudibile-bianco-freddo-per-interni-ed-esterni-8433325501402",
+      "variants": {
+        "58209050362236": {
+          "sku": "8433325501402",
+          "barcode": "8433325501402",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206408352124": {
+      "handle": "tenda-luminosa-con-led-a-testa-piatta-rgby-1-m-1-m-ip44-catena-luminosa-a-bassa-tensione-per-interni-ed-esterni-10-pendenti-scatola-a-c-8433325300128",
+      "variants": {
+        "58209058357628": {
+          "sku": "8433325300128",
+          "barcode": "8433325300128",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206408483196": {
+      "handle": "pupazzo-di-neve-1-2-m-ip44-bassa-tensione-bianco-freddo-per-interni-ed-esterni-8433325308551",
+      "variants": {
+        "58209058488700": {
+          "sku": "8433325308551",
+          "barcode": "8433325308551",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206417985916": {
+      "handle": "tenda-luminosa-con-led-a-testa-piatta-rgby-0-9-1-2-m-ip44-catena-luminosa-a-bassa-tensione-10-pendenti-per-interni-ed-esterni-scatola-a-8433325004224",
+      "variants": {
+        "58209074774396": {
+          "sku": "8433325004224",
+          "barcode": "8433325004224",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206418116988": {
+      "handle": "tenda-luminosa-con-led-a-testa-piatta-rgby-3-1-2-m-ip44-catena-luminosa-a-bassa-tensione-31-pendenti-per-interni-ed-esterni-scatola-a-c-8433325004316",
+      "variants": {
+        "58209074938236": {
+          "sku": "8433325004316",
+          "barcode": "8433325004316",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206418182524": {
+      "handle": "tenda-luminosa-con-led-a-testa-piatta-rgby-0-9-1-8-m-ip44-catena-luminosa-a-bassa-tensione-10-pendenti-per-interni-ed-esterni-scatola-a-8433325004347",
+      "variants": {
+        "58209074971004": {
+          "sku": "8433325004347",
+          "barcode": "8433325004347",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206418313596": {
+      "handle": "tenda-luminosa-con-led-a-testa-piatta-rgby-1-2-1-8-m-ip44-catena-luminosa-a-bassa-tensione-13-pendenti-per-interni-ed-esterni-scatola-a-8433325004378",
+      "variants": {
+        "58209075102076": {
+          "sku": "8433325004378",
+          "barcode": "8433325004378",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206418477436": {
+      "handle": "tenda-luminosa-con-led-a-testa-piatta-rgby-1-5-1-8-m-ip44-catena-luminosa-a-bassa-tensione-16-pendenti-per-interni-ed-esterni-scatola-a-8433325004408",
+      "variants": {
+        "58209075298684": {
+          "sku": "8433325004408",
+          "barcode": "8433325004408",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206418641276": {
+      "handle": "tenda-luminosa-con-led-a-testa-piatta-rgby-3-1-8-m-ip44-catena-luminosa-a-bassa-tensione-31-pendenti-per-interni-ed-esterni-scatola-a-c-8433325004439",
+      "variants": {
+        "58209075462524": {
+          "sku": "8433325004439",
+          "barcode": "8433325004439",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206423458172": {
+      "handle": "tenda-luminosa-con-led-a-testa-piatta-rgby-1-2-1-2-m-ip44-catena-luminosa-a-bassa-tensione-13-pendenti-per-interni-ed-esterni-scatola-a-8433325004255",
+      "variants": {
+        "58209080410492": {
+          "sku": "8433325004255",
+          "barcode": "8433325004255",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206423622012": {
+      "handle": "tenda-luminosa-con-led-a-testa-piatta-rgby-1-5-1-2-m-ip44-catena-luminosa-a-bassa-tensione-16-pendenti-per-interni-ed-esterni-scatola-a-8433325004286",
+      "variants": {
+        "58209080574332": {
+          "sku": "8433325004286",
+          "barcode": "8433325004286",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206428438908": {
+      "handle": "rete-luminosa-4-5-m-1-5-m-ip44-catena-luminosa-a-bassa-tensione-led-a-testa-piatta-bianco-freddo-per-interni-ed-esterni-scatola-a-color-8433325300449",
+      "variants": {
+        "58209089257852": {
+          "sku": "8433325300449",
+          "barcode": "8433325300449",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206428569980": {
+      "handle": "rete-luminosa-rgby-1-5-m-1-5-m-ip44-catena-luminosa-a-bassa-tensione-led-a-testa-piatta-per-interni-ed-esterni-scatola-a-colori-8433325300456",
+      "variants": {
+        "58209089421692": {
+          "sku": "8433325300456",
+          "barcode": "8433325300456",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206428733820": {
+      "handle": "rete-luminosa-rgby-4-5-1-5-m-ip44-catena-luminosa-a-bassa-tensione-led-a-testa-piatta-per-interni-ed-esterni-scatola-a-colori-8433325300470",
+      "variants": {
+        "58209089585532": {
+          "sku": "8433325300470",
+          "barcode": "8433325300470",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206430437756": {
+      "handle": "filo-luminoso-lineare-in-rame-30-m-ip44-catena-luminosa-a-bassa-tensione-bianco-freddo-per-interni-ed-esterni-scatola-a-colori-8433325353995",
+      "variants": {
+        "58209091289468": {
+          "sku": "8433325353995",
+          "barcode": "8433325353995",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206430568828": {
+      "handle": "filo-luminoso-lineare-in-rame-rgby-30-m-ip44-catena-luminosa-a-bassa-tensione-per-interni-ed-esterni-scatola-a-colori-8433325354053",
+      "variants": {
+        "58209091420540": {
+          "sku": "8433325354053",
+          "barcode": "8433325354053",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206435189116": {
+      "handle": "guinzaglio-con-decorazione-irregolare-a-spruzzo-e-stampa-w1-5-l120cm-8719138046294",
+      "variants": {
+        "58209114358140": {
+          "sku": "8719138046294",
+          "barcode": "8719138046294",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206435418492": {
+      "handle": "guinzaglio-riflettente-in-corda-tonda-con-doppio-gancio-d1-2-l40cm-8719138200931",
+      "variants": {
+        "58209114587516": {
+          "sku": "8719138200931",
+          "barcode": "8719138200931",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206439743868": {
+      "handle": "filo-luminoso-lineare-in-rame-5-m-ip44-catena-luminosa-a-bassa-tensione-bianco-freddo-per-interni-ed-esterni-scatola-a-colori-8433325353957",
+      "variants": {
+        "58209121042812": {
+          "sku": "8433325353957",
+          "barcode": "8433325353957",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206448984444": {
+      "handle": "proiettore-decorativo-a-bassa-tensione-5-m-ip20-oro-stella-per-punta-dell-albero-stella-esplosa-per-interni-8433325345679",
+      "variants": {
+        "58209159840124": {
+          "sku": "8433325345679",
+          "barcode": "8433325345679",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206457373052": {
+      "handle": "proiettore-decorativo-a-bassa-tensione-5-m-ip20-pupazzo-di-neve-forma-decorativa-motivo-natalizio-per-interni-8433325357351",
+      "variants": {
+        "58209191788924": {
+          "sku": "8433325357351",
+          "barcode": "8433325357351",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206457766268": {
+      "handle": "proiettore-decorativo-a-bassa-tensione-5-m-ip20-babbo-natale-forma-decorativa-fiocco-di-neve-effetto-tormenta-per-interni-8433325345815",
+      "variants": {
+        "58209192182140": {
+          "sku": "8433325345815",
+          "barcode": "8433325345815",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206465663356": {
+      "handle": "nastro-isolante-elettrico-pvc-0-13-17-10-m-verde-8433325208325",
+      "variants": {
+        "58209226064252": {
+          "sku": "8433325208325",
+          "barcode": "8433325208325",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206465728892": {
+      "handle": "nastro-isolante-elettrico-pvc-0-13-17-25-m-blu-8433325208462",
+      "variants": {
+        "58209226129788": {
+          "sku": "8433325208462",
+          "barcode": "8433325208462",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206465761660": {
+      "handle": "nastro-isolante-elettrico-pvc-0-13-17-25-m-giallo-8433325208479",
+      "variants": {
+        "58209226162556": {
+          "sku": "8433325208479",
+          "barcode": "8433325208479",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206468317564": {
+      "handle": "rete-luminosa-3-m-1-5-m-ip44-catena-luminosa-a-bassa-tensione-led-a-testa-piatta-bianco-caldo-per-interni-ed-esterni-scatola-a-colori-8433325300401",
+      "variants": {
+        "58209229439356": {
+          "sku": "8433325300401",
+          "barcode": "8433325300401",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206468514172": {
+      "handle": "rete-luminosa-4-5-m-1-5-m-ip44-catena-luminosa-a-bassa-tensione-led-a-testa-piatta-bianco-caldo-per-interni-ed-esterni-scatola-a-colori-8433325300418",
+      "variants": {
+        "58209229635964": {
+          "sku": "8433325300418",
+          "barcode": "8433325300418",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206468710780": {
+      "handle": "rete-luminosa-3-m-1-5-m-ip44-catena-luminosa-a-bassa-tensione-led-a-testa-piatta-bianco-freddo-per-interni-ed-esterni-scatola-a-colori-8433325300432",
+      "variants": {
+        "58209229832572": {
+          "sku": "8433325300432",
+          "barcode": "8433325300432",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206468940156": {
+      "handle": "rete-luminosa-rgby-3-m-1-5-m-ip44-catena-luminosa-a-bassa-tensione-led-a-testa-piatta-per-interni-ed-esterni-scatola-a-colori-8433325300463",
+      "variants": {
+        "58209230061948": {
+          "sku": "8433325300463",
+          "barcode": "8433325300463",
           "shipping_group": "grossisti"
         }
       }
