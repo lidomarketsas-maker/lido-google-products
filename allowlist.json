@@ -1,5 +1,5 @@
 {
-  "verified_at": "2026-11-22T19:58:30Z",
+  "verified_at": "2026-11-22T20:50:22Z",
   "basis": "Fresh complete Shopify Admin read-only variant/profile export; ACTIVE and published on Online Store306819924348 and GoogleYouTube308696842620; actual native delivery profiles, IDs, SKUs and barcodes. Policy holds remain hard excluded by exclusions.json.",
   "products": {
     "15932475146620": {
@@ -237428,6 +237428,1496 @@
         "58209227768188": {
           "sku": "8433325298852",
           "barcode": "8433325298852",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206377353596": {
+      "handle": "catena-luminosa-a-bassa-tensione-rgby-5-m-ip44-luce-a-grappolo-in-filo-di-rame-per-interni-ed-esterni-scatola-a-colori-8433325354213",
+      "variants": {
+        "58208945537404": {
+          "sku": "8433325354213",
+          "barcode": "8433325354213",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206377517436": {
+      "handle": "catena-luminosa-a-bassa-tensione-rgby-10-m-ip44-luce-a-grappolo-in-filo-di-rame-per-interni-ed-esterni-scatola-a-colori-8433325354237",
+      "variants": {
+        "58208946061692": {
+          "sku": "8433325354237",
+          "barcode": "8433325354237",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206377681276": {
+      "handle": "catena-luminosa-a-bassa-tensione-rgby-20-m-ip44-luce-a-grappolo-in-filo-di-rame-per-interni-ed-esterni-scatola-a-colori-8433325354251",
+      "variants": {
+        "58208946225532": {
+          "sku": "8433325354251",
+          "barcode": "8433325354251",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206377714044": {
+      "handle": "catena-luminosa-a-bassa-tensione-5-m-ip44-luce-a-grappolo-in-filo-di-rame-bianco-caldo-per-interni-ed-esterni-scatola-a-colori-8433325354084",
+      "variants": {
+        "58208946258300": {
+          "sku": "8433325354084",
+          "barcode": "8433325354084",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206377845116": {
+      "handle": "catena-luminosa-a-bassa-tensione-rgby-30-m-ip44-luce-a-grappolo-in-filo-di-rame-per-interni-ed-esterni-scatola-a-colori-8433325354268",
+      "variants": {
+        "58208946389372": {
+          "sku": "8433325354268",
+          "barcode": "8433325354268",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206377877884": {
+      "handle": "catena-luminosa-a-bassa-tensione-10-m-ip44-luce-a-grappolo-in-filo-di-rame-bianco-caldo-per-interni-ed-esterni-scatola-a-colori-8433325354091",
+      "variants": {
+        "58208946422140": {
+          "sku": "8433325354091",
+          "barcode": "8433325354091",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206378008956": {
+      "handle": "catena-luminosa-a-bassa-tensione-rgby-50-m-ip44-luce-a-grappolo-in-filo-di-rame-per-interni-ed-esterni-scatola-a-colori-8433325354275",
+      "variants": {
+        "58208946553212": {
+          "sku": "8433325354275",
+          "barcode": "8433325354275",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206378074492": {
+      "handle": "catena-luminosa-a-bassa-tensione-10-m-ip44-luce-a-grappolo-in-filo-di-rame-bianco-freddo-per-interni-ed-esterni-scatola-a-colori-8433325354152",
+      "variants": {
+        "58208946618748": {
+          "sku": "8433325354152",
+          "barcode": "8433325354152",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206378205564": {
+      "handle": "catena-luminosa-a-bassa-tensione-50-m-ip44-luce-a-grappolo-in-filo-di-rame-bianco-freddo-per-interni-ed-esterni-scatola-a-colori-8433325354206",
+      "variants": {
+        "58208946749820": {
+          "sku": "8433325354206",
+          "barcode": "8433325354206",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206403567996": {
+      "handle": "catena-luminosa-a-bassa-tensione-rgby-10-m-ip44-catena-luminosa-lineare-a-bolle-per-interni-ed-esterni-scatola-a-colori-8433325300746",
+      "variants": {
+        "58209049543036": {
+          "sku": "8433325300746",
+          "barcode": "8433325300746",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206404288892": {
+      "handle": "catena-luminosa-a-bassa-tensione-10-mm-10-m-ip44-luce-tubolare-bianco-freddo-per-interni-ed-esterni-scatola-a-colori-8433325003289",
+      "variants": {
+        "58209050296700": {
+          "sku": "8433325003289",
+          "barcode": "8433325003289",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206404485500": {
+      "handle": "catena-luminosa-a-bassa-tensione-10-mm-30-m-ip44-luce-tubolare-bianco-freddo-per-interni-ed-esterni-scatola-a-colori-8433325003364",
+      "variants": {
+        "58209050493308": {
+          "sku": "8433325003364",
+          "barcode": "8433325003364",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206404649340": {
+      "handle": "catena-luminosa-a-bassa-tensione-10-mm-rgby-5-m-ip44-luce-tubolare-per-interni-ed-esterni-scatola-a-colori-8433325003319",
+      "variants": {
+        "58209050657148": {
+          "sku": "8433325003319",
+          "barcode": "8433325003319",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206404813180": {
+      "handle": "catena-luminosa-a-bassa-tensione-10-mm-rgby-10-m-ip44-luce-tubolare-per-interni-ed-esterni-scatola-a-colori-8433325003326",
+      "variants": {
+        "58209050820988": {
+          "sku": "8433325003326",
+          "barcode": "8433325003326",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206404878716": {
+      "handle": "catena-luminosa-a-bassa-tensione-5-mm-10-m-ip44-catena-luminosa-lineare-tubolare-bianco-freddo-per-interni-ed-esterni-scatola-a-colori-8433325307264",
+      "variants": {
+        "58209050886524": {
+          "sku": "8433325307264",
+          "barcode": "8433325307264",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206405075324": {
+      "handle": "catena-luminosa-a-bassa-tensione-5-mm-15-m-ip44-catena-luminosa-lineare-tubolare-bianco-freddo-per-interni-ed-esterni-scatola-a-colori-8433325307271",
+      "variants": {
+        "58209051083132": {
+          "sku": "8433325307271",
+          "barcode": "8433325307271",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206408155516": {
+      "handle": "catena-luminosa-a-bassa-tensione-50-m-ip44-catena-luminosa-lineare-con-led-a-testa-piatta-bianco-caldo-per-interni-ed-esterni-scatola-a-8433325299453",
+      "variants": {
+        "58209058226556": {
+          "sku": "8433325299453",
+          "barcode": "8433325299453",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206408319356": {
+      "handle": "catena-luminosa-a-bassa-tensione-5-m-ip44-catena-luminosa-lineare-con-led-a-testa-piatta-bianco-freddo-per-interni-ed-esterni-scatola-a-8433325299460",
+      "variants": {
+        "58209058324860": {
+          "sku": "8433325299460",
+          "barcode": "8433325299460",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206408679804": {
+      "handle": "catena-luminosa-a-bassa-tensione-20-m-ip44-catena-luminosa-lineare-con-led-a-testa-piatta-bianco-freddo-per-interni-ed-esterni-scatola-8433325299491",
+      "variants": {
+        "58209058685308": {
+          "sku": "8433325299491",
+          "barcode": "8433325299491",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206409007484": {
+      "handle": "catena-luminosa-a-bassa-tensione-50-m-ip44-catena-luminosa-lineare-con-led-a-testa-piatta-bianco-freddo-per-interni-ed-esterni-scatola-8433325299514",
+      "variants": {
+        "58209058980220": {
+          "sku": "8433325299514",
+          "barcode": "8433325299514",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206409204092": {
+      "handle": "catena-luminosa-a-bassa-tensione-100-m-ip44-catena-luminosa-lineare-con-led-a-testa-piatta-bianco-freddo-per-interni-ed-esterni-scatola-8433325353858",
+      "variants": {
+        "58209059144060": {
+          "sku": "8433325353858",
+          "barcode": "8433325353858",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206409367932": {
+      "handle": "catena-luminosa-a-bassa-tensione-rgby-10-m-ip44-catena-luminosa-lineare-con-led-a-testa-piatta-per-interni-ed-esterni-scatola-a-colori-8433325299538",
+      "variants": {
+        "58209059307900": {
+          "sku": "8433325299538",
+          "barcode": "8433325299538",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206409564540": {
+      "handle": "catena-luminosa-a-bassa-tensione-rgby-15-m-ip44-catena-luminosa-lineare-con-led-a-testa-piatta-per-interni-ed-esterni-scatola-a-colori-8433325299545",
+      "variants": {
+        "58209059471740": {
+          "sku": "8433325299545",
+          "barcode": "8433325299545",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206409761148": {
+      "handle": "catena-luminosa-a-bassa-tensione-rgby-100-m-ip44-catena-luminosa-lineare-con-led-a-testa-piatta-per-interni-ed-esterni-scatola-a-colori-8433325353872",
+      "variants": {
+        "58209059635580": {
+          "sku": "8433325353872",
+          "barcode": "8433325353872",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206412022140": {
+      "handle": "catena-luminosa-a-bassa-tensione-7-5-m-ip44-catena-luminosa-lineare-con-led-a-testa-piatta-bianco-freddo-per-interni-ed-esterni-scatola-8433325371401",
+      "variants": {
+        "58209062519164": {
+          "sku": "8433325371401",
+          "barcode": "8433325371401",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206412087676": {
+      "handle": "catena-luminosa-a-bassa-tensione-rgby-5-m-ip44-catena-luminosa-lineare-con-globi-opalini-per-interni-ed-esterni-scatola-a-colori-8433325300678",
+      "variants": {
+        "58209062584700": {
+          "sku": "8433325300678",
+          "barcode": "8433325300678",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206412153212": {
+      "handle": "catena-luminosa-a-bassa-tensione-10-mm-15-m-ip44-luce-tubolare-bianco-caldo-per-interni-ed-esterni-scatola-a-colori-8433325003258",
+      "variants": {
+        "58209062650236": {
+          "sku": "8433325003258",
+          "barcode": "8433325003258",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206412185980": {
+      "handle": "catena-luminosa-a-bassa-tensione-15-m-ip44-catena-luminosa-lineare-con-led-a-testa-piatta-bianco-freddo-per-interni-ed-esterni-scatola-8433325299484",
+      "variants": {
+        "58209062683004": {
+          "sku": "8433325299484",
+          "barcode": "8433325299484",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206412251516": {
+      "handle": "catena-luminosa-a-bassa-tensione-rgby-10-m-ip44-catena-luminosa-lineare-con-globi-opalini-per-interni-ed-esterni-scatola-a-colori-8433325300685",
+      "variants": {
+        "58209062748540": {
+          "sku": "8433325300685",
+          "barcode": "8433325300685",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206412284284": {
+      "handle": "catena-luminosa-a-bassa-tensione-5-mm-20-m-ip44-catena-luminosa-lineare-tubolare-bianco-caldo-per-interni-ed-esterni-scatola-a-colori-8433325307240",
+      "variants": {
+        "58209062781308": {
+          "sku": "8433325307240",
+          "barcode": "8433325307240",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206412317052": {
+      "handle": "catena-luminosa-a-bassa-tensione-10-mm-20-m-ip44-luce-tubolare-bianco-caldo-per-interni-ed-esterni-scatola-a-colori-8433325003265",
+      "variants": {
+        "58209062814076": {
+          "sku": "8433325003265",
+          "barcode": "8433325003265",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206412480892": {
+      "handle": "catena-luminosa-a-bassa-tensione-10-mm-rgby-30-m-ip44-luce-tubolare-per-interni-ed-esterni-scatola-a-colori-8433325003371",
+      "variants": {
+        "58209062977916": {
+          "sku": "8433325003371",
+          "barcode": "8433325003371",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206412513660": {
+      "handle": "catena-luminosa-a-bassa-tensione-5-m-ip44-catena-luminosa-lineare-a-goccia-bianco-freddo-per-interni-ed-esterni-scatola-a-colori-8433325300838",
+      "variants": {
+        "58209063010684": {
+          "sku": "8433325300838",
+          "barcode": "8433325300838",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206412579196": {
+      "handle": "catena-luminosa-a-bassa-tensione-5-m-ip44-catena-luminosa-lineare-a-bolle-bianco-freddo-per-interni-ed-esterni-scatola-a-colori-8433325300715",
+      "variants": {
+        "58209063076220": {
+          "sku": "8433325300715",
+          "barcode": "8433325300715",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206412677500": {
+      "handle": "catena-luminosa-a-bassa-tensione-rgby-5-m-ip44-catena-luminosa-lineare-a-bolle-per-interni-ed-esterni-scatola-a-colori-8433325300739",
+      "variants": {
+        "58209063174524": {
+          "sku": "8433325300739",
+          "barcode": "8433325300739",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206412710268": {
+      "handle": "catena-luminosa-a-bassa-tensione-rgby-10-m-ip44-catena-luminosa-lineare-a-goccia-per-interni-ed-esterni-scatola-a-colori-8433325300869",
+      "variants": {
+        "58209063207292": {
+          "sku": "8433325300869",
+          "barcode": "8433325300869",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206412743036": {
+      "handle": "catena-luminosa-a-bassa-tensione-5-m-ip44-catena-luminosa-lineare-con-globi-opalini-bianco-freddo-per-interni-ed-esterni-scatola-a-colo-8433325300654",
+      "variants": {
+        "58209063240060": {
+          "sku": "8433325300654",
+          "barcode": "8433325300654",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206413136252": {
+      "handle": "catena-luminosa-a-bassa-tensione-5-mm-15-m-ip44-catena-luminosa-lineare-tubolare-bianco-caldo-per-interni-ed-esterni-scatola-a-colori-8433325307233",
+      "variants": {
+        "58209063731580": {
+          "sku": "8433325307233",
+          "barcode": "8433325307233",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206413201788": {
+      "handle": "catena-luminosa-a-bassa-tensione-rgby-75-m-ip44-catena-luminosa-lineare-con-led-a-testa-piatta-per-interni-ed-esterni-scatola-a-colori-8433325353865",
+      "variants": {
+        "58209063797116": {
+          "sku": "8433325353865",
+          "barcode": "8433325353865",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206413234556": {
+      "handle": "catena-luminosa-a-bassa-tensione-9-mm-3-m-5-m-ip44-luce-tubolare-bianco-freddo-per-interni-ed-esterni-scatola-a-colori-8433325367800",
+      "variants": {
+        "58209063829884": {
+          "sku": "8433325367800",
+          "barcode": "8433325367800",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206413300092": {
+      "handle": "catena-luminosa-a-bassa-tensione-7-5-m-ip44-catena-luminosa-lineare-con-led-a-testa-piatta-bianco-caldo-per-interni-ed-esterni-scatola-8433325371395",
+      "variants": {
+        "58209063895420": {
+          "sku": "8433325371395",
+          "barcode": "8433325371395",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206413332860": {
+      "handle": "catena-luminosa-a-bassa-tensione-10-mm-rgby-20-m-ip44-luce-tubolare-per-interni-ed-esterni-scatola-a-colori-8433325003340",
+      "variants": {
+        "58209063928188": {
+          "sku": "8433325003340",
+          "barcode": "8433325003340",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206413398396": {
+      "handle": "catena-luminosa-a-bassa-tensione-5-m-ip44-catena-luminosa-lineare-a-goccia-bianco-caldo-per-interni-ed-esterni-scatola-a-colori-8433325300814",
+      "variants": {
+        "58209063993724": {
+          "sku": "8433325300814",
+          "barcode": "8433325300814",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206413529468": {
+      "handle": "catena-luminosa-a-bassa-tensione-9-mm-3-m-20-m-ip44-luce-tubolare-bianco-caldo-per-interni-ed-esterni-scatola-a-colori-8433325367794",
+      "variants": {
+        "58209064124796": {
+          "sku": "8433325367794",
+          "barcode": "8433325367794",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206414250364": {
+      "handle": "catena-luminosa-a-bassa-tensione-5-m-ip44-catena-luminosa-lineare-a-bolle-bianco-caldo-per-interni-ed-esterni-scatola-a-colori-8433325300692",
+      "variants": {
+        "58209066189180": {
+          "sku": "8433325300692",
+          "barcode": "8433325300692",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206418018684": {
+      "handle": "catena-luminosa-a-bassa-tensione-5-mm-5-m-ip44-catena-luminosa-lineare-tubolare-bianco-caldo-per-interni-ed-esterni-scatola-a-colori-8433325307219",
+      "variants": {
+        "58209074807164": {
+          "sku": "8433325307219",
+          "barcode": "8433325307219",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206418215292": {
+      "handle": "catena-luminosa-a-bassa-tensione-5-mm-10-m-ip44-catena-luminosa-lineare-tubolare-bianco-caldo-per-interni-ed-esterni-scatola-a-colori-8433325307226",
+      "variants": {
+        "58209075003772": {
+          "sku": "8433325307226",
+          "barcode": "8433325307226",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206418772348": {
+      "handle": "catena-luminosa-a-bassa-tensione-10-mm-30-m-ip44-luce-tubolare-bianco-caldo-per-interni-ed-esterni-scatola-a-colori-8433325003357",
+      "variants": {
+        "58209075593596": {
+          "sku": "8433325003357",
+          "barcode": "8433325003357",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206418968956": {
+      "handle": "catena-luminosa-a-bassa-tensione-10-mm-15-m-ip44-luce-tubolare-bianco-freddo-per-interni-ed-esterni-scatola-a-colori-8433325003296",
+      "variants": {
+        "58209075790204": {
+          "sku": "8433325003296",
+          "barcode": "8433325003296",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206419165564": {
+      "handle": "catena-luminosa-a-bassa-tensione-10-mm-20-m-ip44-luce-tubolare-bianco-freddo-per-interni-ed-esterni-scatola-a-colori-8433325003302",
+      "variants": {
+        "58209076019580": {
+          "sku": "8433325003302",
+          "barcode": "8433325003302",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206419296636": {
+      "handle": "catena-luminosa-a-bassa-tensione-5-m-ip44-catena-luminosa-lineare-con-globi-opalini-bianco-caldo-per-interni-ed-esterni-scatola-a-color-8433325300630",
+      "variants": {
+        "58209076150652": {
+          "sku": "8433325300630",
+          "barcode": "8433325300630",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206419493244": {
+      "handle": "catena-luminosa-a-bassa-tensione-75-m-ip44-catena-luminosa-lineare-con-led-a-testa-piatta-bianco-freddo-per-interni-ed-esterni-scatola-8433325353841",
+      "variants": {
+        "58209076445564": {
+          "sku": "8433325353841",
+          "barcode": "8433325353841",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206419624316": {
+      "handle": "catena-luminosa-a-bassa-tensione-rgby-7-5-m-ip44-catena-luminosa-lineare-con-led-a-testa-piatta-per-interni-ed-esterni-scatola-a-colori-8433325371418",
+      "variants": {
+        "58209076609404": {
+          "sku": "8433325371418",
+          "barcode": "8433325371418",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206419853692": {
+      "handle": "catena-luminosa-a-bassa-tensione-rgby-30-m-ip44-catena-luminosa-lineare-con-led-a-testa-piatta-per-interni-ed-esterni-scatola-a-colori-8433325299569",
+      "variants": {
+        "58209076806012": {
+          "sku": "8433325299569",
+          "barcode": "8433325299569",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206420017532": {
+      "handle": "catena-luminosa-a-bassa-tensione-rgby-50-m-ip44-catena-luminosa-lineare-con-led-a-testa-piatta-per-interni-ed-esterni-scatola-a-colori-8433325299576",
+      "variants": {
+        "58209076969852": {
+          "sku": "8433325299576",
+          "barcode": "8433325299576",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206420672892": {
+      "handle": "catena-luminosa-a-bassa-tensione-100-m-ip44-catena-luminosa-lineare-con-led-a-testa-piatta-bianco-caldo-per-interni-ed-esterni-scatola-8433325353834",
+      "variants": {
+        "58209077625212": {
+          "sku": "8433325353834",
+          "barcode": "8433325353834",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206420771196": {
+      "handle": "catena-luminosa-a-bassa-tensione-30-m-ip44-catena-luminosa-lineare-con-led-a-testa-piatta-bianco-freddo-per-interni-ed-esterni-scatola-8433325299507",
+      "variants": {
+        "58209077723516": {
+          "sku": "8433325299507",
+          "barcode": "8433325299507",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206421295484": {
+      "handle": "catena-luminosa-a-bassa-tensione-rgby-5-m-ip44-catena-luminosa-lineare-con-piccoli-globi-a-grappolo-per-interni-ed-esterni-scatola-a-co-8433325300913",
+      "variants": {
+        "58209078247804": {
+          "sku": "8433325300913",
+          "barcode": "8433325300913",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206422475132": {
+      "handle": "catena-luminosa-a-bassa-tensione-rgby-5-m-ip44-catena-luminosa-lineare-con-stelle-e-fiocchi-di-neve-per-interni-ed-esterni-scatola-a-co-8433325300791",
+      "variants": {
+        "58209079427452": {
+          "sku": "8433325300791",
+          "barcode": "8433325300791",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206422507900": {
+      "handle": "catena-luminosa-a-bassa-tensione-rgby-5-m-ip44-catena-luminosa-lineare-a-goccia-per-interni-ed-esterni-scatola-a-colori-8433325300852",
+      "variants": {
+        "58209079460220": {
+          "sku": "8433325300852",
+          "barcode": "8433325300852",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206423097724": {
+      "handle": "catena-luminosa-a-bassa-tensione-5-mm-rgby-20-m-ip44-catena-luminosa-lineare-tubolare-per-interni-ed-esterni-scatola-a-colori-8433325307325",
+      "variants": {
+        "58209080050044": {
+          "sku": "8433325307325",
+          "barcode": "8433325307325",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206429684092": {
+      "handle": "catena-luminosa-a-bassa-tensione-30-m-ip44-catena-luminosa-lineare-con-led-a-testa-piatta-bianco-freddo-per-interni-ed-esterni-scatola-8433325002633",
+      "variants": {
+        "58209090535804": {
+          "sku": "8433325002633",
+          "barcode": "8433325002633",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206430011772": {
+      "handle": "catena-luminosa-a-bassa-tensione-75-m-ip44-catena-luminosa-lineare-con-led-a-testa-piatta-bianco-caldo-per-interni-ed-esterni-scatola-a-8433325353681",
+      "variants": {
+        "58209090863484": {
+          "sku": "8433325353681",
+          "barcode": "8433325353681",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206430699900": {
+      "handle": "catena-luminosa-a-bassa-tensione-20-m-ip44-catena-luminosa-lineare-con-led-a-testa-piatta-bianco-caldo-per-interni-ed-esterni-scatola-a-8433325002565",
+      "variants": {
+        "58209091551612": {
+          "sku": "8433325002565",
+          "barcode": "8433325002565",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206431060348": {
+      "handle": "catena-luminosa-a-bassa-tensione-20-m-ip44-lampeggio-intenso-led-a-testa-piatta-bianco-freddo-per-interni-ed-esterni-scatola-a-colori-8433325352929",
+      "variants": {
+        "58209091977596": {
+          "sku": "8433325352929",
+          "barcode": "8433325352929",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206431224188": {
+      "handle": "catena-luminosa-a-bassa-tensione-20-m-ip44-lampeggio-intenso-led-a-testa-piatta-luce-blu-per-interni-ed-esterni-scatola-a-colori-8433325352974",
+      "variants": {
+        "58209092174204": {
+          "sku": "8433325352974",
+          "barcode": "8433325352974",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206431388028": {
+      "handle": "catena-luminosa-a-bassa-tensione-20-m-ip44-lampeggio-intenso-led-a-testa-piatta-bianco-freddo-per-interni-ed-esterni-scatola-a-colori-8433325352783",
+      "variants": {
+        "58209092305276": {
+          "sku": "8433325352783",
+          "barcode": "8433325352783",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206431420796": {
+      "handle": "catena-luminosa-a-bassa-tensione-5-m-ip44-lampeggiante-led-a-testa-piatta-bianco-freddo-per-interni-ed-esterni-scatola-a-colori-8433325351762",
+      "variants": {
+        "58209092338044": {
+          "sku": "8433325351762",
+          "barcode": "8433325351762",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206431584636": {
+      "handle": "catena-luminosa-a-bassa-tensione-5-m-ip44-lampeggiante-led-a-testa-piatta-luce-blu-per-interni-ed-esterni-scatola-a-colori-8433325351809",
+      "variants": {
+        "58209092501884": {
+          "sku": "8433325351809",
+          "barcode": "8433325351809",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206431748476": {
+      "handle": "catena-luminosa-a-bassa-tensione-20-m-ip44-lampeggiante-led-a-testa-piatta-luce-blu-per-interni-ed-esterni-scatola-a-colori-8433325351847",
+      "variants": {
+        "58209092665724": {
+          "sku": "8433325351847",
+          "barcode": "8433325351847",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206431846780": {
+      "handle": "catena-luminosa-a-bassa-tensione-30-m-ip44-catena-luminosa-lineare-con-led-a-testa-piatta-bianco-caldo-per-interni-ed-esterni-scatola-a-8433325002572",
+      "variants": {
+        "58209092764028": {
+          "sku": "8433325002572",
+          "barcode": "8433325002572",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206431912316": {
+      "handle": "catena-luminosa-a-bassa-tensione-5-m-ip44-lampeggio-intenso-led-a-testa-piatta-bianco-caldo-per-interni-ed-esterni-scatola-a-colori-8433325352851",
+      "variants": {
+        "58209092796796": {
+          "sku": "8433325352851",
+          "barcode": "8433325352851",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206432239996": {
+      "handle": "catena-luminosa-a-bassa-tensione-15-m-ip44-lampeggio-intenso-led-a-testa-piatta-bianco-caldo-per-interni-ed-esterni-scatola-a-colori-8433325352875",
+      "variants": {
+        "58209093190012": {
+          "sku": "8433325352875",
+          "barcode": "8433325352875",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206432272764": {
+      "handle": "catena-luminosa-a-bassa-tensione-5-m-ip44-lampeggiante-led-a-testa-piatta-bianco-freddo-per-interni-ed-esterni-scatola-a-colori-8433325351892",
+      "variants": {
+        "58209093222780": {
+          "sku": "8433325351892",
+          "barcode": "8433325351892",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206432371068": {
+      "handle": "catena-luminosa-a-bassa-tensione-5-m-ip44-lampeggio-intenso-led-a-testa-piatta-bianco-freddo-per-interni-ed-esterni-scatola-a-colori-8433325352899",
+      "variants": {
+        "58209093321084": {
+          "sku": "8433325352899",
+          "barcode": "8433325352899",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206438400380": {
+      "handle": "catena-luminosa-a-bassa-tensione-30-m-ip44-luce-a-grappolo-in-filo-di-rame-bianco-freddo-per-interni-ed-esterni-scatola-a-colori-8433325354183",
+      "variants": {
+        "58209119601020": {
+          "sku": "8433325354183",
+          "barcode": "8433325354183",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206439121276": {
+      "handle": "catena-luminosa-a-bassa-tensione-20-m-ip44-catena-luminosa-lineare-con-filo-rivestito-bianco-caldo-per-interni-ed-esterni-scatola-a-col-8433325300494",
+      "variants": {
+        "58209120387452": {
+          "sku": "8433325300494",
+          "barcode": "8433325300494",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206439285116": {
+      "handle": "catena-luminosa-a-bassa-tensione-30-m-ip44-catena-luminosa-lineare-con-filo-rivestito-bianco-caldo-per-interni-ed-esterni-scatola-a-col-8433325300500",
+      "variants": {
+        "58209120551292": {
+          "sku": "8433325300500",
+          "barcode": "8433325300500",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206439448956": {
+      "handle": "catena-luminosa-a-bassa-tensione-50-m-ip44-catena-luminosa-lineare-con-filo-rivestito-bianco-caldo-per-interni-ed-esterni-scatola-a-col-8433325300524",
+      "variants": {
+        "58209120715132": {
+          "sku": "8433325300524",
+          "barcode": "8433325300524",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206439776636": {
+      "handle": "catena-luminosa-a-bassa-tensione-20-m-ip44-catena-luminosa-lineare-con-filo-rivestito-bianco-freddo-per-interni-ed-esterni-scatola-a-co-8433325300548",
+      "variants": {
+        "58209121075580": {
+          "sku": "8433325300548",
+          "barcode": "8433325300548",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206439874940": {
+      "handle": "catena-luminosa-a-bassa-tensione-30-m-ip44-luce-a-grappolo-in-filo-di-rame-bianco-caldo-per-interni-ed-esterni-scatola-a-colori-8433325354121",
+      "variants": {
+        "58209121173884": {
+          "sku": "8433325354121",
+          "barcode": "8433325354121",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206439940476": {
+      "handle": "catena-luminosa-a-bassa-tensione-20-m-ip44-luce-a-grappolo-in-filo-di-rame-bianco-freddo-per-interni-ed-esterni-scatola-a-colori-8433325354176",
+      "variants": {
+        "58209121239420": {
+          "sku": "8433325354176",
+          "barcode": "8433325354176",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206442430844": {
+      "handle": "catena-luminosa-a-bassa-tensione-30-m-ip44-catena-luminosa-lineare-con-filo-rivestito-bianco-freddo-per-interni-ed-esterni-scatola-a-co-8433325300555",
+      "variants": {
+        "58209134150012": {
+          "sku": "8433325300555",
+          "barcode": "8433325300555",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206442660220": {
+      "handle": "catena-luminosa-a-bassa-tensione-50-m-ip44-catena-luminosa-lineare-con-filo-rivestito-bianco-freddo-per-interni-ed-esterni-scatola-a-co-8433325300579",
+      "variants": {
+        "58209134412156": {
+          "sku": "8433325300579",
+          "barcode": "8433325300579",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206442791292": {
+      "handle": "catena-luminosa-a-bassa-tensione-7-5-m-ip44-catena-luminosa-lineare-con-led-a-testa-piatta-bianco-caldo-per-interni-ed-esterni-scatola-8433325002718",
+      "variants": {
+        "58209134510460": {
+          "sku": "8433325002718",
+          "barcode": "8433325002718",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206442856828": {
+      "handle": "catena-luminosa-a-bassa-tensione-rgby-10-m-ip44-catena-luminosa-lineare-con-filo-rivestito-per-interni-ed-esterni-scatola-a-colori-8433325300586",
+      "variants": {
+        "58209134575996": {
+          "sku": "8433325300586",
+          "barcode": "8433325300586",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206442955132": {
+      "handle": "catena-luminosa-a-bassa-tensione-5-m-ip44-catena-luminosa-lineare-con-led-a-testa-piatta-bianco-freddo-per-interni-ed-esterni-scatola-a-8433325002596",
+      "variants": {
+        "58209134674300": {
+          "sku": "8433325002596",
+          "barcode": "8433325002596",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206443020668": {
+      "handle": "catena-luminosa-a-bassa-tensione-rgby-20-m-ip44-catena-luminosa-lineare-con-filo-rivestito-per-interni-ed-esterni-scatola-a-colori-8433325300593",
+      "variants": {
+        "58209134739836": {
+          "sku": "8433325300593",
+          "barcode": "8433325300593",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206443086204": {
+      "handle": "catena-luminosa-a-bassa-tensione-5-m-ip44-catena-luminosa-lineare-con-led-a-testa-piatta-bianco-caldo-per-interni-ed-esterni-scatola-a-8433325298777",
+      "variants": {
+        "58209134805372": {
+          "sku": "8433325298777",
+          "barcode": "8433325298777",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206443184508": {
+      "handle": "catena-luminosa-a-bassa-tensione-rgby-30-m-ip44-catena-luminosa-lineare-con-filo-rivestito-per-interni-ed-esterni-scatola-a-colori-8433325300609",
+      "variants": {
+        "58209134903676": {
+          "sku": "8433325300609",
+          "barcode": "8433325300609",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206443217276": {
+      "handle": "catena-luminosa-a-bassa-tensione-5-m-ip44-catena-luminosa-lineare-con-led-a-testa-piatta-bianco-caldo-per-interni-ed-esterni-scatola-a-8433325002954",
+      "variants": {
+        "58209134936444": {
+          "sku": "8433325002954",
+          "barcode": "8433325002954",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206443250044": {
+      "handle": "catena-luminosa-a-bassa-tensione-50-m-ip44-catena-luminosa-lineare-con-led-a-testa-piatta-bianco-freddo-per-interni-ed-esterni-scatola-8433325298906",
+      "variants": {
+        "58209134969212": {
+          "sku": "8433325298906",
+          "barcode": "8433325298906",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206443282812": {
+      "handle": "catena-luminosa-a-bassa-tensione-20-m-ip44-catena-luminosa-lineare-con-led-a-testa-piatta-bianco-freddo-per-interni-ed-esterni-scatola-8433325002626",
+      "variants": {
+        "58209135001980": {
+          "sku": "8433325002626",
+          "barcode": "8433325002626",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206443348348": {
+      "handle": "catena-luminosa-a-bassa-tensione-75-m-ip44-catena-luminosa-lineare-con-led-a-testa-piatta-bianco-freddo-per-interni-ed-esterni-scatola-8433325353704",
+      "variants": {
+        "58209135067516": {
+          "sku": "8433325353704",
+          "barcode": "8433325353704",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206443381116": {
+      "handle": "catena-luminosa-a-bassa-tensione-rgby-50-m-ip44-catena-luminosa-lineare-con-filo-rivestito-per-interni-ed-esterni-scatola-a-colori-8433325300623",
+      "variants": {
+        "58209135100284": {
+          "sku": "8433325300623",
+          "barcode": "8433325300623",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206443413884": {
+      "handle": "catena-luminosa-a-bassa-tensione-rgby-15-m-ip44-catena-luminosa-lineare-con-led-a-testa-piatta-per-interni-ed-esterni-scatola-a-colori-8433325298937",
+      "variants": {
+        "58209135133052": {
+          "sku": "8433325298937",
+          "barcode": "8433325298937",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206443446652": {
+      "handle": "catena-luminosa-a-bassa-tensione-50-m-ip44-catena-luminosa-lineare-con-led-a-testa-piatta-bianco-freddo-per-interni-ed-esterni-scatola-8433325002640",
+      "variants": {
+        "58209135165820": {
+          "sku": "8433325002640",
+          "barcode": "8433325002640",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206443512188": {
+      "handle": "catena-luminosa-a-bassa-tensione-rgby-5-m-ip44-catena-luminosa-lineare-con-led-a-testa-piatta-per-interni-ed-esterni-scatola-a-colori-8433325004484",
+      "variants": {
+        "58209135231356": {
+          "sku": "8433325004484",
+          "barcode": "8433325004484",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206443577724": {
+      "handle": "catena-luminosa-a-bassa-tensione-rgby-20-m-ip44-catena-luminosa-lineare-con-led-a-testa-piatta-per-interni-ed-esterni-scatola-a-colori-8433325298944",
+      "variants": {
+        "58209135296892": {
+          "sku": "8433325298944",
+          "barcode": "8433325298944",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206443610492": {
+      "handle": "catena-luminosa-a-bassa-tensione-75-m-ip44-catena-luminosa-lineare-con-led-a-testa-piatta-bianco-freddo-per-interni-ed-esterni-scatola-8433325353636",
+      "variants": {
+        "58209135329660": {
+          "sku": "8433325353636",
+          "barcode": "8433325353636",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206443774332": {
+      "handle": "catena-luminosa-a-bassa-tensione-100-m-ip44-catena-luminosa-lineare-con-led-a-testa-piatta-bianco-freddo-per-interni-ed-esterni-scatola-8433325353643",
+      "variants": {
+        "58209135493500": {
+          "sku": "8433325353643",
+          "barcode": "8433325353643",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206443938172": {
+      "handle": "catena-luminosa-a-bassa-tensione-rgby-50-m-ip44-catena-luminosa-lineare-con-led-a-testa-piatta-per-interni-ed-esterni-scatola-a-colori-8433325002701",
+      "variants": {
+        "58209135657340": {
+          "sku": "8433325002701",
+          "barcode": "8433325002701",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206444331388": {
+      "handle": "catena-luminosa-a-bassa-tensione-rgby-15-m-ip44-luce-a-grappolo-con-led-a-testa-piatta-per-interni-ed-esterni-scatola-a-colori-8433325305284",
+      "variants": {
+        "58209139229052": {
+          "sku": "8433325305284",
+          "barcode": "8433325305284",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206444593532": {
+      "handle": "catena-luminosa-a-bassa-tensione-5-m-ip44-luce-a-grappolo-con-led-a-testa-piatta-bianco-caldo-per-interni-ed-esterni-scatola-a-colori-8433325299941",
+      "variants": {
+        "58209139491196": {
+          "sku": "8433325299941",
+          "barcode": "8433325299941",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206444626300": {
+      "handle": "catena-luminosa-a-bassa-tensione-g50-5-m-ip44-luce-in-filo-di-rame-bianco-freddo-per-interni-ed-esterni-scatola-a-colori-8433325340636",
+      "variants": {
+        "58209139523964": {
+          "sku": "8433325340636",
+          "barcode": "8433325340636",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206444724604": {
+      "handle": "catena-luminosa-a-bassa-tensione-5-m-ip44-luce-a-grappolo-con-led-a-testa-piatta-bianco-freddo-per-interni-ed-esterni-scatola-a-colori-8433325306762",
+      "variants": {
+        "58209139589500": {
+          "sku": "8433325306762",
+          "barcode": "8433325306762",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206444822908": {
+      "handle": "catena-luminosa-a-bassa-tensione-10-m-ip44-luce-a-grappolo-con-led-a-testa-piatta-bianco-freddo-per-interni-ed-esterni-scatola-a-colori-8433325306779",
+      "variants": {
+        "58209139720572": {
+          "sku": "8433325306779",
+          "barcode": "8433325306779",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206444953980": {
+      "handle": "catena-luminosa-a-bassa-tensione-rgby-5-m-ip44-luce-a-grappolo-con-led-a-testa-piatta-per-interni-ed-esterni-scatola-a-colori-8433325305260",
+      "variants": {
+        "58209139851644": {
+          "sku": "8433325305260",
+          "barcode": "8433325305260",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206448722300": {
+      "handle": "catena-luminosa-a-bassa-tensione-5-m-ip44-lampeggiante-led-a-testa-piatta-luce-blu-per-interni-ed-esterni-scatola-a-colori-8433325351939",
+      "variants": {
+        "58209159577980": {
+          "sku": "8433325351939",
+          "barcode": "8433325351939",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206450327932": {
+      "handle": "catena-luminosa-a-bassa-tensione-15-m-ip44-lampeggio-intenso-led-a-testa-piatta-bianco-freddo-per-interni-ed-esterni-scatola-a-colori-8433325352912",
+      "variants": {
+        "58209163018620": {
+          "sku": "8433325352912",
+          "barcode": "8433325352912",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206450393468": {
+      "handle": "catena-luminosa-a-bassa-tensione-10-m-ip44-lampeggio-intenso-led-a-testa-piatta-luce-blu-per-interni-ed-esterni-scatola-a-colori-8433325352943",
+      "variants": {
+        "58209163084156": {
+          "sku": "8433325352943",
+          "barcode": "8433325352943",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206450426236": {
+      "handle": "catena-luminosa-a-bassa-tensione-20-m-ip44-lampeggiante-led-a-testa-piatta-bianco-caldo-per-interni-ed-esterni-scatola-a-colori-8433325351885",
+      "variants": {
+        "58209163116924": {
+          "sku": "8433325351885",
+          "barcode": "8433325351885",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206450459004": {
+      "handle": "catena-luminosa-a-bassa-tensione-15-m-ip44-lampeggio-intenso-led-a-testa-piatta-luce-blu-per-interni-ed-esterni-scatola-a-colori-8433325352967",
+      "variants": {
+        "58209163149692": {
+          "sku": "8433325352967",
+          "barcode": "8433325352967",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206450524540": {
+      "handle": "catena-luminosa-a-bassa-tensione-15-m-ip44-lampeggiante-led-a-testa-piatta-bianco-caldo-per-interni-ed-esterni-scatola-a-colori-8433325351748",
+      "variants": {
+        "58209163215228": {
+          "sku": "8433325351748",
+          "barcode": "8433325351748",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206450557308": {
+      "handle": "catena-luminosa-a-bassa-tensione-50-m-ip44-catena-luminosa-lineare-con-led-a-testa-piatta-bianco-caldo-per-interni-ed-esterni-scatola-a-8433325002589",
+      "variants": {
+        "58209163247996": {
+          "sku": "8433325002589",
+          "barcode": "8433325002589",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206450622844": {
+      "handle": "catena-luminosa-a-bassa-tensione-20-m-ip44-lampeggiante-led-a-testa-piatta-bianco-freddo-per-interni-ed-esterni-scatola-a-colori-8433325351793",
+      "variants": {
+        "58209163313532": {
+          "sku": "8433325351793",
+          "barcode": "8433325351793",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206450721148": {
+      "handle": "catena-luminosa-a-bassa-tensione-20-m-ip44-lampeggio-intenso-led-a-testa-piatta-bianco-caldo-per-interni-ed-esterni-scatola-a-colori-8433325352882",
+      "variants": {
+        "58209163673980": {
+          "sku": "8433325352882",
+          "barcode": "8433325352882",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206450753916": {
+      "handle": "catena-luminosa-a-bassa-tensione-10-m-ip44-lampeggio-intenso-led-a-testa-piatta-bianco-freddo-per-interni-ed-esterni-scatola-a-colori-8433325352905",
+      "variants": {
+        "58209163706748": {
+          "sku": "8433325352905",
+          "barcode": "8433325352905",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206452162940": {
+      "handle": "catena-luminosa-a-bassa-tensione-20-m-ip44-lampeggiante-led-a-testa-piatta-bianco-caldo-per-interni-ed-esterni-scatola-a-colori-8433325351755",
+      "variants": {
+        "58209171472764": {
+          "sku": "8433325351755",
+          "barcode": "8433325351755",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206452326780": {
+      "handle": "catena-luminosa-a-bassa-tensione-15-m-ip44-lampeggiante-led-a-testa-piatta-bianco-caldo-per-interni-ed-esterni-scatola-a-colori-8433325351878",
+      "variants": {
+        "58209171767676": {
+          "sku": "8433325351878",
+          "barcode": "8433325351878",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206452392316": {
+      "handle": "catena-luminosa-a-bassa-tensione-20-m-ip44-lampeggiante-led-a-testa-piatta-bianco-freddo-per-interni-ed-esterni-scatola-a-colori-8433325351922",
+      "variants": {
+        "58209171964284": {
+          "sku": "8433325351922",
+          "barcode": "8433325351922",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206452457852": {
+      "handle": "catena-luminosa-a-bassa-tensione-15-m-ip44-lampeggiante-led-a-testa-piatta-luce-blu-per-interni-ed-esterni-scatola-a-colori-8433325351823",
+      "variants": {
+        "58209172029820": {
+          "sku": "8433325351823",
+          "barcode": "8433325351823",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206452523388": {
+      "handle": "catena-luminosa-a-bassa-tensione-15-m-ip44-lampeggiante-led-a-testa-piatta-luce-blu-per-interni-ed-esterni-scatola-a-colori-8433325351953",
+      "variants": {
+        "58209172259196": {
+          "sku": "8433325351953",
+          "barcode": "8433325351953",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206452621692": {
+      "handle": "catena-luminosa-a-bassa-tensione-20-m-ip44-lampeggiante-led-a-testa-piatta-luce-blu-per-interni-ed-esterni-scatola-a-colori-8433325351977",
+      "variants": {
+        "58209172357500": {
+          "sku": "8433325351977",
+          "barcode": "8433325351977",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206452752764": {
+      "handle": "catena-luminosa-a-bassa-tensione-5-m-ip44-lampeggiante-led-a-testa-piatta-bianco-caldo-per-interni-ed-esterni-scatola-a-colori-8433325351724",
+      "variants": {
+        "58209172652412": {
+          "sku": "8433325351724",
+          "barcode": "8433325351724",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206452785532": {
+      "handle": "catena-luminosa-a-bassa-tensione-15-m-ip44-lampeggio-intenso-led-a-testa-piatta-luce-blu-per-interni-ed-esterni-scatola-a-colori-8433325352837",
+      "variants": {
+        "58209172685180": {
+          "sku": "8433325352837",
+          "barcode": "8433325352837",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206457012604": {
+      "handle": "catena-luminosa-a-bassa-tensione-rgb-5-m-ip44-catena-luminosa-lineare-con-filo-rivestito-multicolore-per-interni-ed-esterni-scatola-a-c-8433325340186",
+      "variants": {
+        "58209191428476": {
+          "sku": "8433325340186",
+          "barcode": "8433325340186",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206457176444": {
+      "handle": "catena-luminosa-a-bassa-tensione-rgb-10-m-ip44-catena-luminosa-lineare-con-filo-rivestito-multicolore-per-interni-ed-esterni-scatola-a-8433325340193",
+      "variants": {
+        "58209191592316": {
+          "sku": "8433325340193",
+          "barcode": "8433325340193",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206457340284": {
+      "handle": "catena-luminosa-a-bassa-tensione-rgb-30-m-ip44-catena-luminosa-lineare-con-filo-rivestito-multicolore-per-interni-ed-esterni-scatola-a-8433325340216",
+      "variants": {
+        "58209191756156": {
+          "sku": "8433325340216",
+          "barcode": "8433325340216",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206458487164": {
+      "handle": "catena-luminosa-a-bassa-tensione-5-m-ip44-lampeggio-intenso-led-a-testa-piatta-luce-blu-per-interni-ed-esterni-scatola-a-colori-8433325352936",
+      "variants": {
+        "58209193591164": {
+          "sku": "8433325352936",
+          "barcode": "8433325352936",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206458519932": {
+      "handle": "catena-luminosa-a-bassa-tensione-15-m-ip44-lampeggiante-led-a-testa-piatta-bianco-freddo-per-interni-ed-esterni-scatola-a-colori-8433325351786",
+      "variants": {
+        "58209193623932": {
+          "sku": "8433325351786",
+          "barcode": "8433325351786",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206458585468": {
+      "handle": "catena-luminosa-a-bassa-tensione-5-m-ip44-lampeggio-intenso-led-a-testa-piatta-luce-blu-per-interni-ed-esterni-scatola-a-colori-8433325352806",
+      "variants": {
+        "58209193689468": {
+          "sku": "8433325352806",
+          "barcode": "8433325352806",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206458683772": {
+      "handle": "catena-luminosa-a-bassa-tensione-20-m-ip44-lampeggio-intenso-led-a-testa-piatta-luce-blu-per-interni-ed-esterni-scatola-a-colori-8433325352844",
+      "variants": {
+        "58209193918844": {
+          "sku": "8433325352844",
+          "barcode": "8433325352844",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206458716540": {
+      "handle": "catena-luminosa-a-bassa-tensione-15-m-ip44-lampeggiante-led-a-testa-piatta-bianco-freddo-per-interni-ed-esterni-scatola-a-colori-8433325351915",
+      "variants": {
+        "58209193951612": {
+          "sku": "8433325351915",
+          "barcode": "8433325351915",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206466908540": {
+      "handle": "catena-luminosa-a-bassa-tensione-15-m-ip44-catena-luminosa-lineare-con-led-a-testa-piatta-bianco-freddo-per-interni-ed-esterni-scatola-8433325298869",
+      "variants": {
+        "58209227899260": {
+          "sku": "8433325298869",
+          "barcode": "8433325298869",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206467170684": {
+      "handle": "catena-luminosa-a-bassa-tensione-15-m-ip44-luce-a-grappolo-con-led-a-testa-piatta-bianco-caldo-per-interni-ed-esterni-scatola-a-colori-8433325299965",
+      "variants": {
+        "58209228194172": {
+          "sku": "8433325299965",
+          "barcode": "8433325299965",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206467203452": {
+      "handle": "catena-luminosa-a-bassa-tensione-5-m-ip44-catena-luminosa-lineare-con-led-a-testa-piatta-bianco-caldo-per-interni-ed-esterni-scatola-a-8433325002534",
+      "variants": {
+        "58209228226940": {
+          "sku": "8433325002534",
+          "barcode": "8433325002534",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206467236220": {
+      "handle": "catena-luminosa-a-bassa-tensione-5-m-ip44-catena-luminosa-lineare-con-led-a-testa-piatta-bianco-freddo-per-interni-ed-esterni-scatola-a-8433325003920",
+      "variants": {
+        "58209228259708": {
+          "sku": "8433325003920",
+          "barcode": "8433325003920",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206467367292": {
+      "handle": "catena-luminosa-a-bassa-tensione-rgby-30-m-ip44-catena-luminosa-lineare-con-led-a-testa-piatta-per-interni-ed-esterni-scatola-a-colori-8433325002695",
+      "variants": {
+        "58209228390780": {
+          "sku": "8433325002695",
+          "barcode": "8433325002695",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206467400060": {
+      "handle": "catena-luminosa-a-bassa-tensione-15-m-ip44-catena-luminosa-lineare-con-led-a-testa-piatta-bianco-freddo-per-interni-ed-esterni-scatola-8433325003944",
+      "variants": {
+        "58209228423548": {
+          "sku": "8433325003944",
+          "barcode": "8433325003944",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206467531132": {
+      "handle": "catena-luminosa-a-bassa-tensione-7-5-m-ip44-catena-luminosa-lineare-con-led-a-testa-piatta-bianco-freddo-per-interni-ed-esterni-scatola-8433325002725",
+      "variants": {
+        "58209228554620": {
+          "sku": "8433325002725",
+          "barcode": "8433325002725",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206467629436": {
+      "handle": "catena-luminosa-a-bassa-tensione-50-m-ip44-catena-luminosa-lineare-con-led-a-testa-piatta-bianco-freddo-per-interni-ed-esterni-scatola-8433325004477",
+      "variants": {
+        "58209228685692": {
+          "sku": "8433325004477",
+          "barcode": "8433325004477",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206467694972": {
+      "handle": "catena-luminosa-a-bassa-tensione-rgby-7-5-m-ip44-catena-luminosa-lineare-con-led-a-testa-piatta-per-interni-ed-esterni-scatola-a-colori-8433325002732",
+      "variants": {
+        "58209228718460": {
+          "sku": "8433325002732",
+          "barcode": "8433325002732",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206467727740": {
+      "handle": "catena-luminosa-a-bassa-tensione-rgby-15-m-ip44-catena-luminosa-lineare-con-led-a-testa-piatta-per-interni-ed-esterni-scatola-a-colori-8433325004507",
+      "variants": {
+        "58209228751228": {
+          "sku": "8433325004507",
+          "barcode": "8433325004507",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206468645244": {
+      "handle": "catena-luminosa-a-bassa-tensione-g50-5-m-ip44-luce-in-filo-di-rame-bianco-caldo-per-interni-ed-esterni-scatola-a-colori-8433325340629",
+      "variants": {
+        "58209229767036": {
+          "sku": "8433325340629",
+          "barcode": "8433325340629",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206468809084": {
+      "handle": "catena-luminosa-a-bassa-tensione-g50-rgby-5-m-ip44-luce-in-filo-di-rame-per-interni-ed-esterni-scatola-a-colori-8433325340643",
+      "variants": {
+        "58209229898108": {
+          "sku": "8433325340643",
+          "barcode": "8433325340643",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206469529980": {
+      "handle": "catena-luminosa-a-bassa-tensione-rgby-75-m-ip44-catena-luminosa-lineare-con-led-a-testa-piatta-per-interni-ed-esterni-scatola-a-colori-8433325353797",
+      "variants": {
+        "58209230651772": {
+          "sku": "8433325353797",
+          "barcode": "8433325353797",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206469595516": {
+      "handle": "catena-luminosa-a-bassa-tensione-20-m-ip44-luce-a-grappolo-in-filo-di-rame-bianco-caldo-per-interni-ed-esterni-scatola-a-colori-8433325354114",
+      "variants": {
+        "58209230717308": {
+          "sku": "8433325354114",
+          "barcode": "8433325354114",
+          "shipping_group": "grossisti"
+        }
+      }
+    },
+    "16206469661052": {
+      "handle": "catena-luminosa-a-bassa-tensione-50-m-ip44-luce-a-grappolo-in-filo-di-rame-bianco-caldo-per-interni-ed-esterni-scatola-a-colori-8433325354138",
+      "variants": {
+        "58209230782844": {
+          "sku": "8433325354138",
+          "barcode": "8433325354138",
           "shipping_group": "grossisti"
         }
       }
