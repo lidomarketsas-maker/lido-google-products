@@ -12,6 +12,7 @@ SSL_CONTEXT=ssl.create_default_context(cafile='/etc/ssl/cert.pem' if pathlib.Pat
 FETCH_LOCK=threading.Lock()
 LAST_FETCH=0.0
 GLOBAL_COOLDOWN=0.0
+REQUEST_INTERVAL_SECONDS=1.5
 FIELDS = ['id','title','description','link','image_link','additional_image_link','availability','price','condition','gtin','brand','shipping_label','included_destination','excluded_destination','expiration_date']
 BANNED = re.compile(r'sunlux|progress[ _-]?plastic|sun[ _-]?distribuzione', re.I)
 CHINESE = re.compile(r'[\u3400-\u4dbf\u4e00-\u9fff]')
@@ -48,7 +49,7 @@ def get_json(url):
     for attempt in range(5):
         while True:
             with FETCH_LOCK:
-                delay=max(0,GLOBAL_COOLDOWN-time.monotonic(),0.5-(time.monotonic()-LAST_FETCH))
+                delay=max(0,GLOBAL_COOLDOWN-time.monotonic(),REQUEST_INTERVAL_SECONDS-(time.monotonic()-LAST_FETCH))
                 if delay<=0:
                     LAST_FETCH=time.monotonic()
                     break
@@ -121,8 +122,9 @@ def _feed_partition(locale, fetch, vendor, products):
             products[pid]=product
     absorb(first)
     for start in range(2,pages+1,2):
-        with concurrent.futures.ThreadPoolExecutor(max_workers=2)as pool:
-            batch=list(pool.map(read,range(start,min(start+2,pages+1))))
+        # Shopify storefront returns HTTP 429 when concurrent page walks overlap.
+        # Keep the full-catalog refresh sequential with a conservative global request interval.
+        batch=[read(page) for page in range(start,min(start+2,pages+1))]
         for obj in batch: absorb(obj)
         count = len(products) - before
         if count % 2500 < 500:
