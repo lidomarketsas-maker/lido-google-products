@@ -200,7 +200,22 @@ def reviewed_locale_copies(exclusions):
                 raise FeedError('Invalid locale copy approval digest')
     return approvals
 
-def make_rows(products, allowlist, exclusions, locale, expiry, facts, enabled_groups=None):
+def validate_google_image_override(url, barcode):
+    """Accept only a public, immutable image from this store's canonical image repositories."""
+    if not isinstance(url, str) or not isinstance(barcode, str) or not barcode.isdigit():
+        raise FeedError('Invalid reviewed Google image override identity')
+    parsed = urllib.parse.urlsplit(url)
+    parts = parsed.path.strip('/').split('/')
+    if (parsed.scheme != 'https' or parsed.netloc != 'raw.githubusercontent.com'
+            or parsed.username or parsed.password or parsed.query or parsed.fragment
+            or len(parts) != 4 or parts[0] != 'lidomarketsas-maker'
+            or not re.fullmatch(r'gsp-images(?:-[a-z0-9]+)?', parts[1])
+            or not re.fullmatch(r'[0-9a-f]{40}', parts[2])
+            or parts[3] not in {barcode + '.jpg', barcode + '.png'}):
+        raise FeedError('Google image override is not a pinned canonical barcode image')
+    return url
+
+def make_rows(products, allowlist, exclusions, locale, expiry, facts, enabled_groups=None, image_overrides=None):
     rows=[]; skipped=[]; seen=set(); allowed=allowlist['products']
     locale_approvals=reviewed_locale_copies(exclusions)
     policy_holds={str(x)for x in exclusions.get('policy_hold_product_ids',[])}
@@ -259,6 +274,8 @@ def make_rows(products, allowlist, exclusions, locale, expiry, facts, enabled_gr
             variant_image=image_url(feature.get('src','') if isinstance(feature,dict) else feature or '')
             if not variant_image:
                 variant_image=next((image_url(x.get('src',''))for x in product.get('images',[])if int(vid)in x.get('variant_ids',[])),images[0] if len(live['variants'])==1 else '')
+            if image_overrides and vid in image_overrides:
+                variant_image=validate_google_image_override(image_overrides[vid], str(actual.get('barcode') or ''))
             if not variant_image:
                 skipped.append({'id':pid,'variant':vid,'reason':'missing_exact_variant_image'});continue
             # Unassigned gallery photos may show a different color/packaging; never assume they are generic.
@@ -304,6 +321,10 @@ def write_atomic(output, by_locale, report, config=None, shipping=None):
 def generate(root=ROOT, output=None, fetch=get_json):
     now=dt.datetime.now(UTC)
     config=json.loads((root/'config.json').read_text());allowlist=json.loads((root/'allowlist.json').read_text());exclusions=json.loads((root/'exclusions.json').read_text())
+    override_path=root/'image_overrides.json'
+    image_overrides=json.loads(override_path.read_text()) if override_path.exists() else {}
+    if not isinstance(image_overrides,dict) or any(not isinstance(k,str) or not k.isdigit() for k in image_overrides):
+        raise FeedError('Invalid Google image override registry')
     verified=dt.datetime.fromisoformat(allowlist['verified_at'])
     if not 0<config['allowlist_max_age_days']<=3 or not 0<config['expiration_hours']<=96: raise FeedError('Unsafe freshness settings')
     if verified.tzinfo is None or verified>now+dt.timedelta(minutes=5) or now-verified>dt.timedelta(days=config['allowlist_max_age_days']): raise FeedError('Publication/GTIN allowlist requires fresh audit')
@@ -317,7 +338,7 @@ def generate(root=ROOT, output=None, fetch=get_json):
         )
         facts=products
         # Later locale pages may expose a product absent from the earlier language crawl: fail rather than guess.
-        rows,skipped=make_rows(products,allowlist,exclusions,locale,expiry,facts,set(config['enabled_shipping_groups']))
+        rows,skipped=make_rows(products,allowlist,exclusions,locale,expiry,facts,set(config['enabled_shipping_groups']),image_overrides)
         minimum=config.get('minimum_rows',1)
         if len(rows)<minimum: raise FeedError(f'Too few {locale} rows ({len(rows)} < {minimum})')
         nonpublic=sum(x['reason']=='not_public'for x in skipped)

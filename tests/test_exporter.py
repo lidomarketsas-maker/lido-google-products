@@ -11,6 +11,15 @@ class FeedSafety(unittest.TestCase):
  def rows(self):return e.make_rows(self.products,self.allow,self.ex,'de','2026-11-14T05:00Z',self.facts)[0]
  def test_live_variant_facts_override_stale_stock_price_gtin_and_image(self):
   r,=self.rows();self.assertEqual(r['availability'],'out_of_stock');self.assertEqual(r['price'],'2.20 EUR');self.assertEqual(r['gtin'],'8058641917081');self.assertEqual(r['image_link'],'https://cdn.shopify.com/red-fresh.jpg');self.assertNotIn('blue.jpg',r['additional_image_link']);self.assertNotIn('brand',r);self.assertNotIn('mpn',r)
+ def test_reviewed_pinned_google_image_override_does_not_change_shopify_data(self):
+  url='https://raw.githubusercontent.com/lidomarketsas-maker/gsp-images-1/'+'a'*40+'/8058641917081.jpg'
+  row,=e.make_rows(self.products,self.allow,self.ex,'de','2026-11-14T05:00Z',self.facts,image_overrides={'11':url})[0]
+  self.assertEqual(row['image_link'],url);self.assertEqual(row['availability'],'out_of_stock');self.assertEqual(row['price'],'2.20 EUR');self.assertEqual(row['gtin'],'8058641917081')
+ def test_image_override_cannot_revive_paused_product_or_use_unpinned_source(self):
+  self.ex['paused_product_ids']=['1']
+  self.assertEqual(e.make_rows(self.products,self.allow,self.ex,'de','2026-11-14T05:00Z',self.facts,image_overrides={'11':'https://raw.githubusercontent.com/lidomarketsas-maker/gsp-images-1/'+'a'*40+'/8058641917081.jpg'})[0],[])
+  with self.assertRaises(e.FeedError):e.validate_google_image_override('https://example.com/8058641917081.jpg','8058641917081')
+  with self.assertRaises(e.FeedError):e.validate_google_image_override('https://raw.githubusercontent.com/lidomarketsas-maker/gsp-images-1/'+'a'*40+'/8058641917080.jpg','8058641917081')
  def test_retail_and_paused_can_never_be_restored(self):
   self.ex['retail_product_ids']=['1'];self.assertEqual(self.rows(),[])
   self.ex['retail_product_ids']=[];self.ex['paused_product_ids']=['1'];self.assertEqual(self.rows(),[])
