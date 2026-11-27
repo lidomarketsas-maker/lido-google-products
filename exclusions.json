@@ -327,7 +327,8 @@
     "16111451013500",
     "16111497576828",
     "16202526294396",
-    "16206387544444"
+    "16206387544444",
+    "16111587787132"
   ],
   "policy_hold_audit": "Native unprioritized Google diagnostic export2026-11-12 22:31:45 CET plus unresolved historic Alcoholic beverages item; release only after genuine review/resolution.",
   "locale_copy_approvals": {
@@ -33432,5 +33433,15 @@
     "official_url": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10009585",
     "official_republication": "https://www.bsmi.gov.tw/wSite/ct?ctNode=8240&mp=1&xItem=109431",
     "reason": "Native Merchant recalled flag and exact EAN match in Safety Gate report"
+  },
+  "policy_hold_evidence_20261127": {
+    "16111587787132": {
+      "ean": "8052533710569",
+      "decision": "HOLD_GOOGLE_PENDING_ACTUAL_POLICY_REVIEW",
+      "basis": "Native product is an ashtray; original same-EAN image depicts cannabis leaves and smoking skulls. Existing Google drug-related warning is not cleared by renaming or cropping. Keep storefront and original image unchanged.",
+      "source_image": "https://cdn.shopify.com/s/files/1/0950/8572/4028/files/8052533710569.jpg?v=1795216823",
+      "source_image_sha256": "5e35b0ad1bcf69bf68531463608202b3a9d3c17039de18c371da524998e53308",
+      "policy_reference": "https://support.google.com/merchants/answer/6150004?hl=en-GB"
+    }
   }
 }
