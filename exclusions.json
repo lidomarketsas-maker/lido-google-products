@@ -300,7 +300,8 @@
   "paused_barcodes": [
     "8050766623489",
     "8053144044203",
-    "8053144163171"
+    "8053144163171",
+    "8433325207687"
   ],
   "prohibited_supplier_patterns": [
     "sunlux",
@@ -325,7 +326,8 @@
     "16111373975932",
     "16111451013500",
     "16111497576828",
-    "16202526294396"
+    "16202526294396",
+    "16206387544444"
   ],
   "policy_hold_audit": "Native unprioritized Google diagnostic export2026-11-12 22:31:45 CET plus unresolved historic Alcoholic beverages item; release only after genuine review/resolution.",
   "locale_copy_approvals": {
@@ -33418,5 +33420,17 @@
       "es": "d02f682ea0b57f8577b703795ebfa16cc8f3307c6ced1da09ce8ef188e82fd0b",
       "nl": "5d8302ea721f86a5101afb7e5634912b9005a0bb2523fa9f95a12f63cb5b279b"
     }
+  },
+  "recall_evidence_20261127": {
+    "product_id": "16206387544444",
+    "variant_id": "58209019462012",
+    "ean": "8433325207687",
+    "alert": "A11/00081/23",
+    "model": "BLC-74035-24W, 30210715",
+    "risk": "Fire; insufficient creepage and clearance",
+    "action": "Withdrawal ordered",
+    "official_url": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10009585",
+    "official_republication": "https://www.bsmi.gov.tw/wSite/ct?ctNode=8240&mp=1&xItem=109431",
+    "reason": "Native Merchant recalled flag and exact EAN match in Safety Gate report"
   }
 }
