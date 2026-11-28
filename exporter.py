@@ -208,12 +208,14 @@ def validate_google_image_override(url, barcode):
         raise FeedError('Invalid reviewed Google image override identity')
     parsed = urllib.parse.urlsplit(url)
     parts = parsed.path.strip('/').split('/')
+    canonical_path = (len(parts) == 4 or
+                      (len(parts) == 6 and parts[3:5] == ['shopify', 'hd-natale-20261111']))
     if (parsed.scheme != 'https' or parsed.netloc != 'raw.githubusercontent.com'
             or parsed.username or parsed.password or parsed.query or parsed.fragment
-            or len(parts) != 4 or parts[0] != 'lidomarketsas-maker'
+            or not canonical_path or parts[0] != 'lidomarketsas-maker'
             or not re.fullmatch(r'gsp-images(?:-[a-z0-9]+)?', parts[1])
             or not re.fullmatch(r'[0-9a-f]{40}', parts[2])
-            or parts[3] not in {barcode + '.jpg', barcode + '.png'}):
+            or parts[-1] not in {barcode + '.jpg', barcode + '.png'}):
         raise FeedError('Google image override is not a pinned canonical barcode image')
     return url
 

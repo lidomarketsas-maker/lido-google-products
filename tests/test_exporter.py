@@ -20,6 +20,13 @@ class FeedSafety(unittest.TestCase):
   self.assertEqual(e.make_rows(self.products,self.allow,self.ex,'de','2026-11-14T05:00Z',self.facts,image_overrides={'11':'https://raw.githubusercontent.com/lidomarketsas-maker/gsp-images-1/'+'a'*40+'/8058641917081.jpg'})[0],[])
   with self.assertRaises(e.FeedError):e.validate_google_image_override('https://example.com/8058641917081.jpg','8058641917081')
   with self.assertRaises(e.FeedError):e.validate_google_image_override('https://raw.githubusercontent.com/lidomarketsas-maker/gsp-images-1/'+'a'*40+'/8058641917080.jpg','8058641917081')
+ def test_existing_natale_image_path_preserves_identity_and_security_guards(self):
+  base='https://raw.githubusercontent.com/lidomarketsas-maker/gsp-images-d/'+'a'*40+'/'
+  path='shopify/hd-natale-20261111/8058641917081.jpg'
+  self.assertEqual(e.validate_google_image_override(base+path,'8058641917081'),base+path)
+  for bad in [path.replace('hd-natale-20261111','other'),path.replace('7081.jpg','7080.jpg'),path.replace('shopify/','shopify/../'),path+'?v=1',path+'#x',path.replace('/805','/%2e%2e/805')]:
+   with self.subTest(path=bad), self.assertRaises(e.FeedError):e.validate_google_image_override(base+bad,'8058641917081')
+  with self.assertRaises(e.FeedError):e.validate_google_image_override((base+path).replace('a'*40,'main'),'8058641917081')
  def test_retail_and_paused_can_never_be_restored(self):
   self.ex['retail_product_ids']=['1'];self.assertEqual(self.rows(),[])
   self.ex['retail_product_ids']=[];self.ex['paused_product_ids']=['1'];self.assertEqual(self.rows(),[])
