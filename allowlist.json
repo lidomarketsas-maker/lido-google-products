@@ -1,5 +1,5 @@
 {
-  "verified_at": "2026-11-27T02:15:30Z",
+  "verified_at": "2026-11-28T02:15:29Z",
   "basis": "Fresh complete Shopify Admin read-only variant/profile export; ACTIVE and published on Online Store306819924348 and GoogleYouTube308696842620; actual native delivery profiles, IDs, SKUs and barcodes. Policy holds remain hard excluded by exclusions.json. Restricted to the separately reviewed existing European product/variant scope; new imports remain pending independent review.",
   "products": {
     "15932475146620": {
@@ -141252,16 +141252,6 @@
         }
       }
     },
-    "16111587787132": {
-      "handle": "posacenere-8052533710569",
-      "variants": {
-        "57414637814140": {
-          "sku": "8052533710569",
-          "barcode": "8052533710569",
-          "shipping_group": "grossisti"
-        }
-      }
-    },
     "16111587885436": {
       "handle": "posacenere-8052533710576",
       "variants": {
@@ -227708,16 +227698,6 @@
         "58209014841724": {
           "sku": "8433325212841",
           "barcode": "8433325212841",
-          "shipping_group": "grossisti"
-        }
-      }
-    },
-    "16206387544444": {
-      "handle": "barra-luminosa-collegabile-senza-zone-d-ombra-led-1-2-m-24-w-8433325207687",
-      "variants": {
-        "58209019462012": {
-          "sku": "8433325207687",
-          "barcode": "8433325207687",
           "shipping_group": "grossisti"
         }
       }
