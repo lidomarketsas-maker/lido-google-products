@@ -328,7 +328,10 @@
     "16111497576828",
     "16202526294396",
     "16206387544444",
-    "16111587787132"
+    "16111587787132",
+    "16111464219004",
+    "16111465234812",
+    "16111467135356"
   ],
   "policy_hold_audit": "Native unprioritized Google diagnostic export2026-11-12 22:31:45 CET plus unresolved historic Alcoholic beverages item; release only after genuine review/resolution.",
   "locale_copy_approvals": {
@@ -33442,6 +33445,53 @@
       "source_image": "https://cdn.shopify.com/s/files/1/0950/8572/4028/files/8052533710569.jpg?v=1795216823",
       "source_image_sha256": "5e35b0ad1bcf69bf68531463608202b3a9d3c17039de18c371da524998e53308",
       "policy_reference": "https://support.google.com/merchants/answer/6150004?hl=en-GB"
+    }
+  },
+  "policy_hold_evidence_20261128": {
+    "16111464219004": {
+      "decision": "HOLD_GOOGLE_PENDING_ACTUAL_POLICY_REVIEW",
+      "basis": "Approval packet 002 of 2026-11-26, section 3.1, and its original Merchant Center policy evidence. Maintain isolation across the European files pending a product-level policy resolution.",
+      "observed_issue": "Sostanze stupefacenti illegali",
+      "observed_locale": "fr",
+      "observed_feed_label": "LIDO_EU_FREE",
+      "evidence_variant_id": "57414460834172",
+      "observed_countries": [
+        "Belgio",
+        "Francia",
+        "Lussemburgo",
+        "Svizzera"
+      ],
+      "observed_rows": 4
+    },
+    "16111465234812": {
+      "decision": "HOLD_GOOGLE_PENDING_ACTUAL_POLICY_REVIEW",
+      "basis": "Approval packet 002 of 2026-11-26, section 3.1, and its original Merchant Center policy evidence. Maintain isolation across the European files pending a product-level policy resolution.",
+      "observed_issue": "Sostanze stupefacenti illegali",
+      "observed_locale": "fr",
+      "observed_feed_label": "LIDO_EU_FREE",
+      "evidence_variant_id": "57414462046588",
+      "observed_countries": [
+        "Belgio",
+        "Francia",
+        "Lussemburgo",
+        "Svizzera"
+      ],
+      "observed_rows": 4
+    },
+    "16111467135356": {
+      "decision": "HOLD_GOOGLE_PENDING_ACTUAL_POLICY_REVIEW",
+      "basis": "Approval packet 002 of 2026-11-26, section 3.1, and its original Merchant Center policy evidence. Maintain isolation across the European files pending a product-level policy resolution.",
+      "observed_issue": "Sostanze stupefacenti illegali",
+      "observed_locale": "fr",
+      "observed_feed_label": "LIDO_EU_FREE",
+      "evidence_variant_id": "57414464831868",
+      "observed_countries": [
+        "Belgio",
+        "Francia",
+        "Lussemburgo",
+        "Svizzera"
+      ],
+      "observed_rows": 4
     }
   }
 }
