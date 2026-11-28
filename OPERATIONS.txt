@@ -105,3 +105,14 @@ native translation freshness and public-page checks. Legacy products outside
 this registry retain their existing behavior. This additional gate never clears
 Retail, supplier, paused, image or policy exclusions. Refreshing allowlist.json
 does not authorize or alter these locale copy approvals.
+
+Reviewed Google image overrides preserve Shopify originals and the existing
+GitHub filename/path. They require this owner's image repository, an immutable
+40-character commit and the exact current barcode filename (.jpg or .png).
+The already established shopify/hd-natale-20261111/ folder is also accepted;
+arbitrary directories, mutable branches and mismatched barcodes remain refused.
+Do not create duplicate root images or locale-suffixed copies to bypass this
+guard. Source pixels, allowed background edits, public bytes, actual Google
+reception and approval have separate evidence. JPEG encoding is not described
+as pixel-identical to the lossless source ROI. A technical image HOLD never
+authorizes clearing supplier, Retail, paused, deferred or policy exclusions.
