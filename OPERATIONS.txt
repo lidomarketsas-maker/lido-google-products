@@ -109,7 +109,8 @@ does not authorize or alter these locale copy approvals.
 Reviewed Google image overrides preserve Shopify originals and the existing
 GitHub filename/path. They require this owner's image repository, an immutable
 40-character commit and the exact current barcode filename (.jpg or .png).
-The already established shopify/hd-natale-20261111/ folder is also accepted;
+The established shopify/hd-natale-20261111/ and shopify/aigostar-20261113/
+folders are also accepted, verified against the original import receipts;
 arbitrary directories, mutable branches and mismatched barcodes remain refused.
 Do not create duplicate root images or locale-suffixed copies to bypass this
 guard. Source pixels, allowed background edits, public bytes, actual Google

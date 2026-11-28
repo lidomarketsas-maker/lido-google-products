@@ -24,6 +24,10 @@ class FeedSafety(unittest.TestCase):
   base='https://raw.githubusercontent.com/lidomarketsas-maker/gsp-images-d/'+'a'*40+'/'
   path='shopify/hd-natale-20261111/8058641917081.jpg'
   self.assertEqual(e.validate_google_image_override(base+path,'8058641917081'),base+path)
+  aigostar=base+'shopify/aigostar-20261113/8433325175498.jpg'
+  self.assertEqual(e.validate_google_image_override(aigostar,'8433325175498'),aigostar)
+  for bad in [aigostar.replace('20261113','20261114'),aigostar.replace('75498.jpg','75535.jpg')]:
+   with self.subTest(path=bad), self.assertRaises(e.FeedError):e.validate_google_image_override(bad,'8433325175498')
   for bad in [path.replace('hd-natale-20261111','other'),path.replace('7081.jpg','7080.jpg'),path.replace('shopify/','shopify/../'),path+'?v=1',path+'#x',path.replace('/805','/%2e%2e/805')]:
    with self.subTest(path=bad), self.assertRaises(e.FeedError):e.validate_google_image_override(base+bad,'8058641917081')
   with self.assertRaises(e.FeedError):e.validate_google_image_override((base+path).replace('a'*40,'main'),'8058641917081')

@@ -209,7 +209,8 @@ def validate_google_image_override(url, barcode):
     parsed = urllib.parse.urlsplit(url)
     parts = parsed.path.strip('/').split('/')
     canonical_path = (len(parts) == 4 or
-                      (len(parts) == 6 and parts[3:5] == ['shopify', 'hd-natale-20261111']))
+                      (len(parts) == 6 and parts[3] == 'shopify' and
+                       parts[4] in {'hd-natale-20261111', 'aigostar-20261113'}))
     if (parsed.scheme != 'https' or parsed.netloc != 'raw.githubusercontent.com'
             or parsed.username or parsed.password or parsed.query or parsed.fragment
             or not canonical_path or parts[0] != 'lidomarketsas-maker'
